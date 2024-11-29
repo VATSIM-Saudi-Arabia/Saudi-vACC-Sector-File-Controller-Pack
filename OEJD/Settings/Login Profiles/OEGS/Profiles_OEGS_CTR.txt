@@ -1,0 +1,15 @@
+PROFILE
+PROFILE:<Initials>_OBS:275:0
+ATIS2:"Gassim Observer"
+ATIS3:
+ATIS4:
+PROFILE:OEGS_GND:20:3
+ATIS2:"Gassim Ground"
+ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
+ATIS4:We appreciate feedback! Visit vats.im/sa-ats-feedback
+PROFILE:OEGS_TWR:50:4
+ATIS2:"Gassim Tower"
+ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
+ATIS4:We appreciate feedback! Visit vats.im/sa-ats-feedback
+END
+

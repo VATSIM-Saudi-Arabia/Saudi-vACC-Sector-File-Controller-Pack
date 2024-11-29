@@ -1,0 +1,27 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:TopSky_Jeddah_APP
+WINDOWAREA:26.301388:39.383155:28.589250:44.072491
+PLUGIN:Controller Pack ARBvACC:Timerbottom:965
+PLUGIN:Controller Pack ARBvACC:Timerleft:1919
+PLUGIN:Controller Pack ARBvACC:Timerright:2119
+PLUGIN:Controller Pack ARBvACC:Timertop:865
+PLUGIN:Controller Pack ARBvACC:Timervisible:0
+PLUGIN:Controller Pack SAUvACC:Timerbottom:895
+PLUGIN:Controller Pack SAUvACC:Timerleft:9
+PLUGIN:Controller Pack SAUvACC:Timerright:209
+PLUGIN:Controller Pack SAUvACC:Timertop:795
+PLUGIN:Controller Pack SAUvACC:Timervisible:1

@@ -1,0 +1,230 @@
+----------GULF----------
+GULF_FSS Gulf Control
+GULF_E_FSS Gulf Control
+GULF_W_FSS Gulf Control
+----------HECC----------
+HECC_CTR Cairo Control
+HEBA_APP Alex Radar
+HESN_APP Aswan Radar
+HECA_APP Cairo Director
+HEAR_APP El-Arish Approach
+HEGN_APP Hurghada Radar
+HELX_APP Luxor Radar
+HEMM_APP Matruh Approach
+HESH_APP Sharm Radar
+HESG_APP Suhag Approach
+HEBL_TWR Abu Simbel Tower
+HEAL_TWR Al-Alamain Tower
+HEAX_TWR Alexandria Tower
+HESN_TWR Aswan Tower
+HEAT_TWR Asyut Tower
+HEBA_TWR Borg-El-Arab Tower
+HECA_TWR Cairo Tower
+HEDK_TWR Dakhla Tower
+HEAR_TWR El-Arish Tower
+HEKG_TWR Ek-Kharga Tower
+HEGN_TWR Hurghada Tower
+HELX_TWR Luxor Tower
+HEMA_TWR Marsa Alam Tower
+HEMM_TWR Matruh Tower
+HEPS_TWR Port Said Tower
+HEOW_TWR Shark El Oweinat Tower
+HESH_TWR Sharm El Sheikh Tower
+HESC_TWR St. Catherine Tower
+HESG_TWR Suhag Tower
+HETB_TWR Taba Tower
+HECA_GND Cairo Ground
+HEGN_GND Hurghada Ground
+HELX_GND Luxor Ground
+HEMA_GND Marsa Alam Ground
+HEPS_GND Port Said Ground
+HEOW_GND Shark El Oweinat Ground
+HESH_GND Sharm El Sheikh Ground
+HETB_GND Taba Ground
+HECA_DEL Cairo PreFlight
+----------OBBB----------
+OBBB_S_CTR Bahrain Radar
+OBBB_C_CTR Bahrain Radar
+OBBB_E_CTR Bahrain Radar
+OBBB_N_CTR Bahrain Radar
+OBBB_CTR Bahrain Radar
+DOH_APP Doha Radar
+OTHH_APP Hamad Approach
+OTHH_F_APP Hamad Director
+OBBI_APP Bahrain Approach
+OBBS_APP Isa-AirBase Radar
+OTHH_TWR Hamad Tower
+OTHH_E_TWR Hamad Tower
+OTHH_W_TWR Hamad Tower
+OTBD_TWR Doha Tower
+OTBK_TWR Al-Khor Tower
+OBBI_TWR Bahrain Tower
+OBBS_TWR Isa-AirBase Tower
+OBKH_TWR Sakhir Tower
+OTHH_GND Hamad Ground
+OTHH_E_GND Hamad Ground
+OTHH_W_GND Hamad Ground
+OTBD_GND Doha Ground
+OTBK_GND Al-Khor Ground
+OBBI_GND Bahrain Ground
+OTHH_DEL Hamad Clearance Delivery
+----------OEJD----------
+OEJD_CTR Jeddah Control
+OERD_CTR Riyadh Control
+OEJD_B_CTR Jeddah Control
+OEJD_C_CTR Jeddah Control
+OEJD_E_CTR Jeddah Control
+OEJD_N_CTR Jeddah Control
+OEJD_S_CTR Jeddah Control
+OEJD_U_CTR Jeddah Control
+OEJD_W_CTR Jeddah Control
+OEAB_APP Abha Approach
+OEDF_APP Dammam Approach
+OEDR_APP Dhahran Approach
+OEJN_APP Jeddah Approach
+OEJN_1_APP Jeddah Director
+OEKM_APP Khamis Approach
+OEMA_APP Medina Approach
+OERK_APP Riyadh Approach
+OETB_APP Tabuk Approach
+OETR_APP Taif Approach
+OEAB_TWR Abha Tower
+OESK_TWR Al-Jouf Tower
+OEDF_TWR Dammam Tower
+OEDR_TWR Dhahran Tower
+OEGN_TWR Jazan Tower
+OEJN_TWR Jeddah Tower
+OEJB_TWR Jubail Tower
+OEKM_TWR Khamis Tower
+OEMA_TWR Medina Tower
+OERK_TWR Riyadh Tower
+OETB_TWR Tabuk Tower
+OETF_TWR Taif Tower
+OEYN_TWR Yanbo Tower
+OEAB_GND Abha Ground
+OESK_GND Al-Jouf Ground
+OEDF_GND Dammam Ground
+OEGN_GND Jazan Ground
+OEJN_GND Jeddah Ground
+OEJB_GND Jubil Ground
+OEKM_GND Khamis Ground
+OEMA_GND Medina Ground
+OERK_GND Riyadh Ground
+OETB_GND Tabuk Ground
+OETF_GND Taif Ground
+OEYN_GND Yanbo Ground
+----------OJAC----------
+OJAC_CTR Amman Control
+AMM_APP Amman Approach
+OJAQ_APP Aqaba Approach
+OJAI_TWR Queen Alia Tower
+OJAM_TWR Amman Tower
+OJAQ_TWR King Hussein Tower
+OJAI_GND Queen Alia Ground
+OJAM_GND Amman Ground
+----------OKAC----------
+OKAC_CTR Kuwait Control
+OKBK_APP Kuwait Radar
+OKBK_TWR Kuwait Tower
+OKBK_GND Kuwait Ground
+OKBK_DEL Kuwait Delivery
+----------OLBB----------
+OLBB_CTR Beirut Control
+OLBA_APP Beirut Approach
+OLBA_TWR Hariri Tower
+OLBA_GND Hariri Ground
+OLKA_TWR Kleyate Tower
+OLRA_TWR Rayak Tower
+----------OMAE----------
+OMAE_CTR U.A.E Radar
+OMAE_N_CTR U.A.E Radar
+OMAE_E_CTR U.A.E Radar
+OMAE_S_CTR U.A.E Radar
+OMAE_C_CTR U.A.E Radar
+UAE_V_CTR U.A.E Holding Stack Control
+UAE_K_CTR U.A.E Holding Stack Control
+UAE_R_CTR U.A.E Holding Stack Control
+UAE_T_CTR U.A.E Holding Stack Control
+UAE_A_CTR U.A.E Holding Stack Control
+UAE_I_CTR U.A.E Holding Stack Control
+OMAA_F_APP Abu Dhabi Director
+OMAA_APP Abu Dhabi Radar
+OMAA_C_APP Abu Dhabi Radar
+OMAA_E_APP Abu Dhabi Radar
+OMAA_W_APP Abu Dhabi Radar
+OMDW_APP Al-Maktoum Radar
+OMDM_APP Al-Minhad Approach
+OMDB_APP Dubai Arrivals
+OMFJ_APP Fujairah Approach
+OMRK_APP Ras-Al-Khaimah Radar
+OMDB_DEP Dubai Departures
+OMDB_N_DEP Dubai Departures
+OMDB_S_DEP Dubai Departures
+OMAA_TWR Abu Dhabi Tower
+OMAA_N_TWR Abu Dhabi Tower
+OMAA_S_TWR Abu Dhabi Tower
+OMAL_TWR Al-Ain Tower
+OMAD_TWR Al-Bateen Tower
+OMDW_TWR Al-Maktoum Tower
+OMAB_TWR Buhasa Radio
+OMDL_TWR Delma Tower
+OMDB_TWR Dubai Tower
+OMDB_2_TWR Dubai Tower
+OMDB_1_TWR Dubai Tower
+OMFJ_TWR Fujairah Tower
+OMRK_TWR Ras-Al-Khaimah Tower
+OMSJ_TWR Sharjah Tower
+OMBY_I_TWR Sir Bani Yas Informtaion
+OMAQ_TWR Zirku Radio
+OMAA_GND Abu Dhabi Ground
+OMAA_2_GND Abu Dhabi Ground
+OMAA_1_GND Abu Dhabi Ground
+OMAD_GND Al-Bateen Ground
+OMAL_GND Al-Ain Ground
+OMDL_GND Delma Ground
+OMDB_GND Dubai Ground
+OMDB_2_GND Dubai Ground
+OMDB_1_GND Dubai Ground
+OMDW_GND Al-Maktoum Ground
+OMFJ_GND Fujairah Ground
+OMRK_GND Ras-Al-Khaimah GND
+OMSJ_GND Sharjah Ground
+OMAA_DEL Abu Dhabi Clearance Delivery
+OMDB_DEL Dubai Clearance Delivery
+----------OOMM----------
+OOMM_CTR Muscat Control
+OOMM_N_CTR Muscat Control
+OOMM_S_CTR Muscat Control
+OOMS_APP Muscat Radar
+OOSA_APP Salalah Radar
+OOMS_TWR Muscat Tower
+OOSA_TWR Salalah Tower
+OOMS_GND Muscat Ground
+OOSA_GND Salalah Ground
+OOMS_DEL Muscat Delivery
+----------ORBB----------
+ORBB_CTR Baghdad Control
+ORBB_N_CTR Baghdad Control
+ORBB_S_CTR Baghdad Control
+ORBI_APP Baghdad Approach
+ORMM_APP Basrah Approach
+ORNI_APP Al-Ashraf Approach
+ORBI_TWR Baghdad Tower
+ORMM_TWR Basrah Tower
+ORKK_TWR Kirkuk Tower
+ORNI_TWR Al-Ashraf Tower
+ORMM_GND Basrah Ground
+----------OSTT----------
+OSTT_CTR Damascus Radar
+OSDI_APP Damascus Control
+OSDI_TWR Damasucs Tower
+OSAP_TWR Aleppo Tower
+OSLK_TWR Latakia Tower
+----------OYSC----------
+OYSC_CTR Sanaa Control
+OYSN_APP Sanaa Approach
+OYSN_TWR Sanaa Tower
+OYSN_GND Sanaa Ground
+OYAA_APP Aden Approach
+OYAA_TWR Aden Tower
+OYAA_GND Aden Ground

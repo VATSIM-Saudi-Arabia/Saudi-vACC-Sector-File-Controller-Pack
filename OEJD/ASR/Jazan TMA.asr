@@ -1,0 +1,55 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+ARTCC boundary:MRVA OEGN Jazan:
+ARTCC high boundary:OEJD Jeddah South:
+ARTCC low boundary:OEAB Abha TMA:
+Fixes:BOXIL:name
+Fixes:BOXIL:symbol
+Fixes:IMDOL:name
+Fixes:IMDOL:symbol
+Fixes:KIROM:name
+Fixes:KIROM:symbol
+Fixes:LUBAL:name
+Fixes:LUBAL:symbol
+Fixes:MEKTU:name
+Fixes:MEKTU:symbol
+Fixes:NABAN:name
+Fixes:NABAN:symbol
+Fixes:PEKAR:name
+Fixes:PEKAR:symbol
+Fixes:SIMDO:name
+Fixes:SIMDO:symbol
+Free Text:OEGN MRVA DISPLAY\017:freetext
+Free Text:OEGN MRVA DISPLAY\030:freetext
+Free Text:OEGN MRVA DISPLAY\030:freetext
+Free Text:OEGN MRVA DISPLAY\036:freetext
+Free Text:OEGN MRVA DISPLAY\070:freetext
+Free Text:OEGN MRVA DISPLAY\096:freetext
+Free Text:OEGN MRVA DISPLAY\112:freetext
+Geo:OEJD Landmark Coastline:
+Runways:OEGN 15-33:centerline
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:TopSky_Jeddah_APP
+WINDOWAREA:16.154405:40.855079:17.886560:44.405406
+PLUGIN:Controller Pack ARBvACC:Timerbottom:856
+PLUGIN:Controller Pack ARBvACC:Timerleft:1918
+PLUGIN:Controller Pack ARBvACC:Timerright:2118
+PLUGIN:Controller Pack ARBvACC:Timertop:756
+PLUGIN:Controller Pack ARBvACC:Timervisible:0
+PLUGIN:Controller Pack SAUvACC:Timerbottom:854
+PLUGIN:Controller Pack SAUvACC:Timerleft:12
+PLUGIN:Controller Pack SAUvACC:Timerright:212
+PLUGIN:Controller Pack SAUvACC:Timertop:754
+PLUGIN:Controller Pack SAUvACC:Timervisible:1

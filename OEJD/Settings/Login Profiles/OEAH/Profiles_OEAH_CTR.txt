@@ -1,0 +1,15 @@
+PROFILE
+PROFILE:<Initials>_OBS:275:0
+ATIS2:"Al Ahsa Observer"
+ATIS3:
+ATIS4:
+PROFILE:OEAH_I_GND:20:3
+ATIS2:"Al Ahsa Ground"
+ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
+ATIS4:We appreciate feedback! Visit vats.im/sa-ats-feedback
+PROFILE:OEAH_I_TWR:50:4
+ATIS2:"Al Ahsa Tower"
+ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
+ATIS4:We appreciate feedback! Visit vats.im/sa-ats-feedback
+END
+

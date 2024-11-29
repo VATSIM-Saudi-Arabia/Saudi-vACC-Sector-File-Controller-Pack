@@ -1,0 +1,42 @@
+PROFILE
+PROFILE:<Initials>_OBS:275:0
+ATIS2:"Jeddah Observer"
+ATIS3:
+ATIS4:
+PROFILE:OEJN_DEL:20:2
+ATIS2:"Jeddah Clearance"
+ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
+ATIS4:We appreciate feedback! Visit vats.im/sa-ats-feedback
+PROFILE:OEJN_P_DEL:20:2
+ATIS2:"Jeddah Planner"
+ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
+ATIS4:We appreciate feedback! Visit vats.im/sa-ats-feedback
+PROFILE:OEJN_1_GND:20:3
+ATIS2:"Jeddah Ground (West)"
+ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
+ATIS4:We appreciate feedback! Visit vats.im/sa-ats-feedback
+PROFILE:OEJN_2_GND:20:3
+ATIS2:"Jeddah Ground (East)"
+ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
+ATIS4:We appreciate feedback! Visit vats.im/sa-ats-feedback
+PROFILE:OEJN_3_GND:20:3
+ATIS2:"Jeddah Ground (Center)"
+ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
+ATIS4:We appreciate feedback! Visit vats.im/sa-ats-feedback
+PROFILE:OEJN_1_RMP:20:3
+ATIS2:"Jeddah Apron (East Apron)"
+ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
+ATIS4:We appreciate feedback! Visit vats.im/sa-ats-feedback
+PROFILE:OEJN_2_RMP:20:3
+ATIS2:"Jeddah Apron (Apron 6)"
+ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
+ATIS4:We appreciate feedback! Visit vats.im/sa-ats-feedback
+PROFILE:OEJN_1_TWR:50:4
+ATIS2:"Jeddah Tower (West)"
+ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
+ATIS4:We appreciate feedback! Visit vats.im/sa-ats-feedback
+PROFILE:OEJN_2_TWR:50:4
+ATIS2:"Jeddah Tower (East)"
+ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
+ATIS4:We appreciate feedback! Visit vats.im/sa-ats-feedback
+END

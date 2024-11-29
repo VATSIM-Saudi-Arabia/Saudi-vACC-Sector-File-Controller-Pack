@@ -1,0 +1,28 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+ARTCC high boundary:OEJD Jeddah East:
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:TopSky_Jeddah_APP
+WINDOWAREA:25.034791:41.442238:27.322652:46.131573
+PLUGIN:Controller Pack ARBvACC:Timerbottom:501
+PLUGIN:Controller Pack ARBvACC:Timerleft:1918
+PLUGIN:Controller Pack ARBvACC:Timerright:2118
+PLUGIN:Controller Pack ARBvACC:Timertop:401
+PLUGIN:Controller Pack ARBvACC:Timervisible:0
+PLUGIN:Controller Pack SAUvACC:Timerbottom:851
+PLUGIN:Controller Pack SAUvACC:Timerleft:11
+PLUGIN:Controller Pack SAUvACC:Timerright:211
+PLUGIN:Controller Pack SAUvACC:Timertop:751
+PLUGIN:Controller Pack SAUvACC:Timervisible:1

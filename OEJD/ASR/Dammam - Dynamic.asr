@@ -1,0 +1,27 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
+Geo:OEJD Landmark Coastline:
+Runways:OEDF 16L-34R:centerline
+Runways:OEDF 16R-34L:centerline
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:TopSky_Jeddah_TWR
+WINDOWAREA:26.380410:49.608556:26.576936:49.999946
+PLUGIN:Controller Pack ARBvACC:Timerbottom:677
+PLUGIN:Controller Pack ARBvACC:Timerleft:1919
+PLUGIN:Controller Pack ARBvACC:Timerright:2119
+PLUGIN:Controller Pack ARBvACC:Timertop:577
+PLUGIN:Controller Pack ARBvACC:Timervisible:0

@@ -1,0 +1,87 @@
+Settings	sector	\OEJD-Install_20241006042628-241001-0001.sct
+Settings	SettingsfileSYMBOLOGY	\OEJD\Settings\Display Config\Commons\Symbology.txt
+Settings	SettingsfileVOICE	\OEJD\Settings\VoiceChannels.txt
+Settings	SettingsfilePROFILE	\OEJD\Settings\Login Profiles\OEGN\Profiles_OEGN_TMA.txt
+Settings	SettingsfileTAGS	\OEJD\Settings\Display Config\Commons\Tags.txt
+Settings	SettingsfileSIL	\OEJD\Settings\Display Config\TMA PRF\Sector_inbound_list.txt
+Settings	SettingsfileSEL	\OEJD\Settings\Display Config\TMA PRF\Sector_exit_list.txt
+Settings	SettingsfileDEP	\OEJD\Settings\Display Config\Commons\Departure_list.txt
+Settings	SettingsfileARR	\OEJD\Settings\Display Config\Commons\Arrival_list.txt
+Settings	SettingsfileFP	\OEJD\Settings\Display Config\Commons\Flightplan_list.txt
+Settings	SettingsfilePLUGINS	\OEJD\Settings\Plugins.txt
+Settings	Settingsfile	\OEJD\Settings\General.txt
+Settings	SettingsfileSCREEN	\OEJD\Settings\Display Config\TMA PRF\Layout_TMA.txt
+Settings	SettingsfileCONFLICT	\OEJD\Settings\Display Config\Commons\Conflict_list.txt
+Settings	SettingsfileVCCS	\OEJD\Settings\VCCS.txt
+Settings	SettingsfilePILOTING	\OEJD\Settings\Display Config\Commons\Pilot_list.txt
+Settings	alias	\OEJD\Alias\alias.txt
+Settings	AtisFolder	\OEJD\ATIS\atisfiles.txt
+Settings	airlines	\OEJD\ICAO\ICAO_Airlines.txt
+Settings	airports	\OEJD\ICAO\ICAO_Airports.txt
+Settings	aircraft	\OEJD\ICAO\ICAO_Aircraft.txt
+Settings	airways	\OEJD\NavData\airway.txt
+Settings	airportcoords	\OEJD\NavData\icao.txt
+ASRFastKeys	1	OEJD\ASR\Jazan GMC.asr
+ASRFastKeys	2	OEJD\ASR\Jazan TMA.asr
+RecentFiles	Recent1	OEJD\ASR\Jazan TMA.asr
+RecentFiles	Recent2	OEJD\ASR\Jazan GMC.asr
+Plugins	Plugin0	\OEJD\Plugins\DiscordEuroscope\DiscordEuroscope.dll
+Plugins	Plugin1	\OEJD\Plugins\AFV\AfvEuroScopeBridge.dll
+Plugins	Plugin2	\OEJD\Plugins\ESTimers\ESTimers.dll
+Plugins	Plugin3	\OEJD\Plugins\TopSky - ACC\TopSky.dll
+Plugins	Plugin3Display0	SMR radar display
+Plugins	Plugin4	\OEJD\Plugins\Virtual Controller Helper\VCH.dll
+Plugins	Plugin4Display0	Standard ES radar screen
+Plugins	Plugin5Display0	Standard ES radar screen
+Plugins	Plugin5Display1	Ground Radar display
+Sounds	Sound0	\OEJD\Sounds\handoff_request.wav
+Sounds	Sound1	\OEJD\Sounds\handoff_accept.wav
+Sounds	Sound2	\OEJD\Sounds\conflict_alert.wav
+Sounds	Sound3	\OEJD\Sounds\radio_message.wav
+Sounds	Sound4	\OEJD\Sounds\private_message.wav
+Sounds	Sound5	\OEJD\Sounds\atc_message.wav
+Sounds	Sound6	\OEJD\Sounds\broadcast_message.wav
+Sounds	Sound7	\OEJD\Sounds\landline_request.wav
+Sounds	Sound8	\OEJD\Sounds\supervisor_message.wav
+Sounds	Sound9	\OEJD\Sounds\connected.wav
+Sounds	Sound10	\OEJD\Sounds\disconnected.wav
+Sounds	Sound11	\OEJD\Sounds\ongoing_request.wav
+Sounds	Sound12	\OEJD\Sounds\ongoing_accepted.wav
+Sounds	Sound13	\OEJD\Sounds\ongoing_refused.wav
+Sounds	Sound14	\OEJD\Sounds\ongoing_manual.wav
+Sounds	Sound15	\OEJD\Sounds\new_atis.wav
+Sounds	Sound16	\OEJD\Sounds\handoff_refused.wav
+Sounds	Sound17	\OEJD\Sounds\pointout.wav
+Sounds	Sound18	\OEJD\Sounds\startup.wav
+Settings	AselKey	5111808
+Settings	FreqKey	3604480
+Settings	SettingsfileORIGPLANE	\OEJD\Settings\General.txt
+Settings	SettingsfileSTUP	\OEJD\Settings\General.txt
+Settings	SettingsfileTAXIOUT	\OEJD\Settings\General.txt
+Settings	SettingsfileTAKEOFF	\OEJD\Settings\General.txt
+Settings	SettingsfileADCS	\OEJD\Settings\General.txt
+Settings	SettingsfileTAXIIN	\OEJD\Settings\General.txt
+LastSession	atis_freq4	118000
+Plugins	Plugin2Display0	SMR radar display
+Plugins	Plugin2Display1	Standard ES radar screen
+Plugins	Plugin4Display1	Ground Radar display
+TeamSpeakVccs	Ts3DialogLeft	0
+TeamSpeakVccs	Ts3DialogTop	0
+TeamSpeakVccs	Ts3DialogRight	750
+TeamSpeakVccs	Ts3DialogBottom	600
+Plugins	Plugin2Display2	Ground Radar display
+Plugins	Plugin3Display1	Standard ES radar screen
+Plugins	Plugin6	\OEJD\Plugins\RDF Plugin\RDFPlugin.dll
+Plugins	Plugin6Display0	Ground Radar display
+Plugins	Plugin6Display1	Standard ES radar screen
+Plugins	Plugin7	\OEJD\Plugins\PushbackFlorian_v1.1.1\PushbackFlorian.dll
+Plugins	Plugin7Display0	Standard ES radar screen
+Plugins	Plugin7Display1	Ground Radar display
+Plugins	Plugin8	\OEJD\Plugins\Initial Climb Plugin\InitialClimbPlugin.dll
+Plugins	Plugin8Display0	Ground Radar display
+Plugins	Plugin8Display1	Standard ES radar screen
+Plugins	Plugin9	\OEJD\Plugins\GRPlugin\GRplugin.dll
+Plugins	Plugin9Display0	Ground Radar display
+TeamSpeakVccs	TsVccsMiniControlX	1805
+TeamSpeakVccs	TsVccsMiniControlY	711
+Plugins	Plugin3Display2	Ground Radar display

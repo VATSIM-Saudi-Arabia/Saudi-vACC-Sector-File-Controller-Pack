@@ -1,0 +1,14 @@
+PROFILE
+PROFILE:<Initials>_OBS:275:0
+ATIS2:"Dammam Observer"
+ATIS3:
+ATIS4:
+PROFILE:OEDF_L_APP:150:5
+ATIS2:"Dammam Approach (Lower)"
+ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
+ATIS4:We appreciate feedback! Visit vats.im/sa-ats-feedback
+PROFILE:OEDF_APP:150:5
+ATIS2:"Dammam Approach (Upper)"
+ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
+ATIS4:We appreciate feedback! Visit vats.im/sa-ats-feedback
+END

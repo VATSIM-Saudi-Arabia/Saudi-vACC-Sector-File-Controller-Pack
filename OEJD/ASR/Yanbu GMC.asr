@@ -1,0 +1,26 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:0
+DisplayTypeGeoReferenced:1
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:GRplugin
+WINDOWAREA:24.128660:38.026887:24.168316:38.105864
+PLUGIN:Controller Pack SAUvACC:Timerbottom:886
+PLUGIN:Controller Pack SAUvACC:Timerleft:29
+PLUGIN:Controller Pack SAUvACC:Timerright:229
+PLUGIN:Controller Pack SAUvACC:Timertop:786
+PLUGIN:Controller Pack SAUvACC:Timervisible:1
+PLUGIN:Ground Radar plugin:AirportElevation:50
+PLUGIN:Ground Radar plugin:AirportRadius:2.0
+PLUGIN:Ground Radar plugin:GroundMode:OEYN
+PLUGIN:TopSky plugin:NoDraw:1

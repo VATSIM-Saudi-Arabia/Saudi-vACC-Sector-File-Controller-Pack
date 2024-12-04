@@ -21,7 +21,7 @@ def main():
     base_dir = '.data/TopSkyMaps'
     targets = [
         ('TopSky - ACC', 'OEJD/Plugins/TopSky - ACC/TopSkyMaps.txt'),
-        ('TopSky - ACC/ACC', 'OEJD/Plugins/TopSky - ACC/TopSkyMaps.txt'),
+        ('TopSky - ACC/ACC/AOR FILL.txt', 'OEJD/Plugins/TopSky - ACC/TopSkyMaps.txt'),
         ('TopSky', 'OEJD/Plugins/TopSky/TopSkyMaps.txt'),
     ]
 

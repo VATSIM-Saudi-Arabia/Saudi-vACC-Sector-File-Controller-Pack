@@ -406,27 +406,6 @@
 					]  
 					}
 				],
-		"METNI": [
-				{
-               "direction": "EVEN",
-               "destinations": [		
-				  "OERF",
-                  "OERR",
-                  "OETR",
-                  "OEGT",
-                  "OLBA"
-				],
-				"airways": [
-                  "T503"
-				]  
-					},
-				{
-               "direction": "EVEN",
-               "airways": [
-                  "T503"
-				]  
-					}
-				],
 		"RESAL": [
 				{
                "direction": "ODD",
@@ -476,6 +455,70 @@
                "direction": "ODD",
                "airways": [
                   "N687"
+				]  
+					}
+				],
+		"GOMBO": [
+				{
+               "direction": "EVEN",
+               "airways": [
+                  "V169"
+				]  
+					}
+				],
+		"MERVI": [
+				{
+               "direction": "EVEN",
+               "airways": [
+                  "Z414"
+				]  
+					}
+				],
+		"TORKI": [
+				{
+               "direction": "ODD",
+               "airways": [
+                  "Y518"
+				]  
+					}
+				],
+		"OTALI": [
+				{
+               "direction": "ODD",
+               "airways": [
+                  "M440"
+				]  
+					}
+				],
+		"RAPMA": [
+				{
+               "direction": "ODD",
+               "airways": [
+                  "T553"
+				]  
+					}
+				],
+		"AMBAG": [
+				{
+               "direction": "ODD",
+               "airways": [
+                  "M321"
+				]  
+					}
+				],
+		"UMASU": [
+				{
+               "direction": "EVEN",
+               "airways": [
+                  "G782"
+				]  
+					}
+				],
+		"KUNLO": [
+				{
+               "direction": "EVEN",
+               "airways": [
+                  "V62"
 				]  
 					}
 				]

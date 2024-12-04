@@ -236,7 +236,7 @@
       }
 }
 },
-"OEMA": {
+ "OEMA": {
     "elevation": 2134,
     "sids": {
      "MEDRO": {
@@ -351,108 +351,51 @@
     }
 }
 },
-"OERK": {
+ "OERK": {
     "elevation": 2053,
     "sids": {
       "ALTAV": {
         "cfl": 8000,
         "rwys": {
           "33R": {
-            "dep": "ALTAV1K"
+            "dep": "ALTAV1D"
           },
           "15L": {
-            "dep": "ALTAV1G"
+            "dep": "ALTAV1E"
           },
 		  "33L": {
-            "dep": "ALTAV1J"
+            "dep": "ALTAV1C"
           },
           "15R": {
-            "dep": "ALTAV1H"
+            "dep": "ALTAV1B"
           }
         }
-        },
+    },
      "DURMA": {
         "cfl": 8000,
         "rwys": {
-          "33R": {
-            "dep": "DURMA1K"
-          },
           "15L": {
-            "dep": "DURMA1G"
-          },
-		  "33L": {
-            "dep": "DURMA1J"
+            "dep": "DURMA1E"
           },
           "15R": {
-            "dep": "DURMA1H"
+            "dep": "DURMA1B"
         }
-      }
-    },
-     "ESRAT": {
-        "cfl": 8000,
-        "rwys": {
-          "33R": {
-            "dep": "ESRAT1K"
-          },
-          "15L": {
-            "dep": "ESRAT1G"
-          },
-		  "33L": {
-            "dep": "ESRAT1J"
-          },
-          "15R": {
-            "dep": "ESRAT1H"
       }
     },
      "IVONU": {
         "cfl": 8000,
         "rwys": {
           "33R": {
-            "dep": "IVONU1K"
+            "dep": "IVONU1D"
           },
           "15L": {
-            "dep": "IVONU1G"
+            "dep": "IVONU1E"
           },
 		  "33L": {
-            "dep": "IVONU1J"
+            "dep": "IVONU1C"
           },
           "15R": {
-            "dep": "IVONU1H"
-        }
-      }
-    },
-      "KOBOX": {
-        "cfl": 8000,
-        "rwys": {
-          "33R": {
-            "dep": "KOBOX1K"
-          },
-          "15L": {
-            "dep": "KOBOX1G"
-          },
-		  "33L": {
-            "dep": "KOBOX1J"
-          },
-          "15R": {
-            "dep": "KOBOX1H"
-        }
-      }
-    },
-      "METNI": {
-        "cfl": 8000,
-        "rwys": {
-          "33R": {
-            "dep": "METNI1K"
-          },
-          "15L": {
-            "dep": "METNI1G"
-          },
-		  "33L": {
-            "dep": "METNI1J"
-          },
-          "15R": {
-            "dep": "METNI1H"
-    
+            "dep": "IVONU1B"
         }
       }
     },
@@ -460,49 +403,27 @@
         "cfl": 8000,
         "rwys": {
           "33R": {
-            "dep": "MUNTO1K"
+            "dep": "MUNTO1D"
           },
           "15L": {
-            "dep": "MUNTO1G"
+            "dep": "MUNTO1E"
           },
 		  "33L": {
-            "dep": "MUNTO1J"
+            "dep": "MUNTO1C"
           },
           "15R": {
-            "dep": "MUNTO1H"
+            "dep": "MUNTO1B"
       }
-    },
-    "MURLU": {
-        "cfl": 8000,
-        "rwys": {
-          "33R": {
-            "dep": "MURLU1K"
-          },
-          "15L": {
-            "dep": "MURLU1G"
-          },
-		  "33L": {
-            "dep": "MURLU1J"
-          },
-          "15R": {
-            "dep": "MURLU1H"
-        }
-      }
+    }
     },
     "RESAL": {
         "cfl": 8000,
         "rwys": {
-          "33R": {
-            "dep": "RESAL1K"
-          },
           "15L": {
-            "dep": "RESAL1G"
-          },
-		  "33L": {
-            "dep": "RESAL1J"
+            "dep": "RESAL1E"
           },
           "15R": {
-            "dep": "RESAL1H"
+            "dep": "RESAL1B"
         }
       }
     },
@@ -510,24 +431,134 @@
         "cfl": 8000,
         "rwys": {
           "33R": {
-            "dep": "TAKTI1K"
+            "dep": "TAKTI1D"
           },
           "15L": {
-            "dep": "TAKTI1G"
+            "dep": "TAKTI1E"
           },
 		  "33L": {
-            "dep": "TAKTI1J"
+            "dep": "TAKTI1C"
           },
           "15R": {
-            "dep": "TAKTI1H"	
+            "dep": "TAKTI1B"	
             }
           }    
-        }
+    },
+    "OTALI": {
+        "cfl": 8000,
+        "rwys": {
+          "33R": {
+            "dep": "OTALI1D"
+          },
+          "15L": {
+            "dep": "OTALI1E"
+          },
+		      "33L": {
+            "dep": "OTALI1C"
+          },
+          "15R": {
+            "dep": "OTALI1B"	
+            }
+          }    
+    },
+    "RAPMA": {
+        "cfl": 8000,
+        "rwys": {
+          "33R": {
+            "dep": "RAPMA1D"
+          },
+		      "33L": {
+            "dep": "RAPMA1C"
+          }
+          }    
+    },
+    "AMBAG": {
+        "cfl": 8000,
+        "rwys": {
+          "33R": {
+            "dep": "AMBAG1D"
+          },
+		      "33L": {
+            "dep": "AMBAG1C"
+          }
+          }    
+    },
+    "MERVI": {
+        "cfl": 8000,
+        "rwys": {
+          "33R": {
+            "dep": "MERVI1D"
+          },
+          "15L": {
+            "dep": "MERVI1E"
+          },
+		      "33L": {
+            "dep": "MERVI1C"
+          },
+          "15R": {
+            "dep": "MERVI1B"	
+            }
+          }    
+    },
+    "UMASU": {
+        "cfl": 8000,
+        "rwys": {
+          "33R": {
+            "dep": "UMASU1D"
+          },
+		      "33L": {
+            "dep": "UMASU1C"
+          }
+          }    
+    },
+    "KUNLO": {
+        "cfl": 8000,
+        "rwys": {
+          "33R": {
+            "dep": "KUNLO1D"
+          },
+		      "33L": {
+            "dep": "KUNLO1C"
+          }
+          }    
+    },
+    "GOBMO": {
+        "cfl": 8000,
+        "rwys": {
+          "33R": {
+            "dep": "GOBMO1D"
+          },
+          "15L": {
+            "dep": "GOBMO1E"
+          },
+		      "33L": {
+            "dep": "GOBMO1C"
+          },
+          "15R": {
+            "dep": "GOBMO1B"	
+            }
+          }    
+    },
+    "TORKI": {
+        "cfl": 8000,
+        "rwys": {
+          "33R": {
+            "dep": "TORKI1D"
+          },
+          "15L": {
+            "dep": "TORKI1E"
+          },
+		      "33L": {
+            "dep": "TORKI1C"
+          },
+          "15R": {
+            "dep": "TORKI1B"	
+            }
+          }    
     }
     }
-  }
-},
-"OEDF": {
+  },
+ "OEDF": {
     "elevation": 75,
     "sids": {
       "LADNA": {

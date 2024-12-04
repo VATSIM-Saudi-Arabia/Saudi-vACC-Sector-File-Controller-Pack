@@ -34,7 +34,7 @@ jobs:
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add 'OEJD/Plugins/TopSky/TopSkyMaps.txt'
         git add 'OEJD/Plugins/TopSky - ACC/TopSkyMaps.txt'
-        git commit -m 'Update TopSkyMaps files'
+        git diff --cached --exit-code || git commit -m 'Update TopSkyMaps files'
         git push
 
     - name: Upload artifacts
@@ -42,6 +42,5 @@ jobs:
       with:
         name: Upload cleaned files
         path: |
-          OKAC/Plugins/TopSky/TopSkyMaps.txt
-          OKAC/Plugins/TopSky - ACC/TopSkyMaps.txt
-          
+          OEJD/Plugins/TopSky/TopSkyMaps.txt
+          OEJD/Plugins/TopSky - ACC/TopSkyMaps.txt

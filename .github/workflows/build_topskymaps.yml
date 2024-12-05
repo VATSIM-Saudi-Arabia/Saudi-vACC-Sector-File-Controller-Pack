@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - '.data/TopSkyMaps/**'
+       - '.data/TopSkyMaps/ACC/**'
 
 jobs:
   build:

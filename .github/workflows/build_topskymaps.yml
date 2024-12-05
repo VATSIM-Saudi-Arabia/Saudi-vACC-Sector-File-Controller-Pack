@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - '.data/*'
+      - '.data/TopSkyMaps/**'
 
 jobs:
   build:

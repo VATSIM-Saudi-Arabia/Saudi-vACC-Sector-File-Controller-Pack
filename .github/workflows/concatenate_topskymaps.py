@@ -26,7 +26,7 @@ def main():
     ]
 
     for source_subdir, target_file in targets:
-        source_directory = os.path.join(base_dir, source_subdir)
+        source_directory = os.path.join(base_dir, *source_subdir)
         print(f'Building {target_file} from {source_directory}')
         concatenate_files(source_directory, target_file)
         print(f'{target_file} built successfully.')

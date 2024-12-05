@@ -1,4 +1,4 @@
-//SAUDI - COASTLINE
+//SAUDI COASTLINE
 
 MAP:Saudi Coastline Fill
 FOLDER:MISC

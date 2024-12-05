@@ -18,10 +18,11 @@ def concatenate_files(source_directory, output_file):
                             outfile.write(stripped_line + '\n')  # Write the cleaned line
 
 def main():
-    base_dir = '.data/TopSkyMaps'
+    base_dir = '.data/TopSkyMaps','.data/TopSkyMaps/'
     targets = [
-        ('TopSky - ACC', 'OEJD/Plugins/TopSky - ACC/TopSkyMaps.txt'),
+        ('TopSky Radar', 'OEJD/Plugins/TopSky - ACC/TopSkyMaps.txt'),
         ('TopSky', 'OEJD/Plugins/TopSky/TopSkyMaps.txt'),
+        ('ACC', 'OEJD/Plugins/TopSky/TopSkyMaps.txt'),
     ]
 
     for source_subdir, target_file in targets:

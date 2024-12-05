@@ -22,7 +22,7 @@ def main():
     targets = [
         ('TopSky Radar', 'OEJD/Plugins/TopSky - ACC/TopSkyMaps.txt'),
         ('TopSky', 'OEJD/Plugins/TopSky/TopSkyMaps.txt'),
-        ('TopSky Radar/ACC', 'OEJD/Plugins/TopSky - ACC/TopSkyMaps.txt'),
+        ('TopSky Radar/ACC/**', 'OEJD/Plugins/TopSky - ACC/TopSkyMaps.txt'),
     ]
 
     for source_subdir, target_file in targets:

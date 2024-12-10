@@ -2,7 +2,7 @@ import os
 
 def concatenate_files(source_directory, output_file):
     with open(output_file, 'w') as outfile:
-        for filename in sorted(os.listdir(source_directory)):
+        for filename in sorted(os.walk(source_directory)):
             file_path = os.path.join(source_directory, filename)
             if os.path.isfile(file_path):
                 with open(file_path, 'r') as infile:

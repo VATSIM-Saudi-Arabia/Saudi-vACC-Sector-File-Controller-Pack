@@ -81,9 +81,9 @@ Plugins	Plugin7Display1	Standard ES radar screen
 Plugins	Plugin8	\OEJD\Plugins\GRPlugin\GRplugin.dll
 Plugins	Plugin8Display0	Ground Radar display
 Plugins	Plugin8Display1	Standard ES radar screen
-Plugins	Plugin9	\OEJD\Plugins\SAUControllerPack\SAUControllerpack.dll
-Plugins	Plugin9Display0	Ground Radar display
-Plugins	Plugin9Display1	Standard ES radar screen
+Plugins	Plugin9	\OEJD\Plugins\VFPC\VFPC.dll
 TeamSpeakVccs	TsVccsMiniControlX	1805
 TeamSpeakVccs	TsVccsMiniControlY	615
 Plugins	Plugin3Display2	Ground Radar display
+Plugins	Plugin10	\OEJD\Plugins\Delivery Helper\DelHel.dll
+Plugins	Plugin10Display0	DelHel

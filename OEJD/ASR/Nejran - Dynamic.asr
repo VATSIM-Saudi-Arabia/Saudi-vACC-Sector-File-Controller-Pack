@@ -1,8 +1,6 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-Geo:GEO:
-Runways:OENG 06-24:centerline
 SHOWC:1
 SHOWSB:0
 BELOW:0
@@ -17,8 +15,3 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:TopSky_Jeddah_TWR
 WINDOWAREA:17.545451:44.264371:17.696728:44.565644
-PLUGIN:Controller Pack ARBvACC:Timerbottom:950
-PLUGIN:Controller Pack ARBvACC:Timerleft:1918
-PLUGIN:Controller Pack ARBvACC:Timerright:2118
-PLUGIN:Controller Pack ARBvACC:Timertop:850
-PLUGIN:Controller Pack ARBvACC:Timervisible:0

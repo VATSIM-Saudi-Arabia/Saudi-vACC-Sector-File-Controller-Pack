@@ -15,13 +15,3 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:TopSky_Jeddah_APP
 WINDOWAREA:17.048411:40.408370:19.336274:45.097708
-PLUGIN:Controller Pack ARBvACC:Timerbottom:950
-PLUGIN:Controller Pack ARBvACC:Timerleft:1918
-PLUGIN:Controller Pack ARBvACC:Timerright:2118
-PLUGIN:Controller Pack ARBvACC:Timertop:850
-PLUGIN:Controller Pack ARBvACC:Timervisible:0
-PLUGIN:Controller Pack SAUvACC:Timerbottom:900
-PLUGIN:Controller Pack SAUvACC:Timerleft:6
-PLUGIN:Controller Pack SAUvACC:Timerright:206
-PLUGIN:Controller Pack SAUvACC:Timertop:800
-PLUGIN:Controller Pack SAUvACC:Timervisible:1

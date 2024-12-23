@@ -3,7 +3,6 @@ DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
 SECTORFILE:
 SECTORTITLE:
-Runways:OEAH 16-34:centerline
 SHOWC:1
 SHOWSB:0
 BELOW:0
@@ -18,8 +17,3 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:TopSky_Jeddah_TWR
 WINDOWAREA:25.204971:49.341614:25.356248:49.642888
-PLUGIN:Controller Pack ARBvACC:Timerbottom:950
-PLUGIN:Controller Pack ARBvACC:Timerleft:1918
-PLUGIN:Controller Pack ARBvACC:Timerright:2118
-PLUGIN:Controller Pack ARBvACC:Timertop:850
-PLUGIN:Controller Pack ARBvACC:Timervisible:0

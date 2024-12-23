@@ -15,16 +15,6 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:GRplugin
 WINDOWAREA:16.874584:42.535758:16.926102:42.638358
-PLUGIN:Controller Pack ARBvACC:Timerbottom:950
-PLUGIN:Controller Pack ARBvACC:Timerleft:1918
-PLUGIN:Controller Pack ARBvACC:Timerright:2118
-PLUGIN:Controller Pack ARBvACC:Timertop:850
-PLUGIN:Controller Pack ARBvACC:Timervisible:0
-PLUGIN:Controller Pack SAUvACC:Timerbottom:886
-PLUGIN:Controller Pack SAUvACC:Timerleft:29
-PLUGIN:Controller Pack SAUvACC:Timerright:229
-PLUGIN:Controller Pack SAUvACC:Timertop:786
-PLUGIN:Controller Pack SAUvACC:Timervisible:1
 PLUGIN:Ground Radar plugin:AirportElevation:33
 PLUGIN:Ground Radar plugin:AirportRadius:2.0
 PLUGIN:Ground Radar plugin:GroundMode:OEGN

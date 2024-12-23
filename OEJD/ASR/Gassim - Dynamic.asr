@@ -1,8 +1,6 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-Geo:OEJD Landmark Coastline:
-Runways:OEGS 15-33:centerline
 SHOWC:1
 SHOWSB:0
 BELOW:0
@@ -17,8 +15,3 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:TopSky_Jeddah_TWR
 WINDOWAREA:26.239991:43.655299:26.365768:43.905788
-PLUGIN:Controller Pack ARBvACC:Timerbottom:501
-PLUGIN:Controller Pack ARBvACC:Timerleft:1918
-PLUGIN:Controller Pack ARBvACC:Timerright:2118
-PLUGIN:Controller Pack ARBvACC:Timertop:401
-PLUGIN:Controller Pack ARBvACC:Timervisible:0

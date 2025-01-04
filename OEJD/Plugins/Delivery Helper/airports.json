@@ -6,19 +6,19 @@
         "cfl": 6000,
         "rwys": {
           "16L": {
-            "jet_dep": "BOMOX2D",
+            "jet_dep": "BOMOX3D",
             "cfl": 6000
           },
           "16C": {
-            "jet_dep": "BOMOX1E",
+            "jet_dep": "BOMOX2E",
             "cfl": 6000
           },
           "16R": {
-            "jet_dep": "BOMOX1F",
+            "jet_dep": "BOMOX2F",
             "cfl": 6000
 			},
           "34R": {
-            "jet_dep": "BOMOX2V",
+            "jet_dep": "BOMOX3V",
             "cfl": 6000
 			},
           "34C": {
@@ -26,7 +26,7 @@
             "cfl": 6000
 			},
           "34L": {
-            "jet_dep": "BOMOX2X",
+            "jet_dep": "BOMOX3X",
             "cfl": 6000
         }
       }
@@ -35,19 +35,19 @@
         "cfl": 6000,
         "rwys": {
           "16L": {
-            "jet_dep": "MIGDA2D",
+            "jet_dep": "MIGDA3D",
             "cfl": 6000
           },
           "16C": {
-            "jet_dep": "MIGDA1E",
+            "jet_dep": "MIGDA2E",
             "cfl": 6000
           },
           "16R": {
-            "jet_dep": "MIGDA1F",
+            "jet_dep": "MIGDA2F",
             "cfl": 6000
 			},
           "34R": {
-            "jet_dep": "MIGDA2V",
+            "jet_dep": "MIGDA3V",
             "cfl": 6000
 			},
           "34C": {
@@ -55,7 +55,7 @@
             "cfl": 6000
 			},
           "34L": {
-            "jet_dep": "MIGDA2X",
+            "jet_dep": "MIGDA3X",
             "cfl": 6000
           }
         }
@@ -64,19 +64,19 @@
         "cfl": 6000,
         "rwys": {
           "16L": {
-            "jet_dep": "DATAP2D",
+            "jet_dep": "DATAP3D",
             "cfl": 6000
           },
           "16C": {
-            "jet_dep": "DATAP1E",
+            "jet_dep": "DATAP2E",
             "cfl": 6000
           },
           "16R": {
-            "jet_dep": "DATAP1F",
+            "jet_dep": "DATAP2F",
             "cfl": 6000
 			},
           "34R": {
-            "jet_dep": "DATAP2V",
+            "jet_dep": "DATAP3V",
             "cfl": 6000
 			},
           "34C": {
@@ -84,7 +84,7 @@
             "cfl": 6000
 			},
           "34L": {
-            "jet_dep": "DATAP2X",
+            "jet_dep": "DATAP3X",
             "cfl": 6000
           }
         }
@@ -93,19 +93,19 @@
         "cfl": 6000,
         "rwys": {
           "16L": {
-            "jet_dep": "EGREP2D",
+            "jet_dep": "EGREP3D",
             "cfl": 6000
           },
           "16C": {
-            "jet_dep": "EGREP1E",
+            "jet_dep": "EGREP2E",
             "cfl": 6000
           },
           "16R": {
-            "jet_dep": "EGREP1F",
+            "jet_dep": "EGREP2F",
             "cfl": 6000
 			},
           "34R": {
-            "jet_dep": "EGREP2V",
+            "jet_dep": "EGREP3V",
             "cfl": 6000
 			},
           "34C": {
@@ -113,7 +113,7 @@
             "cfl": 6000
 			},
           "34L": {
-            "jet_dep": "EGREP2X",
+            "jet_dep": "EGREP3X",
             "cfl": 6000
           }
         }
@@ -122,19 +122,19 @@
         "cfl": 6000,
         "rwys": {
           "16L": {
-            "jet_dep": "ISLAM2D",
+            "jet_dep": "ISLAM3D",
             "cfl": 6000
           },
           "16C": {
-            "jet_dep": "ISLAM1E",
+            "jet_dep": "ISLAM2E",
             "cfl": 6000
           },
           "16R": {
-            "jet_dep": "ISLAM1F",
+            "jet_dep": "ISLAM2F",
             "cfl": 6000
 			},
           "34R": {
-            "jet_dep": "ISLAM2V",
+            "jet_dep": "ISLAM3V",
             "cfl": 6000
 			},
           "34C": {
@@ -142,7 +142,7 @@
             "cfl": 6000
 			},
           "34L": {
-            "jet_dep": "ISLAM2X",
+            "jet_dep": "ISLAM3X",
             "cfl": 6000
           }
         }
@@ -151,19 +151,19 @@
         "cfl": 6000,
         "rwys": {
           "16L": {
-            "jet_dep": "EGPOB2D",
+            "jet_dep": "EGPOB3D",
             "cfl": 6000
           },
           "16C": {
-            "jet_dep": "EGPOB1E",
+            "jet_dep": "EGPOB2E",
             "cfl": 6000
           },
           "16R": {
-            "jet_dep": "EGPOB1F",
+            "jet_dep": "EGPOB2F",
             "cfl": 6000
 			},
           "34R": {
-            "jet_dep": "EGPOB2V",
+            "jet_dep": "EGPOB3V",
             "cfl": 6000
 			},
           "34C": {
@@ -171,7 +171,7 @@
             "cfl": 6000
 			},
           "34L": {
-            "jet_dep": "EGPOB2X",
+            "jet_dep": "EGPOB3X",
             "cfl": 6000
           }
         }
@@ -180,19 +180,19 @@
         "cfl": 6000,
         "rwys": {
           "16L": {
-            "jet_dep": "RIBAM2D",
+            "jet_dep": "RIBAM3D",
             "cfl": 6000
           },
           "16C": {
-            "jet_dep": "RIBAM1E",
+            "jet_dep": "RIBAM2E",
             "cfl": 6000
           },
           "16R": {
-            "jet_dep": "RIBAM1F",
+            "jet_dep": "RIBAM2F",
             "cfl": 6000
 			},
           "34R": {
-            "jet_dep": "RIBAM2V",
+            "jet_dep": "RIBAM3V",
             "cfl": 6000
 			},
           "34C": {
@@ -200,7 +200,7 @@
             "cfl": 6000
 			},
           "34L": {
-            "jet_dep": "RIBAM2X",
+            "jet_dep": "RIBAM3X",
             "cfl": 6000
           }
         }
@@ -209,19 +209,19 @@
         "cfl": 6000,
         "rwys": {
           "16L": {
-            "jet_dep": "KAROX2D",
+            "jet_dep": "KAROX3D",
             "cfl": 6000
           },
           "16C": {
-            "jet_dep": "KAROX1E",
+            "jet_dep": "KAROX2E",
             "cfl": 6000
           },
           "16R": {
-            "jet_dep": "KAROX1F",
+            "jet_dep": "KAROX2F",
             "cfl": 6000
 			},
           "34R": {
-            "jet_dep": "KAROX2V",
+            "jet_dep": "KAROX3V",
             "cfl": 6000
 			},
           "34C": {
@@ -229,7 +229,7 @@
             "cfl": 6000
 			},
           "34L": {
-            "jet_dep": "KAROX2X",
+            "jet_dep": "KAROX3X",
             "cfl": 6000
           }
         }

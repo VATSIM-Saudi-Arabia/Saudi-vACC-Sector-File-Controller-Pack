@@ -72,11 +72,11 @@ Settings	SettingsfileADCS	\OEJD\Settings\General_AD.txt
 Settings	SettingsfileTAXIIN	\OEJD\Settings\General_AD.txt
 RecentFiles	Recent2	\OEJD\ASR\Jeddah - Dynamic.asr
 RecentFiles	Recent3	OEJD\ASR\Jeddah - Dynamic.asr
-LastSession	connecttype	2
-LastSession	facility	4
-LastSession	rating	7
+LastSession	connecttype	0
+LastSession	facility	0
+LastSession	rating	0
 LastSession	tovatsim	1
-LastSession	range	50
+LastSession	range	275
 LastSession	proxyserver	localhost
 LastSession	simdatapublish	0
 LastSession	atis_freq4	118000
@@ -108,3 +108,5 @@ Plugins	Plugin11	\OEJD\Plugins\VATCAN Plugin\VATCANBookings.dll
 Plugins	Plugin11Display0	Ground Radar display
 Plugins	Plugin11Display1	DelHel
 Plugins	Plugin11Display2	Standard ES radar screen
+LastSession	callsign	<Initials>_OBS
+LastSession	atis2	"Jeddah Observer"

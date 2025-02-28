@@ -89,3 +89,6 @@ Plugins	Plugin9Display0	DelHel
 Plugins	Plugin10	\OEJD\Plugins\VATCAN Plugin\VATCANBookings.dll
 Plugins	Plugin10Display0	Standard ES radar screen
 Plugins	Plugin10Display1	Ground Radar display
+Plugins	Plugin11	\OEJD\Plugins\Virtual Controller Helper\VCH.dll
+Plugins	Plugin11Display0	DelHel
+Plugins	Plugin11Display1	Ground Radar display

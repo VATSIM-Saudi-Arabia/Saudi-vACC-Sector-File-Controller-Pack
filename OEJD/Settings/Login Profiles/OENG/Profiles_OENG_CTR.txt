@@ -6,9 +6,9 @@ ATIS4:
 PROFILE:OENG_GND:20:3
 ATIS2:"Nejran Ground"
 ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
-ATIS4:We appreciate feedback! Visit vats.im/sa-ats-feedback
+ATIS4:We appreciate feedback! Visit vats.im/safeedback
 PROFILE:OENG_TWR:50:4
 ATIS2:"Nejran Tower"
 ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
-ATIS4:We appreciate feedback! Visit vats.im/sa-ats-feedback
+ATIS4:We appreciate feedback! Visit vats.im/safeedback
 END

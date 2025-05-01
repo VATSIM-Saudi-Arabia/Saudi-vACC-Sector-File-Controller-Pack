@@ -6,9 +6,9 @@ ATIS4:
 PROFILE:OEDF_L_APP:150:5
 ATIS2:"Dammam Approach (Lower)"
 ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
-ATIS4:We appreciate feedback! Visit vats.im/sa-ats-feedback
+ATIS4:We appreciate feedback! Visit vats.im/safeedback
 PROFILE:OEDF_APP:150:5
 ATIS2:"Dammam Approach (Upper)"
 ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
-ATIS4:We appreciate feedback! Visit vats.im/sa-ats-feedback
+ATIS4:We appreciate feedback! Visit vats.im/safeedback
 END

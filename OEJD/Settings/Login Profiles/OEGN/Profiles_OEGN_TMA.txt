@@ -6,5 +6,5 @@ ATIS4:
 PROFILE:OEGN_APP:150:5
 ATIS2:"Jazan Approach"
 ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
-ATIS4:We appreciate feedback! Visit vats.im/sa-ats-feedback
+ATIS4:We appreciate feedback! Visit vats.im/safeedback
 END

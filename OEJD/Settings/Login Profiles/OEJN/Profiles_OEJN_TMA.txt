@@ -6,15 +6,15 @@ ATIS4:
 PROFILE:OEJN_APP:150:5
 ATIS2:"Jeddah Approach"
 ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
-ATIS4:We appreciate feedback! Visit vats.im/sa-ats-feedback
+ATIS4:We appreciate feedback! Visit vats.im/safeedback
 PROFILE:OEJN_FE_APP:150:5
 ATIS2:"Jeddah Final East" | CONTACT WITH CALLSIGN ONLY
 ATIS3:Covering the whole FIN Sector when APF W is offline
-ATIS4:We appreciate feedback! Visit vats.im/sa-ats-feedback
+ATIS4:We appreciate feedback! Visit vats.im/safeedback
 PROFILE:OEJN_FW_APP:150:5
 ATIS2:"Jeddah Final West" | CONTACT WITH CALLSIGN ONLY
 ATIS3:Covering the West FIN Sector | Visit us at vatsimsa.com
-ATIS4:We appreciate feedback! Visit vats.im/sa-ats-feedback
+ATIS4:We appreciate feedback! Visit vats.im/safeedback
 PROFILE:OEJN_FMC_APP:150:5
 ATIS2:"Jeddah Final Monitor Control" 
 ATIS3:ALL ARR TFC WITHIN 20NM FROM JED VOR MONITOR THIS FREQ TILL TOUCHDOWN

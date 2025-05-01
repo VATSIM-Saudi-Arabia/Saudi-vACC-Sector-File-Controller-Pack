@@ -6,10 +6,10 @@ ATIS4:
 PROFILE:OEAB_GND:20:3
 ATIS2:"Abha Ground"
 ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
-ATIS4:We appreciate feedback! Visit vats.im/sa-ats-feedback
+ATIS4:We appreciate feedback! Visit vats.im/safeedback
 PROFILE:OEAB_TWR:50:4
 ATIS2:"Abha Tower"
 ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
-ATIS4:We appreciate feedback! Visit vats.im/sa-ats-feedback
+ATIS4:We appreciate feedback! Visit vats.im/safeedback
 END
 

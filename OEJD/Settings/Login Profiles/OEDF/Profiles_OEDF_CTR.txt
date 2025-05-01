@@ -6,18 +6,18 @@ ATIS4:
 PROFILE:OEDF_1_GND:20:3
 ATIS2:"Dammam Ground (West)"
 ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
-ATIS4:We appreciate feedback! Visit vats.im/sa-ats-feedback & PDC "OEDF".
+ATIS4:We appreciate feedback! Visit vats.im/safeedback & PDC "OEDF".
 PROFILE:OEDF_2_GND:20:3
 ATIS2:"Dammam Ground (East)"
 ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
-ATIS4:We appreciate feedback! Visit vats.im/sa-ats-feedback
+ATIS4:We appreciate feedback! Visit vats.im/safeedback
 PROFILE:OEDF_1_TWR:50:4
 ATIS2:"Dammam Tower (West)"
 ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
-ATIS4:We appreciate feedback! Visit vats.im/sa-ats-feedback
+ATIS4:We appreciate feedback! Visit vats.im/safeedback
 PROFILE:OEDF_2_TWR:50:4
 ATIS2:"Dammam Tower (East)"
 ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
-ATIS4:We appreciate feedback! Visit vats.im/sa-ats-feedback
+ATIS4:We appreciate feedback! Visit vats.im/safeedback
 END
 

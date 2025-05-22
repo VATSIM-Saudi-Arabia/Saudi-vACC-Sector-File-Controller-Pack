@@ -38,9 +38,6 @@ Plugins	Plugin1	\OEJD\Plugins\Topsky\TopSky.dll
 Plugins	Plugin1Display0	Standard ES radar screen
 Plugins	Plugin1Display1	SMR radar display
 Plugins	Plugin2	\OEJD\Plugins\AFV\AfvEuroScopeBridge.dll
-Plugins	Plugin3	\OEJD\Plugins\ARBControllerPack\ARBControllerpack.dll
-Plugins	Plugin3Display0	SMR radar display
-Plugins	Plugin3Display1	Standard ES radar screen
 Plugins	Plugin4	\OEJD\Plugins\vSMR\vSMR.dll
 Plugins	Plugin4Display0	SMR radar display
 Sounds	Sound0	\OEJD\Sounds\handoff_request.wav

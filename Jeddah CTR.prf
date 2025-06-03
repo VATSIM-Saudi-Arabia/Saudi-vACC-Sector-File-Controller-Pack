@@ -2,7 +2,7 @@ Settings	SettingsfileSYMBOLOGY	\OEJD\Settings\Display Config\Commons\Symbology.t
 Settings	SettingsfileVOICE	\OEJD\Settings\VoiceChannels.txt
 Settings	SettingsfilePROFILE	\OEJD\Settings\Login Profiles\OEJN\Profiles_OEJN_CTR.txt
 Settings	SettingsfileTAGS	\OEJD\Settings\Display Config\Commons\Tags.txt
-Settings	SettingsfileSIL	\OEJD\Settings\Display Config\CTR PRF\Sector_inbound_list.txt
+Settings	SettingsfileSIL	\OEJD\Settings\Display Config\Commons\Symbology_TWR.txt
 Settings	SettingsfileSEL	\OEJD\Settings\Display Config\CTR PRF\Sector_exit_list.txt
 Settings	SettingsfileDEP	\OEJD\Settings\Display Config\CTR PRF\Departure_list.txt
 Settings	SettingsfileARR	\OEJD\Settings\Display Config\Commons\Arrival_list.txt
@@ -107,3 +107,4 @@ Plugins	Plugin11Display1	DelHel
 Plugins	Plugin11Display2	Standard ES radar screen
 LastSession	callsign	<Initials>_OBS
 LastSession	atis2	"Jeddah Observer"
+Settings	sector	\OEJD-Developer_20250603073516-241301-0006.sct

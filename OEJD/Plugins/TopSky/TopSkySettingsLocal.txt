@@ -10,12 +10,18 @@ Color_Concerned=230,230,230
 Color_Unconcerned=230,230,230
 
 [_GND]
-Color_Concerned=230,230,230
+Color_Concerned=180,230,180
 Color_Unconcerned=230,230,230
 
-[_TWR]
-Color_Concerned=230,230,230
-Color_Unconcerned=230,230,230
+[OEJN_1_TWR]
+Color_Concerned=130,255,130
+Color_Unconcerned=15,15,15
+RwyAppLines_Auto=1
+RwyAppLines_Markers=15
+RwyAppLines_MarkerSpacing=1
+Color_Rwy_App_Line_Inuse=10,10,10
+
+
 
 [_APP]
 Window_CARD=0,1405,680

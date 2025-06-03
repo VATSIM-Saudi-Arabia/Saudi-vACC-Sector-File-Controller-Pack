@@ -7,6 +7,14 @@ PROFILE:OERK_F_APP:150:5
 ATIS2:"Riyadh Final"
 ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
 ATIS4:We appreciate feedback! Visit vats.im/safeedback
+PROFILE:OERK_FE_APP:150:5
+ATIS2:"Riyadh Final East"
+ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
+ATIS4:We appreciate feedback! Visit vats.im/safeedback
+PROFILE:OERK_FW_APP:150:5
+ATIS2:"Riyadh Final West"
+ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
+ATIS4:We appreciate feedback! Visit vats.im/safeedback
 PROFILE:OERK_APP:150:5
 ATIS2:"Riyadh Approach"
 ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com

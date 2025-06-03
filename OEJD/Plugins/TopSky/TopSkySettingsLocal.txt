@@ -19,9 +19,16 @@ Color_Unconcerned=15,15,15
 RwyAppLines_Auto=1
 RwyAppLines_Markers=15
 RwyAppLines_MarkerSpacing=1
+RwyAppLines_Length=15
 Color_Rwy_App_Line_Inuse=10,10,10
 
-
+[OEJN_2_TWR]
+Color_Concerned=130,255,130
+Color_Unconcerned=15,15,15
+RwyAppLines_Auto=1
+RwyAppLines_Markers=15
+RwyAppLines_MarkerSpacing=1
+Color_Rwy_App_Line_Inuse=10,10,10
 
 [_APP]
 Window_CARD=0,1405,680

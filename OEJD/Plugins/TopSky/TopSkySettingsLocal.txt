@@ -14,7 +14,8 @@ Color_Concerned=180,230,180
 Color_Unconcerned=230,230,230
 
 [OEJN_1_TWR]
-Color_Concerned=130,255,130
+Color_Concerned=78,145,87
+Color_Coordination=88,155,97
 Color_Unconcerned=15,15,15
 RwyAppLines_Auto=1
 RwyAppLines_Markers=15
@@ -23,7 +24,8 @@ RwyAppLines_Length=15
 Color_Rwy_App_Line_Inuse=10,10,10
 
 [OEJN_2_TWR]
-Color_Concerned=130,255,130
+Color_Concerned=78,145,87
+Color_Coordination=78,145,87
 Color_Unconcerned=15,15,15
 RwyAppLines_Auto=1
 RwyAppLines_Markers=15

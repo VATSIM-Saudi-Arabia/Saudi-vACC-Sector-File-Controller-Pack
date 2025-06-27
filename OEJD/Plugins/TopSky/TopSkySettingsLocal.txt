@@ -32,6 +32,25 @@ RwyAppLines_Markers=15
 RwyAppLines_MarkerSpacing=1
 Color_Rwy_App_Line_Inuse=10,10,10
 
+[OERK_1_TWR]
+Color_Concerned=78,145,87
+Color_Coordination=88,155,97
+Color_Unconcerned=15,15,15
+RwyAppLines_Auto=1
+RwyAppLines_Markers=15
+RwyAppLines_MarkerSpacing=1
+RwyAppLines_Length=15
+Color_Rwy_App_Line_Inuse=10,10,10
+
+[OERK_2_TWR]
+Color_Concerned=78,145,87
+Color_Coordination=78,145,87
+Color_Unconcerned=15,15,15
+RwyAppLines_Auto=1
+RwyAppLines_Markers=15
+RwyAppLines_MarkerSpacing=1
+Color_Rwy_App_Line_Inuse=10,10,10
+
 [_APP]
 Window_CARD=0,1405,680
 Window_SAP=0,1320,200

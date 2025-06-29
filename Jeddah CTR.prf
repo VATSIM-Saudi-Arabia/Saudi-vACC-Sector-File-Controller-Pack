@@ -22,7 +22,7 @@ Settings	airways	\OEJD\NavData\airway.txt
 Settings	airportcoords	\OEJD\NavData\icao.txt
 ASRFastKeys	1	\OEJD\ASR\Jeddah GMC.asr
 ASRFastKeys	2	\OEJD\ASR\Jeddah - Dynamic.asr
-RecentFiles	Recent1	\OEJD\ASR\Jeddah GMC.asr
+RecentFiles	Recent1	\OEJD\ASR\Jeddah - Dynamic.asr
 Plugins	Plugin0	\OEJD\Plugins\DiscordEuroscope\DiscordEuroscope.dll
 Plugins	Plugin1	\OEJD\Plugins\Topsky\TopSky.dll
 Plugins	Plugin1Display0	Standard ES radar screen
@@ -67,7 +67,7 @@ Settings	SettingsfileTAXIOUT	\OEJD\Settings\General_AD.txt
 Settings	SettingsfileTAKEOFF	\OEJD\Settings\General_AD.txt
 Settings	SettingsfileADCS	\OEJD\Settings\General_AD.txt
 Settings	SettingsfileTAXIIN	\OEJD\Settings\General_AD.txt
-RecentFiles	Recent2	\OEJD\ASR\Jeddah - Dynamic.asr
+RecentFiles	Recent2	\OEJD\ASR\Jeddah GMC.asr
 RecentFiles	Recent3	OEJD\ASR\Jeddah - Dynamic.asr
 LastSession	connecttype	0
 LastSession	facility	0
@@ -107,4 +107,5 @@ Plugins	Plugin11Display1	DelHel
 Plugins	Plugin11Display2	Standard ES radar screen
 LastSession	callsign	<Initials>_OBS
 LastSession	atis2	"Jeddah Observer"
-Settings	sector	\OEJD-Developer_20250603073516-241301-0006.sct
+Settings	sector	\OEJD-Install_20241006042628-241001-0001.sct
+RecentFiles	Recent4	OEJD\ASR\Jeddah - Dynamic.asr

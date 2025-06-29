@@ -1,8 +1,8 @@
-Settings	SettingsfileSYMBOLOGY	\OEJD\Settings\Display Config\Commons\Symbology.txt
+Settings	SettingsfileSYMBOLOGY	\OEJD\Settings\Display Config\Commons\Symbology_TWR.txt
 Settings	SettingsfileVOICE	\OEJD\Settings\VoiceChannels.txt
 Settings	SettingsfilePROFILE	\OEJD\Settings\Login Profiles\OERK\Profiles_OERK_CTR.txt
 Settings	SettingsfileTAGS	\OEJD\Settings\Display Config\Commons\Tags.txt
-Settings	SettingsfileSIL	\OEJD\Settings\Display Config\CTR PRF\Sector_inbound_list.txt
+Settings	SettingsfileSIL	\OEJD\Settings\Display Config\Commons\Symbology_TWR.txt
 Settings	SettingsfileSEL	\OEJD\Settings\Display Config\CTR PRF\Sector_exit_list.txt
 Settings	SettingsfileDEP	\OEJD\Settings\Display Config\CTR PRF\Departure_list.txt
 Settings	SettingsfileARR	\OEJD\Settings\Display Config\Commons\Arrival_list.txt
@@ -22,8 +22,7 @@ Settings	airways	\OEJD\NavData\airway.txt
 Settings	airportcoords	\OEJD\NavData\icao.txt
 ASRFastKeys	1	\OEJD\ASR\Riyadh GMC.asr
 ASRFastKeys	2	\OEJD\ASR\Riyadh - Dynamic.asr
-RecentFiles	Recent1	\OEJD\ASR\Riyadh GMC.asr
-RecentFiles	Recent2	\OEJD\ASR\Riyadh - Dynamic.asr
+RecentFiles	Recent1	\OEJD\ASR\Riyadh - Dynamic.asr
 Plugins	Plugin0	\OEJD\Plugins\DiscordEuroscope\DiscordEuroscope.dll
 Plugins	Plugin1	\OEJD\Plugins\Topsky\TopSky.dll
 Plugins	Plugin1Display0	Standard ES radar screen
@@ -34,9 +33,13 @@ Plugins	Plugin3Display0	SMR radar display
 Plugins	Plugin3Display1	Standard ES radar screen
 Plugins	Plugin4	\OEJD\Plugins\GRPlugin\GRplugin.dll
 Plugins	Plugin4Display0	Ground Radar display
-Plugins	Plugin5	\OEJD\Plugins\Initial Climb Plugin\InitialClimbPlugin.dll
-Plugins	Plugin5Display0	Ground Radar display
-Plugins	Plugin5Display1	Standard ES radar screen
+Plugins	Plugin0	\OEJD\Plugins\DiscordEuroscope\DiscordEuroscope.dll
+Plugins	Plugin1	\OEJD\Plugins\Topsky\TopSky.dll
+Plugins	Plugin1Display0	Standard ES radar screen
+Plugins	Plugin1Display1	SMR radar display
+Plugins	Plugin2	\OEJD\Plugins\AFV\AfvEuroScopeBridge.dll
+Plugins	Plugin4	\OEJD\Plugins\vSMR\vSMR.dll
+Plugins	Plugin4Display0	SMR radar display
 Sounds	Sound0	\OEJD\Sounds\handoff_request.wav
 Sounds	Sound1	\OEJD\Sounds\handoff_accept.wav
 Sounds	Sound2	\OEJD\Sounds\conflict_alert.wav
@@ -64,25 +67,45 @@ Settings	SettingsfileTAXIOUT	\OEJD\Settings\General_AD.txt
 Settings	SettingsfileTAKEOFF	\OEJD\Settings\General_AD.txt
 Settings	SettingsfileADCS	\OEJD\Settings\General_AD.txt
 Settings	SettingsfileTAXIIN	\OEJD\Settings\General_AD.txt
+RecentFiles	Recent2	\OEJD\ASR\Riyadh GMC.asr
+RecentFiles	Recent3	OEJD\ASR\Riyadh - Dynamic.asr
+LastSession	connecttype	0
+LastSession	facility	0
+LastSession	rating	0
+LastSession	tovatsim	1
+LastSession	range	275
+LastSession	proxyserver	localhost
+LastSession	simdatapublish	0
 LastSession	atis_freq4	118000
-Plugins	Plugin2Display0	Standard ES radar screen
-Plugins	Plugin2Display1	Ground Radar display
-Plugins	Plugin3Display2	Ground Radar display
 Plugins	Plugin4Display1	Standard ES radar screen
-Plugins	Plugin6	\OEJD\Plugins\PushbackFlorian_v1.1.1\PushbackFlorian.dll
-Plugins	Plugin6Display0	Standard ES radar screen
-Plugins	Plugin6Display1	Ground Radar display
+Plugins	Plugin5	\OEJD\Plugins\Virtual Controller Helper\VCH.dll
+Plugins	Plugin5Display0	Ground Radar display
+Plugins	Plugin5Display1	Standard ES radar screen
+Plugins	Plugin6	\OEJD\Plugins\Initial Climb Plugin\InitialClimbPlugin.dll
+Plugins	Plugin6Display0	Ground Radar display
+Plugins	Plugin6Display1	Standard ES radar screen
 Plugins	Plugin7	\OEJD\Plugins\RDF Plugin\RDFPlugin.dll
-Plugins	Plugin7Display0	Standard ES radar screen
-Plugins	Plugin7Display1	Ground Radar display
-Plugins	Plugin8	\OEJD\Plugins\Virtual Controller Helper\VCH.dll
+Plugins	Plugin7Display0	Ground Radar display
+Plugins	Plugin7Display1	Standard ES radar screen
+Plugins	Plugin8	\OEJD\Plugins\PushbackFlorian_v1.1.1\PushbackFlorian.dll
 Plugins	Plugin8Display0	Ground Radar display
 Plugins	Plugin8Display1	Standard ES radar screen
-TeamSpeakVccs	TsVccsMiniControlX	1509
-TeamSpeakVccs	TsVccsMiniControlY	769
-Plugins	Plugin9	\OEJD\Plugins\VATCAN Plugin\VATCANBookings.dll
-Plugins	Plugin9Display0	Ground Radar display
+Plugins	Plugin9	\OEJD\Plugins\VFPC\VFPC.dll
+Plugins	Plugin9Display0	DelHel
+Plugins	Plugin9Display1	Ground Radar display
+TeamSpeakVccs	TsVccsMiniControlX	12
+TeamSpeakVccs	TsVccsMiniControlY	773
 Plugins	Plugin1Display2	Ground Radar display
+Plugins	Plugin9Display2	Standard ES radar screen
 Plugins	Plugin10	\OEJD\Plugins\Delivery Helper\DelHel.dll
 Plugins	Plugin10Display0	DelHel
-Plugins	Plugin11	\OEJD\Plugins\VFPC\VFPC.dll
+Plugins	Plugin10Display1	Ground Radar display
+Plugins	Plugin10Display2	Standard ES radar screen
+Plugins	Plugin11	\OEJD\Plugins\VATCAN Plugin\VATCANBookings.dll
+Plugins	Plugin11Display0	Ground Radar display
+Plugins	Plugin11Display1	DelHel
+Plugins	Plugin11Display2	Standard ES radar screen
+LastSession	callsign	<Initials>_OBS
+LastSession	atis2	"Riyadh Observer"
+Settings	sector	\OEJD-Install_20241006042628-241001-0001.sct
+RecentFiles	Recent4	OEJD\ASR\Riyadh - Dynamic.asr

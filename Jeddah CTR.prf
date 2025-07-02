@@ -109,3 +109,5 @@ LastSession	callsign	<Initials>_OBS
 LastSession	atis2	"Jeddah Observer"
 Settings	sector	\OEJD-Install_20241006042628-241001-0001.sct
 RecentFiles	Recent4	OEJD\ASR\Jeddah - Dynamic.asr
+Plugins	Plugin12	\OEJD\Plugins\vACDM\vACDM.dll
+Plugins	Plugin12Display0	Ground Radar display

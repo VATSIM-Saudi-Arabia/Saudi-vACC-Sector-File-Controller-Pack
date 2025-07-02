@@ -7,19 +7,19 @@ PROFILE:OERK_DEL:20:2
 ATIS2:"King Khalid Delivery"
 ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
 ATIS4:We appreciate feedback! Visit vats.im/safeedback
-PROFILE:OERK_1_GND:20:3
+PROFILE:OERK_N_GND:20:3
 ATIS2:"King Khalid Ground (North)"
 ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
 ATIS4:We appreciate feedback! Visit vats.im/safeedback
-PROFILE:OERK_2_GND:20:3
+PROFILE:OERK_S_GND:20:3
 ATIS2:"King Khalid Ground (South)"
 ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
 ATIS4:We appreciate feedback! Visit vats.im/safeedback
-PROFILE:OERK_1_TWR:50:4
+PROFILE:OERK_E_TWR:50:4
 ATIS2:"King Khalid Tower (East)"
 ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
 ATIS4:We appreciate feedback! Visit vats.im/safeedback
-PROFILE:OERK_2_TWR:50:4
+PROFILE:OERK_W_TWR:50:4
 ATIS2:"King Khalid Tower (West)"
 ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
 ATIS4:We appreciate feedback! Visit vats.im/safeedback

@@ -2,7 +2,7 @@
   "name": "Saudi Arabia (OEJD)",
   "id": "8254acee-ba0d-4cf7-8f0a-091617e9673e",
   "updateUrl": "https://raw.githubusercontent.com/VATSIM-Saudi-Arabia/Saudi-vACC-Sector-File-Controller-Pack/main/OEJD/Plugins/vATIS%20Profile/vATIS%20Profile%20-%20Saudi%20Arabia%20(OEJD).json",
-  "updateSerial": 2025070202,
+  "updateSerial": 2025070203,
   "stations": [
     {
       "id": "c825bab4-1b12-434a-8636-c38a01811f4d",
@@ -6222,11 +6222,6 @@
           "text": "INDEPENDENT PARALLEL INSTRUMENT APPROACHES IN PROGRESS. ",
           "ordinal": 2,
           "enabled": false
-        },
-        {
-          "text": "TEST",
-          "ordinal": 3,
-          "enabled": true
         }
       ],
       "notamDefinitions": [

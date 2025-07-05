@@ -12,7 +12,7 @@
 ;                                                                                                                         ;
 ;=========================================================================================================================;
 ;                                                                                                                         ;
-;  ALL RIGHTS RESERVED © AeroNav Association. NAV-DATA © AEROSOFT. FILES MUST NOT BE DISTRIBUTED TO NON-VATSIM MEMBERS!   ;
+;  ALL RIGHTS RESERVED ï¿½ AeroNav Association. NAV-DATA ï¿½ AEROSOFT. FILES MUST NOT BE DISTRIBUTED TO NON-VATSIM MEMBERS!   ;
 ;                                                                                                                         ;
 ;=========================================================================================================================;
 ;  The Global Nav Generator (GNG) and all it sub-modules where created by the AeroNav Association.                        ;
@@ -79,8 +79,8 @@
 .invalfl Hello, it looks like you have an invalid flight level, your new cruise level is $1.
 
 ;*** HANDOFF ***
-.on Good evening, Jeddah is online
-.off Jeddah is closing. Good night for all.
+.on Salam, $radioname is online
+.off $radioname is closing. Ma Salam.
 .good Good evening sir.
 .good2 Good evening sir, radar contact.
 .good3 Good evening sir, radar contact. Continue as filed.
@@ -126,3 +126,33 @@
 .ra Routing approved.
 .hov Hold over $1.
 
+;*** Initial Contact ***
+.h $radioname, hello. 
+.gd $radioname, good day. 
+.gm $radioname, good morning.
+.gaf  $radioname, good afternoon.
+.gn  $radioname, good night.
+.id Identified. 
+.ids Standby for identification.
+.v? Are you able to receive voice?
+.pym Pass your message.
+
+;*** Line Up and Departure ***
+.lu Line up and wait runway $deprwy.
+.lubl Behind landing $1, line up and wait runway $deprwy behind.
+.lubd Behind departing $1, line up and wait runway $deprwy behind.
+.bt Line up and backtrack runway $deprwy.
+.rrd Report ready for departure.
+.rfd Are you ready for departure?
+.rfid Are you ready for immediate departure?
+.afid Are you able for departure from intersection $1?
+.ctr $1 Traffic departing ahead to the $2, wind $winds($dep), runway $deprwy, cleared for take-off.
+.toc Hold position, CANCEL take-off, I say again, CANCEL take-off.
+.stop STOP immediately, $aircraft, STOP immediately.
+
+
+;*** miscellaneous ***
+.noob It seems you don't know how to correctly operate your aircraft. Please consider learning offline to become proficient before joining the VATSIM network, or flying an aircraft that you are familiar with
+.charts It seems you are not familiar with the aerodrome, please ensure that you are using the latest charts that are available here https://chartfox.org/
+.mic Stuck microphone, you are blocking the frequency. Please let go of the transmit button immediately.
+.why Are you getting rerouted? You will find that your route does not comply with the Air Traffic Flow Management (ATFM) restrictions in the Middle East.

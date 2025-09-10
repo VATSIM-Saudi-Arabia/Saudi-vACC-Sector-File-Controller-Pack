@@ -92,6 +92,12 @@
 				  "G650",
 				  "G850"
 				]  
+					},
+				{
+               "direction": "ODD",
+               "destinations": [		
+				  "OEAB"
+				]
 					}
 				],
 		"EGPOB": [
@@ -510,7 +516,8 @@
 				{
                "direction": "EVEN",
                "airways": [
-                  "G782"
+                  "G782",
+				  "M309"
 				]  
 					}
 				],

@@ -33,7 +33,7 @@ Plugins	Plugin3Display0	Ground Radar display
 Plugins	Plugin3Display1	Standard ES radar screen
 Plugins	Plugin4	\OEJD\Plugins\GRPlugin\GRplugin.dll
 Plugins	Plugin4Display0	Ground Radar display
-Plugins	Plugin5	\OEJD\Plugins\Initial Climb Plugin\InitialClimbPlugin.dll
+Plugins	Plugin5	\OEJD\Plugins\PushbackFlorian_v1.1.1\PushbackFlorian.dll
 Plugins	Plugin5Display0	Ground Radar display
 Plugins	Plugin5Display1	Standard ES radar screen
 Sounds	Sound0	\OEJD\Sounds\handoff_request.wav
@@ -67,19 +67,31 @@ RecentFiles	Recent3	OEJD\ASR\Abha - Dynamic.asr
 LastSession	atis_freq4	118000
 RecentFiles	Recent4	OEJD\ASR\Abha GMC.asr
 RecentFiles	Recent5	OEJD\ASR\Abha GMC.asr
-Plugins	Plugin6	\OEJD\Plugins\PushbackFlorian_v1.1.1\PushbackFlorian.dll
+Plugins	Plugin6	\OEJD\Plugins\RDF Plugin\RDFPlugin.dll
 Plugins	Plugin6Display0	Ground Radar display
 Plugins	Plugin6Display1	Standard ES radar screen
-Plugins	Plugin7	\OEJD\Plugins\RDF Plugin\RDFPlugin.dll
+Plugins	Plugin7	\OEJD\Plugins\vSID\vSID Plugin\vSID.dll
 Plugins	Plugin7Display0	Ground Radar display
 Plugins	Plugin7Display1	Standard ES radar screen
 Plugins	Plugin8Display0	Ground Radar display
 Plugins	Plugin8Display1	Standard ES radar screen
-Plugins	Plugin9	\OEJD\Plugins\VATCAN Plugin\VATCANBookings.dll
-Plugins	Plugin10	\OEJD\Plugins\Virtual Controller Helper\VCH.dll
-Plugins	Plugin10Display0	Ground Radar display
-Plugins	Plugin10Display1	Standard ES radar screen
+Plugins	Plugin9	\OEJD\Plugins\VFPC\VFPC.dll
+Plugins	Plugin10	\OEJD\Plugins\VATCAN Plugin\VATCANBookings.dll
 TeamSpeakVccs	TsVccsMiniControlX	1708
 TeamSpeakVccs	TsVccsMiniControlY	485
 Plugins	Plugin3	\OEJD\Plugins\ESTimers\ESTimers.dll
 Plugins	Plugin1Display2	Ground Radar display
+LastSession	connecttype	0
+LastSession	facility	0
+LastSession	rating	0
+LastSession	tovatsim	1
+LastSession	range	100
+LastSession	proxyserver	localhost
+LastSession	simdatapublish	0
+Plugins	Plugin8	\OEJD\Plugins\Virtual Controller Helper\VCH.dll
+Plugins	Plugin9Display0	Ground Radar display
+Plugins	Plugin9Display1	Standard ES radar screen
+Plugins	Plugin11	\OEJD\Plugins\vACDM\vACDM.dll
+Plugins	Plugin12	\OEJD\Plugins\CCAMS\CCAMS.dll
+Plugins	Plugin12Display0	Standard ES radar screen
+Plugins	Plugin12Display1	Ground Radar display

@@ -74,15 +74,22 @@ Plugins	Plugin3Display1	Standard ES radar screen
 Plugins	Plugin6	\OEJD\Plugins\PushbackFlorian_v1.1.1\PushbackFlorian.dll
 Plugins	Plugin6Display0	Ground Radar display
 Plugins	Plugin6Display1	Standard ES radar screen
-Plugins	Plugin7	\OEJD\Plugins\Initial Climb Plugin\InitialClimbPlugin.dll
+Plugins	Plugin7	\OEJD\Plugins\GRPlugin\GRplugin.dll
 Plugins	Plugin7Display0	Ground Radar display
 Plugins	Plugin7Display1	Standard ES radar screen
-Plugins	Plugin8	\OEJD\Plugins\GRPlugin\GRplugin.dll
-Plugins	Plugin8Display0	Ground Radar display
-Plugins	Plugin8Display1	Standard ES radar screen
-Plugins	Plugin9	\OEJD\Plugins\VFPC\VFPC.dll
+Plugins	Plugin8	\OEJD\Plugins\VFPC\VFPC.dll
+Plugins	Plugin9	\OEJD\Plugins\CCAMS\CCAMS.dll
 TeamSpeakVccs	TsVccsMiniControlX	1805
 TeamSpeakVccs	TsVccsMiniControlY	615
 Plugins	Plugin3Display2	Ground Radar display
-Plugins	Plugin10	\OEJD\Plugins\Delivery Helper\DelHel.dll
-Plugins	Plugin10Display0	DelHel
+Plugins	Plugin10	\OEJD\Plugins\vACDM\vACDM.dll
+Plugins	Plugin10Display0	Ground Radar display
+Plugins	Plugin9Display0	Standard ES radar screen
+Plugins	Plugin9Display1	Ground Radar display
+Plugins	Plugin10Display1	Standard ES radar screen
+Plugins	Plugin11	\OEJD\Plugins\VATCAN Plugin\VATCANBookings.dll
+Plugins	Plugin11Display0	Standard ES radar screen
+Plugins	Plugin11Display1	Ground Radar display
+Plugins	Plugin12	\OEJD\Plugins\vSID\vSID Plugin\vSID.dll
+Plugins	Plugin12Display0	Ground Radar display
+Plugins	Plugin12Display1	Standard ES radar screen

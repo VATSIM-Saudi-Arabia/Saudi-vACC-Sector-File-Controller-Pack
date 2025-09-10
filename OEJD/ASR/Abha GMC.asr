@@ -1,6 +1,8 @@
 DisplayTypeName:Ground Radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
 SHOWC:1
 SHOWSB:0
 BELOW:0
@@ -14,7 +16,7 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:GRplugin
-WINDOWAREA:18.215640:42.610806:18.264397:42.707907
+WINDOWAREA:18.226388:42.632315:18.256129:42.682030
 PLUGIN:Ground Radar plugin:AirportElevation:7100
 PLUGIN:Ground Radar plugin:AirportRadius:2.0
 PLUGIN:Ground Radar plugin:GroundMode:OEAB

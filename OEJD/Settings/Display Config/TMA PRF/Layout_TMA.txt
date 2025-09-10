@@ -30,9 +30,9 @@ m_ShowTitleMetar:1
 m_ConnectSELtoSIL:1
 m_ConnectDEPtoSEL:1
 m_ConnectSILtoTOP:0
-m_ScreenNumber:0
+m_ScreenNumber:1
 m_ScreenPosition:0
-m_ScreenMaximized:0
+m_ScreenMaximized:1
 m_ShowTitleSelectedAc:1
 m_PlanesListX:-1000
 m_PlanesListY:-1000
@@ -56,5 +56,3 @@ m_ShowTsVccsMiniControl:1
 ScenarioEditorX:0
 ScenarioEditorY:0
 m_ShowSTARControllers:1
-MessageLinesNumber:4
-BackgroundGrphicsInThread:1

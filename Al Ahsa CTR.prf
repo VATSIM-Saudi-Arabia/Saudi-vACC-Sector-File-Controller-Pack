@@ -66,14 +66,16 @@ LastSession	atis_freq4	118000
 RecentFiles	Recent4	OEJD\ASR\Al Ahsa GMC.asr
 RecentFiles	Recent5	OEJD\ASR\Al Ahsa GMC.asr
 Plugins	Plugin4Display1	Standard ES radar screen
-Plugins	Plugin6	\OEJD\Plugins\Delivery Helper\DelHel.dll
-Plugins	Plugin6Display0	DelHel
-Plugins	Plugin7	\OEJD\Plugins\VFPC\VFPC.dll
-Plugins	Plugin8	\OEJD\Plugins\RDF Plugin\RDFPlugin.dll
-Plugins	Plugin9	\OEJD\Plugins\PushbackFlorian_v1.1.1\PushbackFlorian.dll
-Plugins	Plugin10	\OEJD\Plugins\Initial Climb Plugin\InitialClimbPlugin.dll
+Plugins	Plugin6	\OEJD\Plugins\VFPC\VFPC.dll
+Plugins	Plugin7	\OEJD\Plugins\RDF Plugin\RDFPlugin.dll
+Plugins	Plugin8	\OEJD\Plugins\PushbackFlorian_v1.1.1\PushbackFlorian.dll
+Plugins	Plugin9	\OEJD\Plugins\vSID\vSID Plugin\vSID.dll
+Plugins	Plugin10	\OEJD\Plugins\CCAMS\CCAMS.dll
 Plugins	Plugin3	\OEJD\Plugins\Virtual Controller Helper\VCH.dll
 TeamSpeakVccs	TsVccsMiniControlX	1698
 TeamSpeakVccs	TsVccsMiniControlY	202
 Plugins	Plugin1Display2	Ground Radar display
 Plugins	Plugin5	\OEJD\Plugins\GRPlugin\GRplugin.dll
+Plugins	Plugin9Display0	Ground Radar display
+Plugins	Plugin10Display0	Ground Radar display
+Plugins	Plugin10Display1	Standard ES radar screen

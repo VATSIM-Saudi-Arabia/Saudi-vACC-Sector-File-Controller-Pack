@@ -1,0 +1,412 @@
+{
+    "OEDF": {
+        "elevation": 75,
+        "runways": "34L,34R,16L,16R",
+        "transAlt": 13000,
+        "maxInitialClimb": 4000,
+		"appSI": "DFA, DFL, JCNE, JC3, JC1",
+		"enableRVSids": false,
+        "sids": {
+            "METLA": {
+                "1": {
+                    "designator": "E",
+                    "rwy": "34L",
+                    "initial": 6000,
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "A",
+                    "rwy": "34L",
+                    "initial": 6000,
+                    "prio": 2
+                },
+                "3": {
+                    "designator": "F",
+                    "rwy": "34R",
+                    "initial": 6000,
+                    "prio": 3
+                },
+                "4": {
+                    "designator": "B",
+                    "rwy": "34R",
+                    "initial": 6000,
+                    "prio": 4
+                },
+                "5": {
+                    "designator": "G",
+                    "rwy": "16R",
+                    "initial": 6000,
+                    "prio": 5
+                },
+                "6": {
+                    "designator": "C",
+                    "rwy": "16R",
+                    "initial": 6000,
+                    "prio": 6
+                },
+                "7": {
+                    "designator": "H",
+                    "rwy": "16L",
+                    "initial": 6000,
+                    "prio": 7
+                },
+                "8": {
+                    "designator": "D",
+                    "rwy": "16L",
+                    "initial": 6000,
+                    "prio": 8
+                }
+            },
+            "ROTEL": {
+                "1": {
+                    "designator": "E",
+                    "rwy": "34L",
+                    "initial": 6000,
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "A",
+                    "rwy": "34L",
+                    "initial": 6000,
+                    "prio": 2
+                },
+                "3": {
+                    "designator": "F",
+                    "rwy": "34R",
+                    "initial": 6000,
+                    "prio": 3
+                },
+                "4": {
+                    "designator": "B",
+                    "rwy": "34R",
+                    "initial": 6000,
+                    "prio": 4
+                },
+                "5": {
+                    "designator": "G",
+                    "rwy": "16R",
+                    "initial": 6000,
+                    "prio": 5
+                },
+                "6": {
+                    "designator": "C",
+                    "rwy": "16R",
+                    "initial": 6000,
+                    "prio": 6
+                },
+                "7": {
+                    "designator": "H",
+                    "rwy": "16L",
+                    "initial": 6000,
+                    "prio": 7
+                },
+                "8": {
+                    "designator": "D",
+                    "rwy": "16L",
+                    "initial": 6000,
+                    "prio": 8
+                }
+            },
+            "LADNA": {
+                "1": {
+                    "designator": "E",
+                    "rwy": "34L",
+                    "initial": 6000,
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "A",
+                    "rwy": "34L",
+                    "initial": 6000,
+                    "prio": 2
+                },
+                "3": {
+                    "designator": "F",
+                    "rwy": "34R",
+                    "initial": 6000,
+                    "prio": 3
+                },
+                "4": {
+                    "designator": "B",
+                    "rwy": "34R",
+                    "initial": 6000,
+                    "prio": 4
+                },
+                "5": {
+                    "designator": "G",
+                    "rwy": "16R",
+                    "initial": 6000,
+                    "prio": 5
+                },
+                "6": {
+                    "designator": "C",
+                    "rwy": "16R",
+                    "initial": 6000,
+                    "prio": 6
+                },
+                "7": {
+                    "designator": "H",
+                    "rwy": "16L",
+                    "initial": 6000,
+                    "prio": 7
+                },
+                "8": {
+                    "designator": "D",
+                    "rwy": "16L",
+                    "initial": 6000,
+                    "prio": 8
+                }
+            },
+            "RYDAN": {
+                "1": {
+                    "designator": "E",
+                    "rwy": "34L",
+                    "initial": 6000,
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "A",
+                    "rwy": "34L",
+                    "initial": 6000,
+                    "prio": 2
+                },
+                "3": {
+                    "designator": "F",
+                    "rwy": "34R",
+                    "initial": 6000,
+                    "prio": 3
+                },
+                "4": {
+                    "designator": "B",
+                    "rwy": "34R",
+                    "initial": 6000,
+                    "prio": 4
+                },
+                "5": {
+                    "designator": "G",
+                    "rwy": "16R",
+                    "initial": 6000,
+                    "prio": 5
+                },
+                "6": {
+                    "designator": "C",
+                    "rwy": "16R",
+                    "initial": 6000,
+                    "prio": 6
+                },
+                "7": {
+                    "designator": "H",
+                    "rwy": "16L",
+                    "initial": 6000,
+                    "prio": 7
+                },
+                "8": {
+                    "designator": "D",
+                    "rwy": "16L",
+                    "initial": 6000,
+                    "prio": 8
+                }
+            },
+            "MIBRA": {
+                "1": {
+                    "designator": "E",
+                    "rwy": "34L",
+                    "initial": 6000,
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "A",
+                    "rwy": "34L",
+                    "initial": 6000,
+                    "prio": 2
+                },
+                "3": {
+                    "designator": "F",
+                    "rwy": "34R",
+                    "initial": 6000,
+                    "prio": 3
+                },
+                "4": {
+                    "designator": "B",
+                    "rwy": "34R",
+                    "initial": 6000,
+                    "prio": 4
+                },
+                "5": {
+                    "designator": "G",
+                    "rwy": "16R",
+                    "initial": 6000,
+                    "prio": 5
+                },
+                "6": {
+                    "designator": "C",
+                    "rwy": "16R",
+                    "initial": 6000,
+                    "prio": 6
+                },
+                "7": {
+                    "designator": "H",
+                    "rwy": "16L",
+                    "initial": 6000,
+                    "prio": 7
+                },
+                "8": {
+                    "designator": "D",
+                    "rwy": "16L",
+                    "initial": 6000,
+                    "prio": 8
+                }
+            },
+            "EMUSA": {
+                "1": {
+                    "designator": "E",
+                    "rwy": "34L",
+                    "initial": 6000,
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "A",
+                    "rwy": "34L",
+                    "initial": 6000,
+                    "prio": 2
+                },
+                "3": {
+                    "designator": "F",
+                    "rwy": "34R",
+                    "initial": 6000,
+                    "prio": 3
+                },
+                "4": {
+                    "designator": "B",
+                    "rwy": "34R",
+                    "initial": 6000,
+                    "prio": 4
+                },
+                "5": {
+                    "designator": "G",
+                    "rwy": "16R",
+                    "initial": 6000,
+                    "prio": 5
+                },
+                "6": {
+                    "designator": "C",
+                    "rwy": "16R",
+                    "initial": 6000,
+                    "prio": 6
+                },
+                "7": {
+                    "designator": "H",
+                    "rwy": "16L",
+                    "initial": 6000,
+                    "prio": 7
+                },
+                "8": {
+                    "designator": "D",
+                    "rwy": "16L",
+                    "initial": 6000,
+                    "prio": 8
+                }
+            },
+            "TAYMA": {
+                "1": {
+                    "designator": "E",
+                    "rwy": "34L",
+                    "initial": 6000,
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "A",
+                    "rwy": "34L",
+                    "initial": 6000,
+                    "prio": 2
+                },
+                "3": {
+                    "designator": "F",
+                    "rwy": "34R",
+                    "initial": 6000,
+                    "prio": 3
+                },
+                "4": {
+                    "designator": "B",
+                    "rwy": "34R",
+                    "initial": 6000,
+                    "prio": 4
+                },
+                "5": {
+                    "designator": "G",
+                    "rwy": "16R",
+                    "initial": 6000,
+                    "prio": 5
+                },
+                "6": {
+                    "designator": "C",
+                    "rwy": "16R",
+                    "initial": 6000,
+                    "prio": 6
+                },
+                "7": {
+                    "designator": "H",
+                    "rwy": "16L",
+                    "initial": 6000,
+                    "prio": 7
+                },
+                "8": {
+                    "designator": "D",
+                    "rwy": "16L",
+                    "initial": 6000,
+                    "prio": 8
+                }
+            },
+            "PUSRA": {
+                "1": {
+                    "designator": "E",
+                    "rwy": "34L",
+                    "initial": 6000,
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "A",
+                    "rwy": "34L",
+                    "initial": 6000,
+                    "prio": 2
+                },
+                "3": {
+                    "designator": "F",
+                    "rwy": "34R",
+                    "initial": 6000,
+                    "prio": 3
+                },
+                "4": {
+                    "designator": "B",
+                    "rwy": "34R",
+                    "initial": 6000,
+                    "prio": 4
+                },
+                "5": {
+                    "designator": "G",
+                    "rwy": "16R",
+                    "initial": 6000,
+                    "prio": 5
+                },
+                "6": {
+                    "designator": "C",
+                    "rwy": "16R",
+                    "initial": 6000,
+                    "prio": 6
+                },
+                "7": {
+                    "designator": "H",
+                    "rwy": "16L",
+                    "initial": 6000,
+                    "prio": 7
+                },
+                "8": {
+                    "designator": "D",
+                    "rwy": "16L",
+                    "initial": 6000,
+                    "prio": 8
+                }
+            }
+        }
+    }
+}

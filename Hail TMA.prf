@@ -31,7 +31,7 @@ Plugins	Plugin3	\OEJD\Plugins\TopSky - ACC\TopSky.dll
 Plugins	Plugin3Display0	SMR radar display
 Plugins	Plugin4	\OEJD\Plugins\GRPlugin\GRplugin.dll
 Plugins	Plugin4Display0	Ground Radar display
-Plugins	Plugin5	\OEJD\Plugins\Initial Climb Plugin\InitialClimbPlugin.dll
+Plugins	Plugin5	\OEJD\Plugins\PushbackFlorian_v1.1.1\PushbackFlorian.dll
 Plugins	Plugin5Display0	Ground Radar display
 Plugins	Plugin5Display1	Standard ES radar screen
 Sounds	Sound0	\OEJD\Sounds\handoff_request.wav
@@ -74,13 +74,15 @@ Plugins	Plugin2Display1	Standard ES radar screen
 TeamSpeakVccs	TsVccsMiniControlX	1759
 TeamSpeakVccs	TsVccsMiniControlY	778
 Plugins	Plugin3Display1	Standard ES radar screen
-Plugins	Plugin6	\OEJD\Plugins\PushbackFlorian_v1.1.1\PushbackFlorian.dll
-Plugins	Plugin6Display0	Ground Radar display
-Plugins	Plugin6Display1	Standard ES radar screen
-Plugins	Plugin7	\OEJD\Plugins\RDF Plugin\RDFPlugin.dll
-Plugins	Plugin7Display0	Standard ES radar screen
-Plugins	Plugin7Display1	Ground Radar display
-Plugins	Plugin8Display0	Standard ES radar screen
-Plugins	Plugin8Display1	Ground Radar display
-Plugins	Plugin9	\OEJD\Plugins\Virtual Controller Helper\VCH.dll
-Plugins	Plugin9Display0	Ground Radar display
+Plugins	Plugin6	\OEJD\Plugins\RDF Plugin\RDFPlugin.dll
+Plugins	Plugin6Display0	Standard ES radar screen
+Plugins	Plugin6Display1	Ground Radar display
+Plugins	Plugin7	\OEJD\Plugins\CCAMS\CCAMS.dll
+Plugins	Plugin7Display0	Ground Radar display
+Plugins	Plugin7Display1	Standard ES radar screen
+Plugins	Plugin9	\OEJD\Plugins\VATCAN Plugin\VATCANBookings.dll
+Plugins	Plugin8	\OEJD\Plugins\vACDM\vACDM.dll
+Plugins	Plugin10	\OEJD\Plugins\vSID\vSID Plugin\vSID.dll
+Plugins	Plugin11	\OEJD\Plugins\Virtual Controller Helper\VCH.dll
+Plugins	Plugin11Display0	Ground Radar display
+Plugins	Plugin11Display1	Standard ES radar screen

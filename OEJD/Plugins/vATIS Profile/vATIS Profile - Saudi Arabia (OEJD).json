@@ -1949,7 +1949,7 @@
           }
         },
         "closingStatement": {
-          "autoIncludeClosingStatement": true,
+          "autoIncludeClosingStatement": false,
           "template": {
             "text": "{letter|word}",
             "voice": "{letter|word}"
@@ -1972,7 +1972,7 @@
           "name": "RUNWAY 34 [DDRO]",
           "airportConditions": "",
           "notams": "",
-          "template": "",
+          "template": "OEJN ATIS [ATIS_CODE]\n[TIME] OEJN ATIS [CLOSING]\n[TIME] DEP RWY 34C. DEP RWY 34R. \nEXPECT ILSRWY 34L. EXPECT ILSRWY 34R.\nTRA 13000FT\nTRL FL150\n/ CAUTION BIRD ACTIVITY IN THE VICINITY OF THE AERODROME\n[ARPT_COND]\n[WIND]\n[VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP][DEW]\n[PRESSURE] HPA\n\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -1988,7 +1988,7 @@
           "name": "RUNWAY 34 [SDRO]",
           "airportConditions": "",
           "notams": "",
-          "template": "",
+          "template": "OEJN ATIS [ATIS_CODE]\n[TIME] OEJN ATIS [CLOSING]\n[TIME] DEP RWY 34C. \nEXPECT ILSRWY 34L. EXPECT ILSRWY 34R.\nTRA 13000FT\nTRL FL150\n/ CAUTION BIRD ACTIVITY IN THE VICINITY OF THE AERODROME\n[ARPT_COND]\n[WIND]\n[VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP][DEW]\n[PRESSURE] HPA\n\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2004,7 +2004,7 @@
           "name": "RUNWAY 16 [DDRO]",
           "airportConditions": "",
           "notams": "",
-          "template": "OEJN ATIS [CLOSING]\r\n[TIME] OEJN ATIS [CLOSING]\r\n[TIME] DEP RWY 16C. DEP RWY 16L. \r\nEXPECT ILSRWY 16L. EXPECT ILSRWY 16R.\r\nTRA 13000FT\r\nTRL FL150\r\n/ CAUTION BIRD ACTIVITY IN THE VICINITY OF THE AERODROME\r\n[ARPT_COND]\r\n[WIND]\r\n[VIS]\r\n[CLOUDS]\r\n[PRESENT_WX]\r\n[TEMP][DEW]\r\n[PRESSURE] HPA\r\n\r\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "OEJN ATIS [ATIS_CODE]\r\n[TIME] OEJN ATIS [CLOSING]\r\n[TIME] DEP RWY 16C. DEP RWY 16L. \r\nEXPECT ILSRWY 16L. EXPECT ILSRWY 16R.\r\nTRA 13000FT\r\nTRL FL150\r\n/ CAUTION BIRD ACTIVITY IN THE VICINITY OF THE AERODROME\r\n[ARPT_COND]\r\n[WIND]\r\n[VIS]\r\n[CLOUDS]\r\n[PRESENT_WX]\r\n[TEMP][DEW]\r\n[PRESSURE] HPA\r\n\r\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2020,7 +2020,7 @@
           "name": "RUNWAY 16 [SDRO]",
           "airportConditions": "",
           "notams": "",
-          "template": "OEJN ATIS [ATIS_CODE] \r\n[TIME] OEJN ATIS [ATIS_CODE]\r\n[TIME] DEP RWY 16C. \r\nEXPECT ILSRWY 16L. EXPECT ILSRWY 16R.\r\nTRA 13000FT\r\nTRL FL150\r\n/ CAUTION BIRD ACTIVITY IN THE VICINITY OF THE AERODROME\r\n[ARPT_COND]\r\n[WIND]\r\n[VIS]\r\n[CLOUDS]\r\n[PRESENT_WX]\r\n[TEMP][DEW]\r\n[PRESSURE] HPA\r\n\r\n[CLOSING]",
+          "template": "OEJN ATIS [ATIS_CODE]\r\n[TIME] OEJN ATIS [CLOSING]\r\n[TIME] DEP RWY 16C. \r\nEXPECT ILSRWY 16L. EXPECT ILSRWY 16R.\r\nTRA 13000FT\r\nTRL FL150\r\n/ CAUTION BIRD ACTIVITY IN THE VICINITY OF THE AERODROME\r\n[ARPT_COND]\r\n[WIND]\r\n[VIS]\r\n[CLOUDS]\r\n[PRESENT_WX]\r\n[TEMP][DEW]\r\n[PRESSURE] HPA\r\n\r\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4078,7 +4078,7 @@
           }
         },
         "closingStatement": {
-          "autoIncludeClosingStatement": true,
+          "autoIncludeClosingStatement": false,
           "template": {
             "text": "{letter|word}",
             "voice": "{letter|word}"
@@ -6146,7 +6146,7 @@
           }
         },
         "closingStatement": {
-          "autoIncludeClosingStatement": true,
+          "autoIncludeClosingStatement": false,
           "template": {
             "text": "{letter|word}",
             "voice": "{letter|word}"
@@ -6170,7 +6170,7 @@
           "name": "RUNWAY 34 [DDRO]",
           "airportConditions": "",
           "notams": "",
-          "template": "OEJN DEP ATIS [ATIS_CODE]\r\n[TIME] OEJN ATIS [CLOSING]\r\n[TIME] RWY 34C. RWY 34R.\r\nTRL FL150\r\n/ CAUTION BIRD ACTIVITY IN THE VICINITY OF THE AERODROME\r\n[ARPT_COND]\r\n[WIND]\r\n[VIS]\r\n[CLOUDS]\r\n[PRESENT_WX]\r\n[TEMP][DEW]\r\n[PRESSURE] HPA\r\n[TREND]\r\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -8464,38 +8464,38 @@
           },
           "standard": {
             "template": {
-              "text": "{wind_dir}/{wind_spd}KT",
+              "text": "WIND {wind_dir}/{wind_spd}KT",
               "voice": "WIND {wind_dir} AT {wind_spd}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir}/{wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT",
               "voice": "WIND {wind_dir} AT {wind_spd} GUSTS {wind_gust}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB/{wind_spd}KT",
+              "text": "WIND VRB/{wind_spd}KT",
               "voice": "WIND VARIABLE AT {wind_spd}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB/{wind_spd}G{wind_gust}KT",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT",
               "voice": "WIND VARIABLE AT {wind_spd} GUSTS {wind_gust}"
             }
           },
           "variableDirection": {
             "template": {
-              "text": "{wind_vmin}V{wind_vmax}",
+              "text": "WIND {wind_vmin}V{wind_vmax}",
               "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax}"
             }
           },
           "calm": {
             "calmWindSpeed": 2,
             "template": {
-              "text": "{wind}",
+              "text": "WIND {wind}",
               "voice": "WIND CALM"
             }
           }
@@ -10384,10 +10384,10 @@
           }
         },
         "closingStatement": {
-          "autoIncludeClosingStatement": true,
+          "autoIncludeClosingStatement": false,
           "template": {
-            "text": "...ADVS YOU HAVE INFO {letter}",
-            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+            "text": "{letter|word}",
+            "voice": "{letter|word}"
           }
         }
       },
@@ -10404,17 +10404,29 @@
         {
           "id": "17a89385-051b-49c8-8fae-0368f80e8fbc",
           "name": "RUNWAY 35",
-          "template": "OEMA ATIS [ATIS_CODE] [TIME]Z. EXPECT ILS/DME RWY35. BREAKING CONDITIONS NOT REPORTED. TYPE OF DEPOSIT NOT REPORTED. RWY 35 FOR DEPARTURE. RWY 35 FOR ARRIVAL. TRL FL 150. [FULL_WX_STRING]. ACKNOWLEDGE INFORMATION ATIS [ATIS_CODE].",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS DMERWY35\nTRL FL150\n[WIND]\n[VIS]\n[TEMP] [DEW]\n[PRESSURE]HPA\nNOSIG ON RECEIPT OF TAKE-OFF CLEARANCE, PILOTS SHOULD ENSURE THAT THEY ARE ABLE TO COMMENCE TAKE-OFF WITHOUT DELAY, AND THEY SHALL COMMENCE THE TAKE-OFF ROLL WITHIN 10 SECONDS OF THE RECEIVING THE TAKE-OFF CLEARANCE, WHEN YOU ARE NOT ABLE INFORM ATC BEFORE ENTERNING THE RWY\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
           "id": "bdc2e861-7343-4a66-94e8-ee8adf5e4702",
           "name": "RUNWAY 17",
-          "template": "OEMA ATIS [ATIS_CODE] [TIME]Z. EXPECT ILS/DME RWY17. BREAKING CONDITIONS NOT REPORTED. TYPE OF DEPOSIT NOT REPORTED. RWY 17 FOR DEPARTURE. RWY 17 FOR ARRIVAL. TRL FL 150. [FULL_WX_STRING]. ACKNOWLEDGE INFORMATION ATIS [ATIS_CODE].",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS DMERWY17\nTRL FL150\n[WIND]\n[VIS]\n[TEMP] [DEW]\n[PRESSURE]HPA\nNOSIG ON RECEIPT OF TAKE-OFF CLEARANCE, PILOTS SHOULD ENSURE THAT THEY ARE ABLE TO COMMENCE TAKE-OFF WITHOUT DELAY, AND THEY SHALL COMMENCE THE TAKE-OFF ROLL WITHIN 10 SECONDS OF THE RECEIVING THE TAKE-OFF CLEARANCE, WHEN YOU ARE NOT ABLE INFORM ATC BEFORE ENTERNING THE RWY\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         }
       ],
@@ -10445,9 +10457,9 @@
           "voice": "ZULU"
         },
         {
-          "variableName": "FL",
-          "text": "FL",
-          "voice": "FLIGHT LEVEL"
+          "variableName": "FL150",
+          "text": "FL150",
+          "voice": "FLIGHT LEVEL ONE FIVE ZERO"
         },
         {
           "variableName": "150",
@@ -12431,9 +12443,15 @@
           "name": "RUNWAY 34R DEP 34L ARR",
           "airportConditions": "",
           "notams": "",
-          "template": "OEDF ATIS [ATIS_CODE] [TIME]Z. EXPECT ILS/DME RWY34. BREAKING CONDITIONS NOT REPORTED. TYPE OF DEPOSIT NOT REPORTED. RWY 34 RIGHT FOR DEPARTURE. RWY 34 LEFT FOR ARRIVAL. TRL FL 150. [FULL_WX_STRING]. ACKNOWLEDGE INFORMATION ATIS [ATIS_CODE].",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILSDME RWY34L\nRWY 34R FOR DEPARTURE RWY 34L FOR ARRIVAL\nTRL FL 150\n[FULL_WX_STRING]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -12441,9 +12459,15 @@
           "name": "RUNWAY 34L DEP 34R ARR",
           "airportConditions": "",
           "notams": "",
-          "template": "OERK ATIS [ATIS_CODE] [TIME]Z. EXPECT ILS/DME RWY34. BREAKING CONDITIONS NOT REPORTED. TYPE OF DEPOSIT NOT REPORTED. RWY 34 LEFT FOR DEPARTURE. RWY 34 RIGHT FOR ARRIVAL. TRL FL 150. [FULL_WX_STRING]. ACKNOWLEDGE INFORMATION ATIS [ATIS_CODE].",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILSDME RWY34R\nRWY 34L FOR DEPARTURE RWY 34R FOR ARRIVAL\nTRL FL 150\n[FULL_WX_STRING]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -12451,9 +12475,15 @@
           "name": "RUNWAY 34L SRO",
           "airportConditions": "",
           "notams": "",
-          "template": "OEDF ATIS [ATIS_CODE] [TIME]Z. EXPECT ILS/DME RWY34. BREAKING CONDITIONS NOT REPORTED. TYPE OF DEPOSIT NOT REPORTED. RWY 34 LEFT FOR DEPARTURE. RWY 34 LEFT FOR ARRIVAL. TRL FL 150. [FULL_WX_STRING]. ACKNOWLEDGE INFORMATION ATIS [ATIS_CODE].",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILSDME RWY34L\nRWY 34L FOR DEPARTURE RWY 34L FOR ARRIVAL\nTRL FL 150\n[FULL_WX_STRING]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -12461,9 +12491,15 @@
           "name": "RUNWAY 34R SRO",
           "airportConditions": "",
           "notams": "",
-          "template": "OEDF ATIS [ATIS_CODE] [TIME]Z. EXPECT ILS/DME RWY34. BREAKING CONDITIONS NOT REPORTED. TYPE OF DEPOSIT NOT REPORTED. RWY 34 RIGHT FOR DEPARTURE. RWY 34 RIGHT FOR ARRIVAL. TRL FL 150. [FULL_WX_STRING]. ACKNOWLEDGE INFORMATION ATIS [ATIS_CODE].",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILSDME RWY34R\nRWY 34R FOR DEPARTURE RWY 34R FOR ARRIVAL\nTRL FL 150\n[FULL_WX_STRING]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -12471,9 +12507,15 @@
           "name": "RUNWAY 16R SRO",
           "airportConditions": "",
           "notams": "",
-          "template": "OEDF ATIS [ATIS_CODE] [TIME]Z. EXPECT ILS/DME RWY16. BREAKING CONDITIONS NOT REPORTED. TYPE OF DEPOSIT NOT REPORTED. RWY 16 RIGHT FOR DEPARTURE. RWY 16 RIGHT FOR ARRIVAL. TRL FL 150. [FULL_WX_STRING]. ACKNOWLEDGE INFORMATION ATIS [ATIS_CODE].",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILSDME RWY16R\nRWY 16R FOR DEPARTURE RWY 16R FOR ARRIVAL\nTRL FL 150\n[FULL_WX_STRING]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -12481,9 +12523,15 @@
           "name": "RUNWAY 16L SRO",
           "airportConditions": "",
           "notams": "",
-          "template": "OEDF ATIS [ATIS_CODE] [TIME]Z. EXPECT ILS/DME RWY16. BREAKING CONDITIONS NOT REPORTED. TYPE OF DEPOSIT NOT REPORTED. RWY 16 LEFT FOR DEPARTURE. RWY 16 LEFT FOR ARRIVAL. TRL FL 150. [FULL_WX_STRING]. ACKNOWLEDGE INFORMATION ATIS [ATIS_CODE].",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILSDME RWY16L\nRWY 16L FOR DEPARTURE RWY 16L FOR ARRIVAL\nTRL FL 150\n[FULL_WX_STRING]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -12491,9 +12539,15 @@
           "name": "RUNWAY 16R DEP 16L ARR",
           "airportConditions": "",
           "notams": "",
-          "template": "OEDF ATIS [ATIS_CODE] [TIME]Z. EXPECT ILS/DME RWY16. BREAKING CONDITIONS NOT REPORTED. TYPE OF DEPOSIT NOT REPORTED. RWY 16 RIGHT FOR DEPARTURE. RWY 16 LEFT FOR ARRIVAL. TRL FL 150. [FULL_WX_STRING]. ACKNOWLEDGE INFORMATION ATIS [ATIS_CODE].",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILSDME RWY16L\nRWY 16R FOR DEPARTURE RWY 16L FOR ARRIVAL\nTRL FL 150\n[FULL_WX_STRING]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -12501,9 +12555,15 @@
           "name": "RUNWAY 16L DEP 16R ARR",
           "airportConditions": "",
           "notams": "",
-          "template": "OEDF ATIS [ATIS_CODE] [TIME]Z. EXPECT ILS/DME RWY16. BREAKING CONDITIONS NOT REPORTED. TYPE OF DEPOSIT NOT REPORTED. RWY 16 LEFT FOR DEPARTURE. RWY 16 RIGHT FOR ARRIVAL. TRL FL 150. [FULL_WX_STRING]. ACKNOWLEDGE INFORMATION ATIS [ATIS_CODE].",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILSDME RWY16R\nRWY 16L FOR DEPARTURE RWY 16R FOR ARRIVAL\nTRL FL 150\n[FULL_WX_STRING]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         }
       ],
@@ -12577,38 +12637,38 @@
           },
           "standard": {
             "template": {
-              "text": "{wind_dir}/{wind_spd}KT",
+              "text": "WIND {wind_dir}/{wind_spd}KT",
               "voice": "WIND {wind_dir} AT {wind_spd}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir}/{wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT",
               "voice": "WIND {wind_dir} AT {wind_spd} GUSTS {wind_gust}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB/{wind_spd}KT",
+              "text": "WIND VRB/{wind_spd}KT",
               "voice": "WIND VARIABLE AT {wind_spd}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB/{wind_spd}G{wind_gust}KT",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT",
               "voice": "WIND VARIABLE AT {wind_spd} GUSTS {wind_gust}"
             }
           },
           "variableDirection": {
             "template": {
-              "text": "{wind_vmin}V{wind_vmax}",
+              "text": "WIND {wind_vmin}V{wind_vmax}",
               "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax}"
             }
           },
           "calm": {
             "calmWindSpeed": 2,
             "template": {
-              "text": "{wind}",
+              "text": "WIND {wind}",
               "voice": "WIND CALM"
             }
           }
@@ -14517,7 +14577,7 @@
         {
           "id": "ba169cd8-4913-4430-8b2f-aedaa438724a",
           "name": "RUNWAY 31 | VOR",
-          "template": "OEAB DEP ARR ATIS [ATIS_CODE]\n[TIME] OEAB ATIS [CLOSING]\n[TIME] EXPECT VORDME\nRWY13\nTRL FL150\nWIND [WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE] HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VORDME\nRWY13\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14531,7 +14591,7 @@
         {
           "id": "4e130dc9-c517-4f26-a6b6-65e5919b7982",
           "name": "RUNWAY 13 | ILS",
-          "template": "OEAB DEP ARR ATIS [ATIS_CODE]\n[TIME] OEAB ATIS [CLOSING]\n[TIME] EXPECT ILS DMERWY13\nTRL FL150\nWIND [WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE] HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS\nDMERWY13\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14575,9 +14635,9 @@
           "voice": "ZULU"
         },
         {
-          "variableName": "FL",
-          "text": "FL",
-          "voice": "FLIGHT LEVEL"
+          "variableName": "FL150",
+          "text": "FL150",
+          "voice": "FLIGHT LEVEL 150"
         },
         {
           "variableName": "150",
@@ -14588,6 +14648,11 @@
           "variableName": "VOR",
           "text": "VOR",
           "voice": "VEE-O-R"
+        },
+        {
+          "variableName": "DMERWY",
+          "text": "DMERWY",
+          "voice": "D-M-E RUNWAY"
         }
       ],
       "airportConditionDefinitions": [],
@@ -14618,38 +14683,38 @@
           },
           "standard": {
             "template": {
-              "text": "{wind_dir}/{wind_spd}KT",
+              "text": "WIND {wind_dir}/{wind_spd}KT",
               "voice": "WIND {wind_dir} AT {wind_spd}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir}/{wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT",
               "voice": "WIND {wind_dir} AT {wind_spd} GUSTS {wind_gust}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB/{wind_spd}KT",
+              "text": "WIND VRB/{wind_spd}KT",
               "voice": "WIND VARIABLE AT {wind_spd}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB/{wind_spd}G{wind_gust}KT",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT",
               "voice": "WIND VARIABLE AT {wind_spd} GUSTS {wind_gust}"
             }
           },
           "variableDirection": {
             "template": {
-              "text": "{wind_vmin}V{wind_vmax}",
+              "text": "WIND {wind_vmin}V{wind_vmax}",
               "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax}"
             }
           },
           "calm": {
             "calmWindSpeed": 2,
             "template": {
-              "text": "{wind}",
+              "text": "WIND {wind}",
               "voice": "WIND CALM"
             }
           }
@@ -14668,7 +14733,7 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "VIS {visibility}",
+            "text": "{visibility}",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -16460,8 +16525,8 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "A{altimeter} ({altimeter|text})",
-            "voice": "ALTIMETER {altimeter}"
+            "text": "QNH {altimeter|hpa}",
+            "voice": "QNH {altimeter|hpa}"
           }
         },
         "trend": {
@@ -16494,7 +16559,7 @@
           }
         },
         "closingStatement": {
-          "autoIncludeClosingStatement": true,
+          "autoIncludeClosingStatement": false,
           "template": {
             "text": "{letter|word}",
             "voice": "{letter|word}"
@@ -16515,7 +16580,7 @@
           "id": "bd37677b-f82f-466f-9ca4-6501152b60f0",
           "ordinal": 0,
           "name": "RUNWAY 06 | ILS",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME]\n[TIME] EXPECT ILS RWY06\nTRL FL150\nWIND [WIND]\n[VIS]\n[CLOUDS]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS\nDMERWY06\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -16530,7 +16595,7 @@
           "id": "4020db40-d108-4440-8970-a535792d7880",
           "ordinal": 1,
           "name": "RUNWAY 24 | VOR",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME]\n[TIME] EXPECT VORRWY24\nTRL FL150\nWIND [WIND]\n[VIS]\n[CLOUDS]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VORDMERWY24\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -16542,7 +16607,18 @@
           }
         }
       ],
-      "contractions": [],
+      "contractions": [
+        {
+          "variableName": "FL150",
+          "text": "FL150",
+          "voice": "FLIGHT LEVEL 150"
+        },
+        {
+          "variableName": "DMERWY",
+          "text": "DMERWY",
+          "voice": "D-M-E RUNWAY"
+        }
+      ],
       "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
@@ -16571,38 +16647,38 @@
           },
           "standard": {
             "template": {
-              "text": "{wind_dir}/{wind_spd}KT",
+              "text": "WIND {wind_dir}/{wind_spd}KT",
               "voice": "WIND {wind_dir} AT {wind_spd}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir}/{wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT",
               "voice": "WIND {wind_dir} AT {wind_spd} GUSTS {wind_gust}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB/{wind_spd}KT",
+              "text": "WIND VRB/{wind_spd}KT",
               "voice": "WIND VARIABLE AT {wind_spd}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB/{wind_spd}G{wind_gust}KT",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT",
               "voice": "WIND VARIABLE AT {wind_spd} GUSTS {wind_gust}"
             }
           },
           "variableDirection": {
             "template": {
-              "text": "{wind_vmin}V{wind_vmax}",
+              "text": "WIND {wind_vmin}V{wind_vmax}",
               "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax}"
             }
           },
           "calm": {
             "calmWindSpeed": 2,
             "template": {
-              "text": "{wind}",
+              "text": "WIND {wind}",
               "voice": "WIND CALM"
             }
           }
@@ -18413,8 +18489,8 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "A{altimeter} ({altimeter|text})",
-            "voice": "ALTIMETER {altimeter}"
+            "text": "QNH {altimeter|hpa}",
+            "voice": "QNH {altimeter|hpa}"
           }
         },
         "trend": {
@@ -18447,7 +18523,7 @@
           }
         },
         "closingStatement": {
-          "autoIncludeClosingStatement": true,
+          "autoIncludeClosingStatement": false,
           "template": {
             "text": "{letter|word}",
             "voice": "{letter|word}"
@@ -18468,7 +18544,7 @@
           "id": "a684ca78-bed6-4dab-a317-409cf68becf8",
           "ordinal": 0,
           "name": "RUNWAY 07 | VOR",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME]\n[TIME] EXPECT VORDME RWY07\nTRL FL150\nWIND [WIND]\n[VIS]\n[CLOUDS]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VORRWY07\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -18483,7 +18559,7 @@
           "id": "103bb33a-03c0-4e2f-a261-d00ed9980816",
           "ordinal": 1,
           "name": "RUNWAY 17 | VOR",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME]\n[TIME] EXPECT VORRWY17\nTRL FL150\nWIND [WIND]\n[VIS]\n[CLOUDS]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VORRWY17\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -18498,7 +18574,7 @@
           "id": "39a5631a-4706-44d3-8d14-75a2da39e081",
           "ordinal": 2,
           "name": "RUNWAY 25 | ILS",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME]\n[TIME] EXPECT ILS RWY25\nTRL FL150\nWIND [WIND]\n[VIS]\n[CLOUDS]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS\nDMERWY25\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -18510,7 +18586,18 @@
           }
         }
       ],
-      "contractions": [],
+      "contractions": [
+        {
+          "variableName": "FL150",
+          "text": "FL150",
+          "voice": "FLIGHT LEVEL 150"
+        },
+        {
+          "variableName": "DMERWY",
+          "text": "DMERWY",
+          "voice": "D-M-E RUNWAY"
+        }
+      ],
       "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
@@ -18539,38 +18626,38 @@
           },
           "standard": {
             "template": {
-              "text": "{wind_dir}/{wind_spd}KT",
+              "text": "WIND {wind_dir}/{wind_spd}KT",
               "voice": "WIND {wind_dir} AT {wind_spd}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir}/{wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT",
               "voice": "WIND {wind_dir} AT {wind_spd} GUSTS {wind_gust}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB/{wind_spd}KT",
+              "text": "WIND VRB/{wind_spd}KT",
               "voice": "WIND VARIABLE AT {wind_spd}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB/{wind_spd}G{wind_gust}KT",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT",
               "voice": "WIND VARIABLE AT {wind_spd} GUSTS {wind_gust}"
             }
           },
           "variableDirection": {
             "template": {
-              "text": "{wind_vmin}V{wind_vmax}",
+              "text": "WIND {wind_vmin}V{wind_vmax}",
               "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax}"
             }
           },
           "calm": {
             "calmWindSpeed": 2,
             "template": {
-              "text": "{wind}",
+              "text": "WIND {wind}",
               "voice": "WIND CALM"
             }
           }
@@ -20381,8 +20468,8 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "A{altimeter} ({altimeter|text})",
-            "voice": "ALTIMETER {altimeter}"
+            "text": "QNH {altimeter|hpa}",
+            "voice": "QNH {altimeter|hpa}"
           }
         },
         "trend": {
@@ -20415,28 +20502,28 @@
           }
         },
         "closingStatement": {
-          "autoIncludeClosingStatement": true,
+          "autoIncludeClosingStatement": false,
           "template": {
-            "text": "...ADVS YOU HAVE INFO {letter}.",
-            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+            "text": "{letter|word}",
+            "voice": "{letter|word}"
           }
         }
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 127450000,
-      "useDecimalTerminology": false,
+      "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "Default",
-        "speechRate": 180
+        "voice": "UK Male",
+        "speechRate": 120
       },
       "presets": [
         {
           "id": "b7a32681-7533-4db5-90ff-b6439deda5b9",
           "ordinal": 0,
           "name": "RUNWAY 10 | VOR",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME]\n[TIME] EXPECT VORDME RWY07\nTRL FL150\nWIND [WIND]\n[VIS]\n[CLOUDS]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VORDME RWY07\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -20451,7 +20538,7 @@
           "id": "1cd1e1ec-95b0-4f69-bca8-48e7ec87395f",
           "ordinal": 1,
           "name": "RUNWAY 28 | ILS",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME]\n[TIME] EXPECT ILSRWY28\nTRL FL150\nWIND [WIND]\n[VIS]\n[CLOUDS]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS\nDMERWY28\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -20466,7 +20553,7 @@
           "id": "fadb0fbb-ac80-48a3-806c-0c978b3cf576",
           "ordinal": 2,
           "name": "RUNWAY 10 | RNP",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME]\n[TIME] EXPECT RNP RWY07\nTRL FL150\nWIND [WIND]\n[VIS]\n[CLOUDS]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT RNPRWY07\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -20478,7 +20565,18 @@
           }
         }
       ],
-      "contractions": [],
+      "contractions": [
+        {
+          "variableName": "FL150",
+          "text": "FL150",
+          "voice": "FLIGHT LEVEL 150"
+        },
+        {
+          "variableName": "DMERWY",
+          "text": "DMERWY",
+          "voice": "D-M-E RUNWAY"
+        }
+      ],
       "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
@@ -20507,25 +20605,25 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir}{wind_spd}KT",
+              "text": "WIND {wind_dir}/{wind_spd}KT",
               "voice": "WIND {wind_dir} AT {wind_spd}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir}{wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT",
               "voice": "WIND {wind_dir} AT {wind_spd} GUSTS {wind_gust}"
             }
           },
           "variable": {
             "template": {
-              "text": "WIND VRB{wind_spd}KT",
+              "text": "WIND VRB/{wind_spd}KT",
               "voice": "WIND VARIABLE AT {wind_spd}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "WIND VRB{wind_spd}G{wind_gust}KT",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT",
               "voice": "WIND VARIABLE AT {wind_spd} GUSTS {wind_gust}"
             }
           },
@@ -22447,7 +22545,7 @@
         {
           "id": "80112874-d83b-4e30-ade1-e6ca4ecf82b0",
           "name": "RUNWAY 18 | ILS",
-          "template": "OEHL DEP ARR ATIS [ATIS_CODE]\n[TIME] OEHL ATIS [CLOSING]\n[TIME] EXPECT ILSRWY18\nTRL FL150\n[WIND]\n[VIS]\n[TEMP] [DEW]\n[PRESSURE] HPA\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS\nDMERWY18\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -22461,7 +22559,7 @@
         {
           "id": "f724a00d-5698-4616-babe-0158a04c58ef",
           "name": "RUNWAY 36 | RNP",
-          "template": "OEHL DEP ARR ATIS [ATIS_CODE]\n[TIME] OEHL ATIS [CLOSING]\n[TIME] EXPECT RNPRWY36\nTRL FL150\n[WIND]\n[VIS]\n[TEMP] [DEW]\n[PRESSURE] HPA\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT RNPRWY36\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -22475,7 +22573,7 @@
         {
           "id": "b6be983f-a10e-4c5a-9248-647f29729a83",
           "name": "RUNWAY 36 | VOR",
-          "template": "OEHL DEP ARR ATIS [ATIS_CODE]\n[TIME] OEHL ATIS [CLOSING]\n[TIME] EXPECT VORDME RWY36\nTRL FL150\n[WIND]\n[VIS]\n[TEMP] [DEW]\n[PRESSURE] HPA\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VORDME RWY36\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -22514,9 +22612,9 @@
           "voice": "ZULU"
         },
         {
-          "variableName": "FL",
+          "variableName": "FL150",
           "text": "FL",
-          "voice": "FLIGHT LEVEL"
+          "voice": "FLIGHT LEVEL 150"
         },
         {
           "variableName": "150",
@@ -22527,6 +22625,11 @@
           "variableName": "OEHL",
           "text": "OEHL",
           "voice": "HAIL INTERNATIONAL"
+        },
+        {
+          "variableName": "DMERWY",
+          "text": "DMERWY",
+          "voice": "D-M-E RUNWAY"
         }
       ],
       "airportConditionDefinitions": [],
@@ -24443,8 +24546,8 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "A{altimeter} ({altimeter|text})",
-            "voice": "ALTIMETER {altimeter}"
+            "text": "QNH {altimeter|hpa}",
+            "voice": "QNH {altimeter|hpa}"
           }
         },
         "trend": {
@@ -24497,7 +24600,7 @@
         {
           "id": "e9e2134d-54a6-421c-b73b-e2fadfec963d",
           "name": "RUNWAY 31",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS\nDMERWY31\nTRL FL150\n[WIND]\n[VIS]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS DMERWY31\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -24511,7 +24614,7 @@
         {
           "id": "6f9440e5-a895-4077-b0f2-a01ad87e01f6",
           "name": "RUNWAY 13",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VORDME RWY13\nTRL FL150\n[WIND]\n[VIS]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VORDME RWY13\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -24525,7 +24628,7 @@
         {
           "id": "1b719ef3-4f92-47f0-b1ad-105b545330d2",
           "name": "RUNWAY 24",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS\nDMERWY24\nTRL FL150\n[WIND]\n[VIS]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS DMERWY24\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -24539,7 +24642,7 @@
         {
           "id": "1f2ac543-3ad6-4f99-927e-3c49a305f7cc",
           "name": "RUNWAY 06",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VORDME RWY06\nTRL FL150\n[WIND]\n[VIS]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VORDME RWY06\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -24578,8 +24681,8 @@
           "voice": "ZULU"
         },
         {
-          "variableName": "FL",
-          "text": "FL",
+          "variableName": "FL150",
+          "text": "FL150",
           "voice": "FLIGHT LEVEL"
         },
         {
@@ -24591,6 +24694,11 @@
           "variableName": "OETB",
           "text": "OETB",
           "voice": "PRINCE SULTAN BIN ABDULAZIZ INTERNATIONAL "
+        },
+        {
+          "variableName": "DMERWY31",
+          "text": "DMERWY31",
+          "voice": "D-M-E RUNWAY THREE ONE"
         }
       ],
       "airportConditionDefinitions": [],
@@ -26518,7 +26626,7 @@
           "id": "a9e12502-9884-4e3b-b19c-6b7037694b99",
           "ordinal": 0,
           "name": "RUNWAY 34 | ILS",
-          "template": "OEAH DEP ARR ATIS [ATIS_CODE]\n[TIME] EXPECT ILS\nDMERWY34\nTRL FL150\nWIND [WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE] HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS\nDMERWY34\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -26533,7 +26641,7 @@
           "id": "488e6a31-1b3a-4882-98b3-9333d17b4c3f",
           "ordinal": 1,
           "name": "RUNWAY 14 | VOR",
-          "template": "OEAH DEP ARR ATIS [ATIS_CODE]\n[TIME] EXPECT VOR\nDMERWY14\nTRL FL150\nWIND [WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE] HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VOR\nDMERWY14\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -26545,7 +26653,18 @@
           }
         }
       ],
-      "contractions": [],
+      "contractions": [
+        {
+          "variableName": "FL150",
+          "text": "FL150",
+          "voice": "FLIGHT LEVEL 150"
+        },
+        {
+          "variableName": "DMERWY",
+          "text": "DMERWY",
+          "voice": "D-M-E RUNWAY"
+        }
+      ],
       "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
@@ -28471,7 +28590,37 @@
           "id": "83d75e3d-5fc0-4183-aa3f-45e28bc920d1",
           "ordinal": 0,
           "name": "RUNWAY 30 | ILS",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILSRWY 30\nTRL FL150\n[WIND]\n[VIS]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS RWY30\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "a8ff2147-db70-4861-948c-d90d65141660",
+          "ordinal": 1,
+          "name": "RUNWAY 12 | RNP",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT RNPRWY12\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "1cdb581b-c199-4581-bcdc-acf67be080db",
+          "ordinal": 2,
+          "name": "RUNWAY 12 | VOR",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VOR\nDMERWY12\nTRL FL150\nWIND [WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -28483,7 +28632,18 @@
           }
         }
       ],
-      "contractions": [],
+      "contractions": [
+        {
+          "variableName": "FL150",
+          "text": "FL150",
+          "voice": "FLIGHT LEVEL 150"
+        },
+        {
+          "variableName": "DMERWY",
+          "text": "DMERWY",
+          "voice": "D-M-E RUNWAY"
+        }
+      ],
       "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
@@ -30419,9 +30579,50 @@
             "approaches": "",
             "remarks": ""
           }
+        },
+        {
+          "id": "ade0afb9-8dfd-492b-a4b4-f6faf64d91fe",
+          "ordinal": 1,
+          "name": "RUNWAY 15 | RNP",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT RNPRWY15\nTRL FL150\nWIND [WIND]\nVIS [VIS]\n[CLOUDS]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nEXERCISE CAUTION USINGGPS SIGNAL INTERFERENCE MIGHT OCCUR.\nCAUTION BIRDS ACTIVITY IN THE VICINITY OF AD.\nBE ADVISED PART OF TWY A BETWEEN A2 AND RWY 15 HOLDING POINT AND PORTION OF THRESHOLD RWY 15 ARE INVISIBLE FROM TWR, PILOT EXERCISE CAUTION.\nCONFIRM ATIS [ATIS_CODE]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "f88cd4d6-3c12-4188-882a-2123bc9651a4",
+          "ordinal": 2,
+          "name": "RUNWAY 15 | VOR",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VOR\nDMERWY15\nTRL FL150\nWIND [WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nEXERCISE CAUTION USINGGPS SIGNAL INTERFERENCE MIGHT OCCUR.\nCAUTION BIRDS ACTIVITY IN THE VICINITY OF AD.\nBE ADVISED PART OF TWY A BETWEEN A2 AND RWY 15 HOLDING POINT AND PORTION OF THRESHOLD RWY 15 ARE INVISIBLE FROM TWR, PILOT EXERCISE CAUTION.\nCONFIRM ATIS [ATIS_CODE]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
         }
       ],
-      "contractions": [],
+      "contractions": [
+        {
+          "variableName": "FL150",
+          "text": "FL150",
+          "voice": "FLIGHT LEVEL 150"
+        },
+        {
+          "variableName": "DMERWY",
+          "text": "DMERWY",
+          "voice": "D-M-E RUNWAY"
+        }
+      ],
       "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
@@ -32347,7 +32548,22 @@
           "id": "e4e090cc-36a2-4524-be55-46a10125cbee",
           "ordinal": 0,
           "name": "RUNWAY 15 | ILS",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME]\n[TIME] EXPECT ILS RWY15\nTRL FL150\n[ARPT_COND]\n[NOTAMS]\n[WIND]\n[VIS]\n[CLOUDS]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS\nDMERWY15\nTRL FL150\n[ARPT_COND]\n[NOTAMS]\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "7daec1b8-63b4-4cfc-b3d9-d08bedc98895",
+          "ordinal": 1,
+          "name": "RUNWAY 33 | VOR",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VOR\nDMERWY33\nTRL FL150\nWIND [WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -32369,6 +32585,16 @@
           "variableName": "ILSRWY15",
           "text": "ILSRWY15",
           "voice": "ILS RUNWAY ONE-FIVE."
+        },
+        {
+          "variableName": "FL150",
+          "text": "FL150",
+          "voice": "FLIGHT LEVEL 150"
+        },
+        {
+          "variableName": "DMERWY",
+          "text": "DMERWY",
+          "voice": "D-M-E RUNWAY"
         }
       ],
       "airportConditionDefinitions": [],

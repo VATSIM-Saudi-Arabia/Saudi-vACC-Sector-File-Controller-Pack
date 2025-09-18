@@ -1,8 +1,8 @@
 {
-  "name": "Saudi Arabia (OEJD) new",
-  "id": "71608116-e65d-43ff-bc32-42e2e78685f2",
+  "name": "Saudi Arabia (OEJD)",
+  "id": "39a0a285-9b94-46b1-8828-8e26cfc14e9c",
   "updateUrl": "https://raw.githubusercontent.com/VATSIM-Saudi-Arabia/Saudi-vACC-Sector-File-Controller-Pack/main/OEJD/Plugins/vATIS%20Profile/vATIS%20Profile%20-%20Saudi%20Arabia%20(OEJD).json",
-  "updateSerial": 2025070203,
+  "updateSerial": 2025091801,
   "stations": [
     {
       "id": "a74fe6ee-f4dd-422e-b106-8f01b6498c47",
@@ -6170,7 +6170,7 @@
           "name": "RUNWAY 34 [DDRO]",
           "airportConditions": "",
           "notams": "",
-          "template": "OEJN DEP ATIS [CLOSING]\r\n[TIME] OEJN ATIS [CLOSING]\r\n[TIME] RWY 34C. RWY 34R.\r\nTRA 13000FT\r\n/ CAUTION BIRD ACTIVITY IN THE VICINITY OF THE AERODROME\r\n[ARPT_COND]\r\n[WIND]\r\n[VIS]\r\n[CLOUDS]\r\n[PRESENT_WX]\r\n[TEMP][DEW]\r\n[PRESSURE] HPA\r\n\r\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "OEJN DEP ATIS [ATIS_CODE]\r\n[TIME] OEJN ATIS [CLOSING]\r\n[TIME] RWY 34C. RWY 34R.\r\nTRA 13000FT\r\n/ CAUTION BIRD ACTIVITY IN THE VICINITY OF THE AERODROME\r\n[ARPT_COND]\r\n[WIND]\r\n[VIS]\r\n[CLOUDS]\r\n[PRESENT_WX]\r\n[TEMP][DEW]\r\n[PRESSURE] HPA\r\n[TREND]\r\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -8345,7 +8345,7 @@
           "id": "aac254a4-9683-4731-8b01-809cc858df04",
           "ordinal": 4,
           "name": "15s DARO",
-          "template": "OERK ATIS [CLOSING]\r\n\r\n[TIME] EXPECT ILS DME RWY15R. EXPECT ILS DME RWY15L.\r\nTRL FL150\r\n/ RWY 15 RIGHT AND 15 LEFT FOR ARRIVALS. RWY 15 LEFT FOR DEP.\r\nARRIVALS RWY 15 RIGHT SHALL PLAN TO EXIT VIA A4. PILOT SHALL ADVISE TOWER CONTROLLER WHEN NOT ABLE TO COMPLY. \r\n[NOTAMS]\r\n[ARPT_COND]\r\n[WIND]\r\n[VIS]\r\n[CLOUDS]\r\n[PRESENT_WX]\r\n[TEMP][DEW]\r\n[PRESSURE] HPA\r\nDEPARTURE TRAFFIC SHALL BE READY FOR DEPARTURE UPON REACHING HOLDING POINT, PROMPT LINE UP, AND COMMENCE TAKEOFF. PILOT SHALL ADVISE TOWER CONTROLLER WHEN NOT ABLE TO COMPLY.\r\n\r\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "OERK ATIS [ATIS_CODE]\r\n[TIME] OERK ATIS [CLOSING]\r\n[TIME] EXPECT ILS DME RWY15R. EXPECT ILS DME RWY15L.\r\nTRL FL150\r\n/ RWY 15 RIGHT AND 15 LEFT FOR ARRIVALS. RWY 15 LEFT FOR DEP.\r\nARRIVALS RWY 15 RIGHT SHALL PLAN TO EXIT VIA A4. PILOT SHALL ADVISE TOWER CONTROLLER WHEN NOT ABLE TO COMPLY. \r\n[NOTAMS]\r\n[ARPT_COND]\r\n[WIND]\r\n[VIS]\r\n[CLOUDS]\r\n[PRESENT_WX]\r\n[TEMP][DEW]\r\n[PRESSURE] HPA\r\nDEPARTURE TRAFFIC SHALL BE READY FOR DEPARTURE UPON REACHING HOLDING POINT, PROMPT LINE UP, AND COMMENCE TAKEOFF. PILOT SHALL ADVISE TOWER CONTROLLER WHEN NOT ABLE TO COMPLY.\r\n\r\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14577,7 +14577,7 @@
         {
           "id": "ba169cd8-4913-4430-8b2f-aedaa438724a",
           "name": "RUNWAY 31 | VOR",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VORDME\nRWY13\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VORDME\nRWY13\nTRL FL150\n[ARPT_COND]\n[NOTAMS]\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14591,7 +14591,7 @@
         {
           "id": "4e130dc9-c517-4f26-a6b6-65e5919b7982",
           "name": "RUNWAY 13 | ILS",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS\nDMERWY13\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS\nDMERWY13\nTRL FL150\n[ARPT_COND]\n[NOTAMS]\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -16580,7 +16580,7 @@
           "id": "bd37677b-f82f-466f-9ca4-6501152b60f0",
           "ordinal": 0,
           "name": "RUNWAY 06 | ILS",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS\nDMERWY06\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS\nDMERWY06\nTRL FL150\n[ARPT_COND]\n[NOTAMS]\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -16595,7 +16595,7 @@
           "id": "4020db40-d108-4440-8970-a535792d7880",
           "ordinal": 1,
           "name": "RUNWAY 24 | VOR",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VORDMERWY24\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VORDMERWY24\nTRL FL150\n[ARPT_COND]\n[NOTAMS]\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -18544,7 +18544,7 @@
           "id": "a684ca78-bed6-4dab-a317-409cf68becf8",
           "ordinal": 0,
           "name": "RUNWAY 07 | VOR",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VORRWY07\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VORRWY07\nTRL FL150\n[ARPT_COND]\n[NOTAMS]\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -18559,7 +18559,7 @@
           "id": "103bb33a-03c0-4e2f-a261-d00ed9980816",
           "ordinal": 1,
           "name": "RUNWAY 17 | VOR",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VORRWY17\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VORRWY17\nTRL FL150\n[ARPT_COND]\n[NOTAMS]\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -18574,7 +18574,7 @@
           "id": "39a5631a-4706-44d3-8d14-75a2da39e081",
           "ordinal": 2,
           "name": "RUNWAY 25 | ILS",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS\nDMERWY25\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS\nDMERWY25\nTRL FL150\n[ARPT_COND]\n[NOTAMS]\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -20523,7 +20523,7 @@
           "id": "b7a32681-7533-4db5-90ff-b6439deda5b9",
           "ordinal": 0,
           "name": "RUNWAY 10 | VOR",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VORDME RWY07\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VORDME RWY07\nTRL FL150\n[ARPT_COND]\n[NOTAMS]\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -20538,7 +20538,7 @@
           "id": "1cd1e1ec-95b0-4f69-bca8-48e7ec87395f",
           "ordinal": 1,
           "name": "RUNWAY 28 | ILS",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS\nDMERWY28\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS\nDMERWY28\nTRL FL150\n[ARPT_COND]\n[NOTAMS]\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -20553,7 +20553,7 @@
           "id": "fadb0fbb-ac80-48a3-806c-0c978b3cf576",
           "ordinal": 2,
           "name": "RUNWAY 10 | RNP",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT RNPRWY07\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT RNPRWY07\nTRL FL150\n[ARPT_COND]\n[NOTAMS]\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -22545,7 +22545,7 @@
         {
           "id": "80112874-d83b-4e30-ade1-e6ca4ecf82b0",
           "name": "RUNWAY 18 | ILS",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS\nDMERWY18\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS\nDMERWY18\nTRL FL150\n[ARPT_COND]\n[NOTAMS]\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -22559,7 +22559,7 @@
         {
           "id": "f724a00d-5698-4616-babe-0158a04c58ef",
           "name": "RUNWAY 36 | RNP",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT RNPRWY36\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT RNPRWY36\nTRL FL150\n[ARPT_COND]\n[NOTAMS]\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -22573,7 +22573,7 @@
         {
           "id": "b6be983f-a10e-4c5a-9248-647f29729a83",
           "name": "RUNWAY 36 | VOR",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VORDME RWY36\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VORDME RWY36\nTRL FL150\n[ARPT_COND]\n[NOTAMS]\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -24600,7 +24600,7 @@
         {
           "id": "e9e2134d-54a6-421c-b73b-e2fadfec963d",
           "name": "RUNWAY 31",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS DMERWY31\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS DMERWY31\nTRL FL150\n[ARPT_COND]\n[NOTAMS]\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -24614,7 +24614,7 @@
         {
           "id": "6f9440e5-a895-4077-b0f2-a01ad87e01f6",
           "name": "RUNWAY 13",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VORDME RWY13\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VORDME RWY13\nTRL FL150\n[ARPT_COND]\n[NOTAMS]\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -24628,7 +24628,7 @@
         {
           "id": "1b719ef3-4f92-47f0-b1ad-105b545330d2",
           "name": "RUNWAY 24",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS DMERWY24\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS DMERWY24\nTRL FL150\n[ARPT_COND]\n[NOTAMS]\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -24642,7 +24642,7 @@
         {
           "id": "1f2ac543-3ad6-4f99-927e-3c49a305f7cc",
           "name": "RUNWAY 06",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VORDME RWY06\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VORDME RWY06\nTRL FL150\n[ARPT_COND]\n[NOTAMS]\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -26626,7 +26626,7 @@
           "id": "a9e12502-9884-4e3b-b19c-6b7037694b99",
           "ordinal": 0,
           "name": "RUNWAY 34 | ILS",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS\nDMERWY34\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS\nDMERWY34\nTRL FL150\n[ARPT_COND]\n[NOTAMS]\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -26641,7 +26641,7 @@
           "id": "488e6a31-1b3a-4882-98b3-9333d17b4c3f",
           "ordinal": 1,
           "name": "RUNWAY 14 | VOR",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VOR\nDMERWY14\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VOR\nDMERWY14\nTRL FL150\n[ARPT_COND]\n[NOTAMS]\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -28590,7 +28590,7 @@
           "id": "83d75e3d-5fc0-4183-aa3f-45e28bc920d1",
           "ordinal": 0,
           "name": "RUNWAY 30 | ILS",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS RWY30\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS RWY30\nTRL FL150\n[ARPT_COND]\n[NOTAMS]\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -28605,7 +28605,7 @@
           "id": "a8ff2147-db70-4861-948c-d90d65141660",
           "ordinal": 1,
           "name": "RUNWAY 12 | RNP",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT RNPRWY12\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT RNPRWY12\nTRL FL150\n[ARPT_COND]\n[NOTAMS]\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -28620,7 +28620,7 @@
           "id": "1cdb581b-c199-4581-bcdc-acf67be080db",
           "ordinal": 2,
           "name": "RUNWAY 12 | VOR",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VOR\nDMERWY12\nTRL FL150\nWIND [WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VOR\nDMERWY12\nTRL FL150\n[ARPT_COND]\n[NOTAMS]\nWIND [WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -30569,7 +30569,7 @@
           "id": "4aec05a3-a6df-4670-8570-e4e04b0e7f42",
           "ordinal": 0,
           "name": "RUNWAY 33 | ILS",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS\nDMERWY15\nTRL FL150\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nEXERCISE CAUTION USINGGPS SIGNAL INTERFERENCE MIGHT OCCUR.\nCAUTION BIRDS ACTIVITY IN THE VICINITY OF AD.\nBE ADVISED PART OF TWY A BETWEEN A2 AND RWY 15 HOLDING POINT AND PORTION OF THRESHOLD RWY 15 ARE INVISIBLE FROM TWR, PILOT EXERCISE CAUTION.\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT ILS\nDMERWY15\nTRL FL150\n[ARPT_COND]\n[NOTAMS]\n[WIND]\nVIS [VIS]\n[CLOUDS]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nEXERCISE CAUTION USINGGPS SIGNAL INTERFERENCE MIGHT OCCUR.\nCAUTION BIRDS ACTIVITY IN THE VICINITY OF AD.\nBE ADVISED PART OF TWY A BETWEEN A2 AND RWY 15 HOLDING POINT AND PORTION OF THRESHOLD RWY 15 ARE INVISIBLE FROM TWR, PILOT EXERCISE CAUTION.\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -30584,7 +30584,7 @@
           "id": "ade0afb9-8dfd-492b-a4b4-f6faf64d91fe",
           "ordinal": 1,
           "name": "RUNWAY 15 | RNP",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT RNPRWY15\nTRL FL150\nWIND [WIND]\nVIS [VIS]\n[CLOUDS]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nEXERCISE CAUTION USINGGPS SIGNAL INTERFERENCE MIGHT OCCUR.\nCAUTION BIRDS ACTIVITY IN THE VICINITY OF AD.\nBE ADVISED PART OF TWY A BETWEEN A2 AND RWY 15 HOLDING POINT AND PORTION OF THRESHOLD RWY 15 ARE INVISIBLE FROM TWR, PILOT EXERCISE CAUTION.\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT RNPRWY15\nTRL FL150\n[ARPT_COND]\n[NOTAMS]\nWIND [WIND]\nVIS [VIS]\n[CLOUDS]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nEXERCISE CAUTION USINGGPS SIGNAL INTERFERENCE MIGHT OCCUR.\nCAUTION BIRDS ACTIVITY IN THE VICINITY OF AD.\nBE ADVISED PART OF TWY A BETWEEN A2 AND RWY 15 HOLDING POINT AND PORTION OF THRESHOLD RWY 15 ARE INVISIBLE FROM TWR, PILOT EXERCISE CAUTION.\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -30599,7 +30599,7 @@
           "id": "f88cd4d6-3c12-4188-882a-2123bc9651a4",
           "ordinal": 2,
           "name": "RUNWAY 15 | VOR",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VOR\nDMERWY15\nTRL FL150\nWIND [WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nEXERCISE CAUTION USINGGPS SIGNAL INTERFERENCE MIGHT OCCUR.\nCAUTION BIRDS ACTIVITY IN THE VICINITY OF AD.\nBE ADVISED PART OF TWY A BETWEEN A2 AND RWY 15 HOLDING POINT AND PORTION OF THRESHOLD RWY 15 ARE INVISIBLE FROM TWR, PILOT EXERCISE CAUTION.\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VOR\nDMERWY15\nTRL FL150\n[ARPT_COND]\n[NOTAMS]\nWIND [WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nEXERCISE CAUTION USINGGPS SIGNAL INTERFERENCE MIGHT OCCUR.\nCAUTION BIRDS ACTIVITY IN THE VICINITY OF AD.\nBE ADVISED PART OF TWY A BETWEEN A2 AND RWY 15 HOLDING POINT AND PORTION OF THRESHOLD RWY 15 ARE INVISIBLE FROM TWR, PILOT EXERCISE CAUTION.\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -32563,7 +32563,7 @@
           "id": "7daec1b8-63b4-4cfc-b3d9-d08bedc98895",
           "ordinal": 1,
           "name": "RUNWAY 33 | VOR",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VOR\nDMERWY33\nTRL FL150\nWIND [WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\n[TIME] [FACILITY] ATIS [CLOSING]\n[TIME] EXPECT VOR\nDMERWY33\nTRL FL150\n[ARPT_COND]\n[NOTAMS]\nWIND [WIND]\nVIS [VIS]\n[CLOUDS]\n[PRESENT_WX]\n[TEMP] [DEW]\n[PRESSURE]HPA\n[TREND]\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",

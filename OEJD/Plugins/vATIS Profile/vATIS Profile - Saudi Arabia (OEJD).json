@@ -6170,7 +6170,7 @@
           "name": "RUNWAY 34 [DDRO]",
           "airportConditions": "",
           "notams": "",
-          "template": "",
+          "template": "OEJN DEP ATIS [CLOSING]\r\n[TIME] OEJN ATIS [CLOSING]\r\n[TIME] RWY 34C. RWY 34R.\r\nTRA 13000FT\r\n/ CAUTION BIRD ACTIVITY IN THE VICINITY OF THE AERODROME\r\n[ARPT_COND]\r\n[WIND]\r\n[VIS]\r\n[CLOUDS]\r\n[PRESENT_WX]\r\n[TEMP][DEW]\r\n[PRESSURE] HPA\r\n\r\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",

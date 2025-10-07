@@ -51,15 +51,14 @@ Sounds	Sound15	\OEJD\Sounds\new_atis.wav
 Sounds	Sound16	\OEJD\Sounds\handoff_refused.wav
 Sounds	Sound17	\OEJD\Sounds\pointout.wav
 Sounds	Sound18	\OEJD\Sounds\startup.wav
-ASRFastKeys	3	OEJD\ASR\Jeddah GMC.asr
-ASRFastKeys	4	OEJD\ASR\Riyadh GMC.asr
-ASRFastKeys	5	OEJD\ASR\Dammam GMC.asr
+ASRFastKeys	3	OEJD\ASR\Riyadh GMC.asr
+ASRFastKeys	4	OEJD\ASR\Dammam GMC.asr
+ASRFastKeys	5	OEJD\ASR\Medinah GMC.asr
 Settings	AselKey	5111808
 Settings	FreqKey	3604480
-ASRFastKeys	6	OEJD\ASR\Medinah GMC.asr
-ASRFastKeys	7	OEJD\ASR\Taif GMC.asr
-ASRFastKeys	8	OEJD\ASR\Tabuk GMC.asr
-ASRFastKeys	9	OEJD\ASR\Abha GMC.asr
+ASRFastKeys	6	OEJD\ASR\Taif GMC.asr
+ASRFastKeys	7	OEJD\ASR\Tabuk GMC.asr
+ASRFastKeys	8	OEJD\ASR\Abha GMC.asr
 Settings	SettingsfileORIGPLANE	\OEJD\Settings\General.txt
 Settings	SettingsfileSTUP	\OEJD\Settings\General.txt
 Settings	SettingsfileTAXIOUT	\OEJD\Settings\General.txt
@@ -93,3 +92,7 @@ Plugins	Plugin11Display1	Ground Radar display
 Plugins	Plugin12	\OEJD\Plugins\vSID\vSID Plugin\vSID.dll
 Plugins	Plugin12Display0	Ground Radar display
 Plugins	Plugin12Display1	Standard ES radar screen
+ASRFastKeys	2	OEJD\ASR\Jeddah GMC.asr
+RecentFiles	Recent2	OEJD\ASR\Dammam GMC.asr
+RecentFiles	Recent3	OEJD\ASR\Riyadh GMC.asr
+RecentFiles	Recent4	OEJD\ASR\Jeddah GMC.asr

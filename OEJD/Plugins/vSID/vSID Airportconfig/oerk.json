@@ -12,7 +12,7 @@
 					"designator": "E",
 					"rwy": "15L",
 					"initial": 8000,
-					"prio": 1
+					"prio": 2
                 },
                 "2": {
 					"designator": "B",
@@ -24,7 +24,7 @@
 					"designator": "C",
 					"rwy": "33L",
 					"initial": 8000,
-					"prio": 1
+					"prio": 2
                 },
                 "4": {
 					"designator": "D",
@@ -38,7 +38,7 @@
 					"designator": "M",
 					"rwy": "15L",
 					"initial": 8000,
-					"prio": 1
+					"prio": 2
                 },
                 "2": {
 					"designator": "J",
@@ -56,7 +56,7 @@
 					"designator": "L",
 					"rwy": "33R",
 					"initial": 8000,
-					"prio": 1
+					"prio": 2
                 }
             },
             "EGPIN": {
@@ -70,31 +70,31 @@
 					"designator": "M",
 					"rwy": "15L",
 					"initial": 8000,
-					"prio": 2
+					"prio": 3
                 },
                 "3": {
 					"designator": "B",
 					"rwy": "15R",
 					"initial": 8000,
-					"prio": 1
+					"prio": 2
                 },
                 "4": {
 					"designator": "J",
 					"rwy": "15R",
 					"initial": 8000,
-					"prio": 2
+					"prio": 4
                 },
                 "5": {
 					"designator": "C",
 					"rwy": "33L",
 					"initial": 8000,
-					"prio": 1
+					"prio": 2
                 },
                 "6": {
 					"designator": "K",
 					"rwy": "33L",
 					"initial": 8000,
-					"prio": 2
+					"prio": 4
                 },
                 "7": {
 					"designator": "D",
@@ -106,7 +106,7 @@
 					"designator": "L",
 					"rwy": "33R",
 					"initial": 8000,
-					"prio": 2
+					"prio": 3
                 }
             },
             "IVONU": {
@@ -114,7 +114,7 @@
 					"designator": "E",
 					"rwy": "15L",
 					"initial": 8000,
-					"prio": 1
+					"prio": 2
                 },
                 "2": {
 					"designator": "B",
@@ -132,7 +132,7 @@
 					"designator": "D",
 					"rwy": "33R",
 					"initial": 8000,
-					"prio": 1
+					"prio": 2
                 }
             },
             "KUNLO": {
@@ -140,7 +140,7 @@
 					"designator": "E",
 					"rwy": "15L",
 					"initial": 8000,
-					"prio": 1
+					"prio": 2
                 },
                 "2": {
 					"designator": "B",
@@ -158,7 +158,7 @@
 					"designator": "D",
 					"rwy": "33R",
 					"initial": 8000,
-					"prio": 1
+					"prio": 2
                 }
             },
             "LONIB": {
@@ -172,19 +172,19 @@
 					"designator": "M",
 					"rwy": "15L",
 					"initial": 8000,
-					"prio": 2
+					"prio": 4
                 },
                 "3": {
 					"designator": "B",
 					"rwy": "15R",
 					"initial": 8000,
-					"prio": 1
+					"prio": 2
                 },
                 "4": {
 					"designator": "J",
 					"rwy": "15R",
 					"initial": 8000,
-					"prio": 2
+					"prio": 3
                 },
                 "5": {
 					"designator": "C",
@@ -196,19 +196,19 @@
 					"designator": "K",
 					"rwy": "33L",
 					"initial": 8000,
-					"prio": 2
+					"prio": 3
                 },
                 "7": {
 					"designator": "D",
 					"rwy": "33R",
 					"initial": 8000,
-					"prio": 1
+					"prio": 2
                 },
                 "8": {
 					"designator": "L",
 					"rwy": "33R",
 					"initial": 8000,
-					"prio": 2
+					"prio": 4
                 }
             },
             "MERVI": {
@@ -216,7 +216,7 @@
 					"designator": "E",
 					"rwy": "15L",
 					"initial": 8000,
-					"prio": 1
+					"prio": 2
                 },
                 "2": {
 					"designator": "B",
@@ -234,7 +234,7 @@
 					"designator": "D",
 					"rwy": "33R",
 					"initial": 8000,
-					"prio": 1
+					"prio": 2
                 }
             },
             "ORLOK": {
@@ -248,13 +248,13 @@
 					"designator": "J",
 					"rwy": "15R",
 					"initial": 8000,
-					"prio": 1
+					"prio": 2
                 },
                 "3": {
 					"designator": "K",
 					"rwy": "33L",
 					"initial": 8000,
-					"prio": 1
+					"prio": 2
                 },
                 "4": {
 					"designator": "L",
@@ -274,13 +274,13 @@
 					"designator": "B",
 					"rwy": "15R",
 					"initial": 8000,
-					"prio": 1
+					"prio": 2
                 },
                 "3": {
 					"designator": "C",
 					"rwy": "33L",
 					"initial": 8000,
-					"prio": 1
+					"prio": 2
                 },
                 "4": {
 					"designator": "D",
@@ -300,13 +300,13 @@
 					"designator": "B",
 					"rwy": "15R",
 					"initial": 8000,
-					"prio": 1
+					"prio": 2
                 },
                 "3": {
 					"designator": "C",
 					"rwy": "33L",
 					"initial": 8000,
-					"prio": 1
+					"prio": 2
                 },
                 "4": {
 					"designator": "D",
@@ -320,7 +320,7 @@
 					"designator": "E",
 					"rwy": "15L",
 					"initial": 8000,
-					"prio": 1
+					"prio": 2
                 },
                 "2": {
 					"designator": "B",
@@ -332,7 +332,7 @@
 					"designator": "C",
 					"rwy": "33L",
 					"initial": 8000,
-					"prio": 1
+					"prio": 2
                 },
                 "4": {
 					"designator": "D",
@@ -352,13 +352,13 @@
 					"designator": "B",
 					"rwy": "15R",
 					"initial": 8000,
-					"prio": 1
+					"prio": 2
                 },
                 "3": {
 					"designator": "C",
 					"rwy": "33L",
 					"initial": 8000,
-					"prio": 1
+					"prio": 2
                 },
                 "4": {
 					"designator": "D",
@@ -372,13 +372,13 @@
 					"designator": "E",
 					"rwy": "15L",
 					"initial": 8000,
-					"prio": 1
+					"prio": 2
                 },
                 "2": {
 					"designator": "M",
 					"rwy": "15L",
 					"initial": 8000,
-					"prio": 2
+					"prio": 4
                 },
                 "3": {
 					"designator": "B",
@@ -390,7 +390,7 @@
 					"designator": "J",
 					"rwy": "15R",
 					"initial": 8000,
-					"prio": 2
+					"prio": 3
                 },
                 "5": {
 					"designator": "C",
@@ -402,19 +402,19 @@
 					"designator": "K",
 					"rwy": "33L",
 					"initial": 8000,
-					"prio": 2
+					"prio": 3
                 },
                 "7": {
 					"designator": "D",
 					"rwy": "33R",
 					"initial": 8000,
-					"prio": 1
+					"prio": 2
                 },
                 "8": {
 					"designator": "L",
 					"rwy": "33R",
 					"initial": 8000,
-					"prio": 2
+					"prio": 4
                 }
             },
             "UMASU": {
@@ -422,7 +422,7 @@
 					"designator": "E",
 					"rwy": "15L",
 					"initial": 8000,
-					"prio": 1
+					"prio": 2
                 },
                 "2": {
 					"designator": "B",
@@ -440,7 +440,7 @@
 					"designator": "D",
 					"rwy": "33R",
 					"initial": 8000,
-					"prio": 1
+					"prio": 2
                 }
             }
         }

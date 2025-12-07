@@ -1,5 +1,5 @@
 //&preserve File created for the Saudi Arabian vACC
-//&preserve Developed and maintained by the Saudi Arabian vACC Operations Department
+//&preserve Developed and maintained by the Saudi Arabian vACC - Operations Department
 //&preserve
 //&preserve To be used on the VATSIM Network only
 

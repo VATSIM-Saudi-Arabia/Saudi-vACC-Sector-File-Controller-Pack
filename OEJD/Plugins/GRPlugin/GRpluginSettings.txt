@@ -1,27 +1,32 @@
-// File created for the Saudi Arabian vACC
-// Developed and maintained by Ismail Hassan (1543984)
+//&preserve File created for the Saudi Arabian vACC 
+//&preserve Developed and maintained by the Saudi Arabian vACC Operations Department
+//&preserve
+//&preserve To be used on the VATSIM Network only
 
-
+System_GUI_Version=0
 System_SchengenArea=OE
 System_SchengenArea_Exclude=OM
 Equip_ProMode=0
 RawVideo=1
-Track_Heading_Line=0
+Track_PredictionLine_APP=1
+Track_Heading_Line=1
 Track_HistoryDots_GND=3
 
 Color_Arrival=253,236,166
 Color_Departure=166,253,190
-Color_Background=12,13,14
+Color_APP_Background=12,13,14
 Color_RawVideo=255,255,0
 Color_Unknown=233,234,235
-Color_RunwayExtension=174,174,174
+Color_APP_RunwayExtension=174,174,174
 Color_SelectedLabelFill_App=0,0,0
 Color_SelectedLabelFill_Gnd=0,0,0
-Color_RunwayExtension=72,73,75
+Color_APP_RunwayExtension=72,73,75
+
 Window_APP_Scale=19
 Window_APP_AltFilter=6000
 Window_APP_Extensions=10
-Window_APP=1,1429,42,490,457
+Window_APP_DefPos=1960,46
+Window_APP_DefSize=600,460
 
 Maps_FontSize=10
 GroundLabel_Font=EuroScope
@@ -29,6 +34,7 @@ GroundLabel_FontSize=11
 Color_SelectedLabelBorder_Gnd=5,6,7
 GroundLabel_Transparency_Bd=165
 GroundLabel_Transparency_Bg=80
+GroundLabel_Filter_NoState=1
 TowerLabel_FontSize=11
 AppLabel_Font=EuroScope
 AppLabel_FontSize=11
@@ -77,7 +83,7 @@ System_State_OnFreq=FREQ
 System_State_DeIce=DEI
 System_State_StartUp=S/U
 System_State_Push=P/S
-System_State_Taxi=TAX
+System_State_Taxi_Out=TAX
 System_State_LineUp=L/U
 System_State_Depa=T/O
 
@@ -96,13 +102,13 @@ System_GroundMode_AltFilter_AAL=5000
 System_TowerMode_AltFilter_High=10000
 System_TowerMode_AltFilter_Low=380
 
-List_Arrival=1,1510,700
+List_Arrival=0,1510,700
 List_Arrival_MaxTime=25
 List_Arrival_Items=10
 List_Arrival_TYPE=1
 List_Arrival_STAND=1
 List_Arrival_ETA=0
-List_Alerts=1,20,750
+List_Alerts=0,20,750
 
 List_Stand_Items=10
 
@@ -119,12 +125,6 @@ Window_APW_DefPos=1350,45
 Airport_Elevation=49
 Airport_Radius=2
 
-Window_APP=1,0,41,1920,205
-Window_APP_Scale=27
-Window_APP_Extensions=0
-Window_APP_AltFilter=4500
-Window_APP_Rotation=292.0
-
 AppPath=OEJN:16L:N021.42.00.576:E039.10.01.454:156:R:100:3.0
 AppPath=OEJN:16C:N021.41.42.297:E039.09.05.522:156:R:100:3.0
 AppPath=OEJN:16R:N021.42.09.242:E039.07.36.982:156:R:100:3.0
@@ -136,9 +136,11 @@ System_CMAC_HighSpeed_Info=25
 System_CMAC_HighSpeed=40
 System_CMAC_NoContact_Distance_Info=3.0
 
-Window_APP=1,1720,45,200,910
+Window_APP=1,1,1720,45,200,910
 Window_APP_Rotation=19
 Window_APP_AltFilter=6000
+Window_APP_Extensions=0
+Window_APP_Scale=27
 
 Window_APW=34L,2/34L
 Window_APW=34R,2/34R
@@ -146,6 +148,16 @@ Window_APW=16L,2/16L
 Window_APW=16R,2/16R
 Window_APW=16C,2/16C
 Window_APW=34C,2/34C
+
+Airport_Dep_Transfer_Height=1000
+Airport_Dep_Transfer_Dist=2
+
+List_Outbound=34R,2,300,750
+List_Outbound=34C,2,160,750
+List_Outbound=34L,2,20,750
+List_Outbound=16L,2,300,750
+List_Outbound=16C,2,160,750
+List_Outbound=16R,2,20,750
 
 [OERK]
 
@@ -162,8 +174,7 @@ System_CMAC_HighSpeed=40
 System_CMAC_NoContact_Distance_Info=3.0
 Window_APP_Extensions=0
 
-Window_APP=1,1720,45,200,910
-Window_APP=1,1720,45,200,910
+Window_APP=1,1,1720,45,200,910
 Window_APP_Rotation=29
 Window_APP_AltFilter=8000
 
@@ -175,7 +186,69 @@ Window_APW=33L,2/33L
 Airport_Dep_Transfer_Height=1000
 Airport_Dep_Transfer_Dist=2
 
+List_Outbound=33L,2,20,750
+List_Outbound=33R,2,160,750
+List_Outbound=15R,2,160,750
+List_Outbound=15L,2,20,750
+
 [OEMA]
+Airport_Elevation=2030
+Airport_Radius=2
+
+Window_APP=1,1,1720,45,200,910
+Window_APP_Scale=27
+Window_APP_AltFilter=4000
+Window_APP_Rotation=11.0
 Window_APP_Extensions=0
+
+AppPath=OEMA:35:N024.31.18.613:E039.42.53.685:346:L:2163:3.0
+AppPath=OEMA:17:N024.35.33.271:E039.41.59.435:166:R:2163:3.0
+AppPath=OEMA:36:N024.31.10.577:E039.42.02.422:001:L:2159:3.0
+AppPath=OEMA:18:N024.34.47.801:E039.42.17.553:181:R:2159:3.0
+
+Window_APW=35,2/35
+Window_APW=17,2/17
+Window_APW=36,2/36
+Window_APW=18,2/18
+
+Airport_Dep_Transfer_Height=1000
+Airport_Dep_Transfer_Dist=2
+
+System_CMAC_HighSpeed_Info=25
+System_CMAC_HighSpeed=40
+System_CMAC_NoContact_Distance_Info=3.0
+
+List_Outbound=35,2,20,750
+List_Outbound=17,2,160,750
+
 [OEDF]
+Airport_Elevation=72
+Airport_Radius=2
+
+Window_APP=1,1,1720,45,200,910
+Window_APP_Scale=27
+Window_APP_AltFilter=4000
+Window_APP_Rotation=15.2
 Window_APP_Extensions=0
+
+AppPath=OEDF:34L:N026.26.16.903:E049.47.49.504:341:L:172:3.0
+AppPath=OEDF:34R:N026.26.16.903:E049.49.09.734:341:L:172:3.0
+AppPath=OEDF:16R:N026.30.16.784:E049.46.34.362:161:R:172:3.0
+AppPath=OEDF:16L:N026.30.16.784:E049.47.54.201:161:R:172:3.0
+
+Window_APW=16R,2/16R
+Window_APW=16L,2/16L
+Window_APW=34R,2/34R
+Window_APW=34L,2/34L
+
+Airport_Dep_Transfer_Height=1000
+Airport_Dep_Transfer_Dist=2
+
+System_CMAC_HighSpeed_Info=25
+System_CMAC_HighSpeed=40
+System_CMAC_NoContact_Distance_Info=3.0
+
+List_Outbound=34L,2,20,750
+List_Outbound=34R,2,160,750
+List_Outbound=16R,2,160,750
+List_Outbound=16L,2,20,750

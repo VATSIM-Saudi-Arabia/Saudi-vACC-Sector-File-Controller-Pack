@@ -4,101 +4,101 @@ Airports:symbol:9211020:1.4:0:0:7
 Airports:name:9211020:3.1:0:0:2
 Low airways:line:5263440:2.5:2:0:7
 Low airways:name:5263440:2.5:0:0:8
-High airways:line:1907997:3.5:0:0:7
-High airways:name:1122850:3.5:0:0:8
-Fixes:symbol:4276513:1.4:0:0:7
-Fixes:name:4210752:3.0:0:0:2
+High airways:line:11579392:3.5:2:0:7
+High airways:name:11579392:3.5:0:0:8
+Fixes:symbol:9211020:1.4:0:0:7
+Fixes:name:9211020:3.1:0:0:2
 Sids:line:7895160:3.0:1:0:7
 Stars:line:7895160:3.0:2:0:7
 ARTCC high boundary:line:5263440:3.0:0:0:7
-ARTCC boundary:line:120:3.0:1:0:7
+ARTCC boundary:line:120:3.0:0:0:7
 ARTCC low boundary:line:5263440:3.0:2:0:7
 Geo:line:4276545:3.0:0:0:7
 VORs:symbol:9211020:1.4:0:0:7
 VORs:name:9211020:3.1:0:0:2
 VORs:frequency:9211020:3.5:0:0:2
 NDBs:symbol:9211020:1.4:0:0:7
-NDBs:name:13619151:3.4:0:0:2
+NDBs:name:9211020:3.1:0:0:2
 NDBs:frequency:9211020:3.5:0:0:0
 Runways:centerline:5263440:3.5:0:0:7
-Runways:extended centerline:11316313:3.5:0:0:7
+Runways:extended centerline:5263440:3.5:0:0:7
 Runways:name:5263440:3.5:0:0:7
-Datablock:non concerned:35328:3.6:0:0:7
-Datablock:notified:5738830:3.6:0:0:7
-Datablock:assumed:43690:3.6:0:0:7
-Datablock:transfer to me initiated:16744703:3.2:0:0:7
-Datablock:redundant:2668584:3.6:0:0:7
-Datablock:information:5460991:3.6:0:0:7
-Datablock:even flight level:40960:3.2:0:0:7
-Datablock:odd flight level:40960:3.2:0:0:7
-Datablock:arrivals:42495:3.2:0:0:7
-Datablock:departures:16711680:3.2:0:0:7
-Datablock:user 1:16777215:3.6:0:0:7
-Datablock:user 2:1681407:3.6:0:0:7
-Datablock:user 3:1681407:3.6:0:0:7
-Datablock:user 4:16776960:3.6:0:0:7
-Datablock:user 5:5483007:3.6:0:0:7
-Datablock:user 6:16777215:3.6:0:0:7
-Datablock:emergency:3302655:3.6:0:0:7
-Datablock:ongoing requested by me:8404992:3.2:0:0:7
-Datablock:ongoing requested by other:16744448:3.2:0:0:7
-Datablock:ongoing accepted:40960:3.2:0:0:7
-Datablock:ongoing refused:128:3.2:0:0:7
-Datablock:detailed background:8192000:2.8:0:0:7
-Datablock:active item background:16777215:3.2:0:0:7
-Datablock:arrival background:1395241:3.2:0:0:7
-Datablock:departure background:8404992:3.2:0:0:7
-Datablock:AC list background:2763306:3.2:0:0:7
-Datablock:AC list selected background:10653320:3.2:0:0:7
-Datablock:dimmed at conflict detection:5263440:3.2:0:0:7
-Datablock:SCTA warning rectangle:3302655:3.2:0:0:7
-Datablock:SCTA CFL used warning rectangle:16777215:3.2:0:0:7
-Datablock:SCTA warning leader:3289855:3.2:0:3:7
-Datablock:SCTA CFL used warning leader:16777215:3.2:0:3:7
+Datablock:non concerned:0:3.5:0:0:7
+Datablock:notified:11796480:3.5:0:0:7
+Datablock:assumed:13172680:3.5:0:0:7
+Datablock:transfer to me initiated:7065599:3.5:0:0:7
+Datablock:redundant:7065599:3.5:0:0:7
+Datablock:information:65535:3.5:0:0:7
+Datablock:even flight level:16777215:3.5:0:0:7
+Datablock:odd flight level:16777215:3.5:0:0:7
+Datablock:arrivals:0:3.5:0:0:7
+Datablock:departures:0:3.5:0:0:7
+Datablock:user 1:16777215:3.5:0:0:7
+Datablock:user 2:1681407:3.5:0:0:7
+Datablock:user 3:1681407:3.5:0:0:7
+Datablock:user 4:16776960:3.5:0:0:7
+Datablock:user 5:5483007:3.5:0:0:7
+Datablock:user 6:16777215:3.5:0:0:7
+Datablock:emergency:180:3.5:0:0:7
+Datablock:ongoing requested by me:16777215:3.5:0:0:7
+Datablock:ongoing requested by other:16777215:3.5:0:0:7
+Datablock:ongoing accepted:11527855:3.5:0:0:7
+Datablock:ongoing refused:6934015:3.5:0:0:7
+Datablock:detailed background:6974058:3.5:0:0:7
+Datablock:active item background:9211020:3.5:0:0:7
+Datablock:arrival background:1395241:3.5:0:0:7
+Datablock:departure background:4264977:3.5:0:0:7
+Datablock:AC list background:8553090:3.5:0:0:7
+Datablock:AC list selected background:8947848:3.5:0:0:7
+Datablock:dimmed at conflict detection:5263440:3.5:0:0:7
+Datablock:SCTA warning rectangle:3289855:3.5:0:0:7
+Datablock:SCTA CFL used warning rectangle:65535:3.5:0:0:7
+Datablock:SCTA warning leader:3289855:3.5:0:3:7
+Datablock:SCTA CFL used warning leader:65535:3.5:0:3:7
 Controller:normal:16777215:3.5:0:0:7
-Controller:breaking:10066431:3.5:0:0:7
-Controller:timeout:701695:3.5:0:0:7
-Metar:normal:16777215:3.6:0:0:7
-Metar:modified:10066431:3.6:0:0:7
-Metar:timeout:8388863:3.6:0:0:7
-Other:wait:16777215:3.1:0:0:7
-Other:distance line:0:3.5:2:0:7
-Other:distance values:4802889:4.0:0:0:6
-Other:distance annotation:0:10.0:0:0:7
-Other:separation leader:10855845:3.5:0:0:7
+Controller:breaking:168:3.5:0:0:7
+Controller:timeout:10526880:3.5:0:0:7
+Metar:normal:16777215:3.5:0:0:7
+Metar:modified:10092441:3.5:0:0:7
+Metar:timeout:10526880:3.5:0:0:7
+Other:wait:16777215:3.5:0:0:7
+Other:distance line:11855615:3.5:2:0:7
+Other:distance values:11855615:4.0:0:0:6
+Other:distance annotation:11855615:3.5:0:0:7
+Other:separation leader:11855615:3.5:0:0:7
 Other:separation leader2:16777215:3.5:0:1:7
-Other:find:10855845:3.5:2:0:7
-Other:valid airway:5308280:3.5:0:1:7
-Other:bad direction airway:128:3.5:0:2:7
-Other:unconnected airway:5308280:3.5:2:1:7
-Other:direct no airway:5308280:3.5:0:1:7
+Other:find:16777215:3.5:2:0:7
+Other:valid airway:16755395:3.5:0:1:7
+Other:bad direction airway:65535:3.5:0:2:7
+Other:unconnected airway:255:3.5:2:1:7
+Other:direct no airway:11855615:3.5:0:1:7
 Other:free of conflict:65280:3.5:0:2:7
 Other:conflict warning:65535:3.5:0:2:7
 Other:conflict detected:255:3.5:0:2:7
-Other:route annotation:10855845:3.0:0:1:8
-Other:freetext:14079704:3.4:0:0:7
-Other:range rings:8568320:5.0:0:0:2
+Other:route annotation:11855615:3.5:0:1:8
+Other:freetext:4276545:3.5:0:0:7
+Other:range rings:16512:5.0:0:0:2
 Other:off antenna range rings:255:5.0:0:0:2
 Other:plane range rings:2631720:5.0:0:0:2
 Other:manual taxi line:16777215:5.0:0:3:2
 Other:manual taxi line ends at predefined point:65535:5.0:0:3:2
 Other:predefined taxi line:65280:5.0:0:3:2
 Other:terminal taxi line:255:5.0:0:3:2
-Other:list header:16777215:3.6:0:0:7
-Other:normal menu item:16777215:3.6:0:0:7
-Other:disabled menu item:12632256:3.6:0:0:7
+Other:list header:16777215:3.1:0:0:7
+Other:normal menu item:16777215:3.5:0:0:7
+Other:disabled menu item:8421504:3.5:0:0:7
 Transitions:transition grid:5263440:3.0:0:0:7
-Chat:text:16777215:3.8:0:0:7
-Chat:background:4605510:3.5:0:0:7
-Chat:name normal:16777215:3.8:0:0:7
-Chat:name unread:8421440:3.8:0:0:7
+Chat:text:16777215:3.5:0:0:7
+Chat:background:7895160:3.5:0:0:7
+Chat:name normal:16777215:3.5:0:0:7
+Chat:name unread:13172680:3.5:0:0:7
 Ground Network:exit:16711680:3.5:0:3:7
 Ground Network:taxiway:65280:3.5:0:3:7
 Ground Network:terminal taxiway:255:3.5:0:3:7
-Sector:line:0:0.5:0:1:7
+Sector:line:7895160:0.5:0:1:7
 Sector:msaw:32768:2.0:0:2:7
-Sector:active sector background:13158600:3.5:0:0:7
-Sector:inactive sector background:45397172:3.5:0:0:7
+Sector:active sector background:10921638:3.5:0:0:7
+Sector:inactive sector background:8355711:3.5:0:0:7
 SYMBOL:0
 SYMBOLITEM:MOVETO -4 -4
 SYMBOLITEM:LINETO 4 -4
@@ -394,7 +394,7 @@ m_Column:ETN:5:1:50:0:0:1::::1:0.0
 m_Column:PEL:4:1:49:23:23:1::::1:0.0
 m_Column:ETA:5:1:54:0:0:1::::1:0.0
 m_Column:ADEP:4:1:61:0:0:1::::1:0.0
-m_Column:™:1:1:62:0:0:1::::1:0.0
+m_Column: :1:1:62:0:0:1::::1:0.0
 m_Column:FR:2:1:63:0:0:1::::1:0.0
 m_Column:ADES:4:1:17:7:0:1::::1:0.0
 m_Column:COPX:5:0:51:22:22:1::::1:0.0

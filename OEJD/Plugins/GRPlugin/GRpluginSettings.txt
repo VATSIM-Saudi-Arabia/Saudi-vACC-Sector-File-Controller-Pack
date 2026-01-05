@@ -1,26 +1,26 @@
-//&preserve File created for the Saudi Arabian vACC 
-//&preserve Developed and maintained by the Saudi Arabian vACC Operations Department
-//&preserve
-//&preserve To be used on the VATSIM Network only
+// File created for the Saudi Arabian vACC 
+// Developed and maintained by the Saudi Arabian vACC Operations Department
+// To be used on the VATSIM Network only
 
-System_GUI_Version=0
+System_GUI_Version=1
 System_SchengenArea=OE
 System_SchengenArea_Exclude=OM
 Equip_ProMode=0
 RawVideo=1
-Track_PredictionLine_APP=1
+Track_PredictionLine_APP=0
 Track_Heading_Line=1
 Track_HistoryDots_GND=3
 
-Color_Arrival=253,236,166
-Color_Departure=166,253,190
-Color_APP_Background=12,13,14
+Color_Arrival=252,222,84
+Color_Departure=139,220,243
+Color_APP_Background=22,26,25
 Color_RawVideo=255,255,0
-Color_Unknown=233,234,235
+Color_Unknown=160,160,160
 Color_APP_RunwayExtension=174,174,174
 Color_SelectedLabelFill_App=0,0,0
 Color_SelectedLabelFill_Gnd=0,0,0
 Color_APP_RunwayExtension=72,73,75
+Color_SelectedLabelBorder_Gnd=5,6,7
 
 Window_APP_Scale=19
 Window_APP_AltFilter=6000
@@ -31,7 +31,6 @@ Window_APP_DefSize=600,460
 Maps_FontSize=10
 GroundLabel_Font=EuroScope
 GroundLabel_FontSize=11
-Color_SelectedLabelBorder_Gnd=5,6,7
 GroundLabel_Transparency_Bd=165
 GroundLabel_Transparency_Bg=80
 GroundLabel_Filter_NoState=1
@@ -136,11 +135,11 @@ System_CMAC_HighSpeed_Info=25
 System_CMAC_HighSpeed=40
 System_CMAC_NoContact_Distance_Info=3.0
 
-Window_APP=1,1,1720,45,200,910
-Window_APP_Rotation=19
+Window_APP=1,1,0,45,800,130
+Window_APP_Rotation=290.1
 Window_APP_AltFilter=6000
 Window_APP_Extensions=0
-Window_APP_Scale=27
+Window_APP_Scale=19
 
 Window_APW=34L,2/34L
 Window_APW=34R,2/34R
@@ -159,6 +158,9 @@ List_Outbound=16L,2,300,750
 List_Outbound=16C,2,160,750
 List_Outbound=16R,2,20,750
 
+Window_WindRose=34C,2,1510,45
+Window_WindRose=16C,2,1510,45
+
 [OERK]
 
 AppPath=OERK:33L:N024.56.17.627:E046.41.44.067:327:L:2150:3.0
@@ -174,9 +176,12 @@ System_CMAC_HighSpeed=40
 System_CMAC_NoContact_Distance_Info=3.0
 Window_APP_Extensions=0
 
-Window_APP=1,1,1720,45,200,910
-Window_APP_Rotation=29
+Window_APP=1,1,0,45,800,130
+Window_APP_Rotation=300
 Window_APP_AltFilter=8000
+Window_APP_Scale=19
+Window_APP_CenterPos=1,N024.57.27.093,E046.41.55.992
+
 
 Window_APW=15R,2/15R
 Window_APW=15L,2/15L
@@ -191,14 +196,17 @@ List_Outbound=33R,2,160,750
 List_Outbound=15R,2,160,750
 List_Outbound=15L,2,20,750
 
+Window_WindRose=33R,2,1510,45
+Window_WindRose=15L,2,1510,45
+
 [OEMA]
-Airport_Elevation=2030
+Airport_Elevation=2134
 Airport_Radius=2
 
-Window_APP=1,1,1720,45,200,910
-Window_APP_Scale=27
-Window_APP_AltFilter=4000
-Window_APP_Rotation=11.0
+Window_APP=1,1,0,45,800,160
+Window_APP_Scale=19
+Window_APP_AltFilter=8000
+Window_APP_Rotation=280.9
 Window_APP_Extensions=0
 
 AppPath=OEMA:35:N024.31.18.613:E039.42.53.685:346:L:2163:3.0
@@ -221,14 +229,17 @@ System_CMAC_NoContact_Distance_Info=3.0
 List_Outbound=35,2,20,750
 List_Outbound=17,2,160,750
 
+Window_WindRose=35,2,1510,45
+Window_WindRose=17,2,1510,45
+
 [OEDF]
 Airport_Elevation=72
 Airport_Radius=2
 
-Window_APP=1,1,1720,45,200,910
-Window_APP_Scale=27
-Window_APP_AltFilter=4000
-Window_APP_Rotation=15.2
+Window_APP=1,1,0,45,800,130
+Window_APP_Scale=19
+Window_APP_AltFilter=8000
+Window_APP_Rotation=286
 Window_APP_Extensions=0
 
 AppPath=OEDF:34L:N026.26.16.903:E049.47.49.504:341:L:172:3.0
@@ -252,3 +263,7 @@ List_Outbound=34L,2,20,750
 List_Outbound=34R,2,160,750
 List_Outbound=16R,2,160,750
 List_Outbound=16L,2,20,750
+
+Window_WindRose=34L,2,1510,45
+Window_WindRose=16R,2,1510,45
+

@@ -14289,7 +14289,7 @@
           "name": "RUNWAY 34 [DDRO/SDRO]",
           "airportConditions": "TRAFFIC VACATING RWY 34R ON TWY M4 NO LEFT TURN",
           "notams": "",
-          "template": "OEJN ARR ATIS [CLOSING]\r\n[TIME] OEJN ATIS [CLOSING]\r\n[TIME] EXPECT ILSRWY 34L.\r\nEXPECT ILSRWY 34R.\r\nTRL FL150\r\n/ CAUTION BIRD ACTIVITY IN THE VICINITY OF THE AERODROME\r\n[WIND]\r\n[VIS]\r\n[CLOUDS]\r\n[PRESENT_WX]\r\n[TEMP][DEW]\r\n[PRESSURE] HPA\r\n[ARPT_COND]\r\n\r\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "OEJN ARR ATIS [CLOSING]\r\n[TIME] OEJN ATIS [CLOSING]\r\n[TIME] EXPECT ILSRWY 34L.\r\nEXPECT ILSRWY 34R.\r\nTRL FL150\r\n/ CAUTION BIRD ACTIVITY IN THE VICINITY OF THE AERODROME\r\n[WIND]\r\n[VIS]\r\n[CLOUDS]\r\n[PRESENT_WX]\r\n[TEMP][DEW]\r\n[PRESSURE] HPA\r\n[ARPT_COND]\r\nALL PILOTS MUST BE FAMILIAR WITH ARRIVAL TAXI ROUTES\r\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14306,7 +14306,7 @@
           "name": "RUNWAY 16 [DDRO/SDRO]",
           "airportConditions": "",
           "notams": "",
-          "template": "OEJN ARR ATIS [CLOSING]\r\n[TIME] OEJN ATIS [CLOSING]\r\n[TIME] EXPECT ILSRWY 16L.\r\nEXPECT ILSRWY 16R.\r\nTRL FL150\r\n/ CAUTION BIRD ACTIVITY IN THE VICINITY OF THE AERODROME\r\n[WIND]\r\n[VIS]\r\n[CLOUDS]\r\n[PRESENT_WX]\r\n[TEMP][DEW]\r\n[PRESSURE] HPA\r\n[ARPT_COND]\r\n\r\nCONFIRM ATIS [ATIS_CODE]",
+          "template": "OEJN ARR ATIS [CLOSING]\r\n[TIME] OEJN ATIS [CLOSING]\r\n[TIME] EXPECT ILSRWY 16L.\r\nEXPECT ILSRWY 16R.\r\nTRL FL150\r\n/ CAUTION BIRD ACTIVITY IN THE VICINITY OF THE AERODROME\r\n[WIND]\r\n[VIS]\r\n[CLOUDS]\r\n[PRESENT_WX]\r\n[TEMP][DEW]\r\n[PRESSURE] HPA\r\n[ARPT_COND]\r\nALL PILOTS MUST BE FAMILIAR WITH ARRIVAL TAXI ROUTES\r\nCONFIRM ATIS [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",

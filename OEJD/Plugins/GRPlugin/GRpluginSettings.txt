@@ -111,6 +111,8 @@ List_Alerts=0,20,750
 
 List_Stand_Items=10
 
+List_Alerts=1,100,100
+
 List_Departure_TYPE=1
 List_Departure_Items=40
 List_Departure_RWY=1
@@ -124,6 +126,8 @@ Window_APW_DefPos=1350,45
 Airport_Elevation=49
 Airport_Radius=2
 
+List_Alerts=1,100,100
+
 AppPath=OEJN:16L:N021.42.00.576:E039.10.01.454:156:R:100:3.0
 AppPath=OEJN:16C:N021.41.42.297:E039.09.05.522:156:R:100:3.0
 AppPath=OEJN:16R:N021.42.09.242:E039.07.36.982:156:R:100:3.0
@@ -135,11 +139,11 @@ System_CMAC_HighSpeed_Info=25
 System_CMAC_HighSpeed=40
 System_CMAC_NoContact_Distance_Info=3.0
 
-Window_APP=1,1,0,45,800,130
-Window_APP_Rotation=290.1
+Window_APP=1,1,1720,45,200,910
+Window_APP_Rotation=20
 Window_APP_AltFilter=6000
 Window_APP_Extensions=0
-Window_APP_Scale=19
+Window_APP_Scale=25
 
 Window_APW=34L,2/34L
 Window_APW=34R,2/34R
@@ -163,6 +167,8 @@ Window_WindRose=16C,2,1510,45
 
 [OERK]
 
+List_Alerts=1,100,100
+
 AppPath=OERK:33L:N024.56.17.627:E046.41.44.067:327:L:2150:3.0
 AppPath=OERK:33R:N024.56.38.492:E046.43.21.834:327:L:2130:3.0
 AppPath=OERK:15L:N024.58.36.411:E046.42.07.497:147:R:2130:3.0
@@ -176,10 +182,10 @@ System_CMAC_HighSpeed=40
 System_CMAC_NoContact_Distance_Info=3.0
 Window_APP_Extensions=0
 
-Window_APP=1,1,0,45,800,130
-Window_APP_Rotation=300
+Window_APP=1,1,1720,45,200,910
+Window_APP_Rotation=29.8
 Window_APP_AltFilter=8000
-Window_APP_Scale=19
+Window_APP_Scale=27
 Window_APP_CenterPos=1,N024.57.27.093,E046.41.55.992
 
 
@@ -203,10 +209,12 @@ Window_WindRose=15L,2,1510,45
 Airport_Elevation=2134
 Airport_Radius=2
 
-Window_APP=1,1,0,45,800,160
+List_Alerts=1,100,100
+
+Window_APP=1,1,1720,45,200,910
 Window_APP_Scale=19
 Window_APP_AltFilter=8000
-Window_APP_Rotation=280.9
+Window_APP_Rotation=11.0
 Window_APP_Extensions=0
 
 AppPath=OEMA:35:N024.31.18.613:E039.42.53.685:346:L:2163:3.0
@@ -236,10 +244,12 @@ Window_WindRose=17,2,1510,45
 Airport_Elevation=72
 Airport_Radius=2
 
-Window_APP=1,1,0,45,800,130
-Window_APP_Scale=19
+List_Alerts=1,100,100
+
+Window_APP=1,1,1720,45,200,910
+Window_APP_Scale=24
 Window_APP_AltFilter=8000
-Window_APP_Rotation=286
+Window_APP_Rotation=15.6
 Window_APP_Extensions=0
 
 AppPath=OEDF:34L:N026.26.16.903:E049.47.49.504:341:L:172:3.0

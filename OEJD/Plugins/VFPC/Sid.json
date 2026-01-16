@@ -272,203 +272,20 @@
 		"DURMA": [
 				{
                "direction": "EVEN",
-               "destinations": [
-				"OEAB",
-				"OEBA",
-				"OEBH",
-				"OEGN",
-				"OETF",
-				"HAAB",
-				"OYAA",
-				"HKJK",
-				"HSPN"
-					],
-				"airways": [
-                  "Z414",
-				  "G782",
-				  "V40"
-				]
-				},
-				{
-               "direction": "EVEN",
                "airways": [
                   "Z414",
 				  "G782",
-				  "V40"
+				  "V62"
 				]  
 				}
 			],		
-		"ALTAV": [
-				{
-               "direction": "ODD",
-               "destinations": [		
-				  "OEDF",
-                  "OTHH",
-                  "OMDB",
-                  "OMSJ",
-                  "OMDW",
-                  "OMAA",
-                  "OBBI",
-                  "OKKK",
-                  "OPKC",
-                  "OPMT",
-                  "VNKT",
-                  "ZGSZ",
-                  "UBBB",
-                  "UGTB",
-                  "UGSB",
-                  "LTCG",
-                  "LHBP"
-				],
-				"airways": [
-                  "H976"
-				]  
-					},
-				{
-               "direction": "ODD",
-               "airways": [
-                  "H976"
-				]  
-					}
-				],
 		"IVONU": [
-				{
-               "direction": "EVEN",
-               "destinations": [		
-				  "OEGS",
-                 "OEHL",
-                 "OEMA",
-                 "OENN",
-                 "OESK",
-                 "OETB",
-                 "OEYN",
-                 "OJAI",
-                 "OEHL",
-                 "OEYN",
-                 "OEAO",
-                 "OERS",
-                 "LTFE",
-                 "LTFJ",
-                 "LTFM",
-                 "LGAV",
-                 "LQSA",
-                 "LIRF",
-                 "LOWW",
-                 "EPWA",
-                 "LIMC",
-                 "LSZH",
-                 "LSGG",
-                 "EDDM",
-                 "EDDF",
-                 "LFPG",
-                 "EGLL",
-                 "EGGW",
-                 "HESG",
-                 "HEAT",
-                 "HESH",
-                 "HECA",
-                 "HESX",
-                 "HEBA",
-                 "GMMN",
-                 "KJFK",
-                 "KIAD"
-				],
-				"airways": [
-                  "Z710",
-				  "Y216",
-				  "M321",
-				  "V166"
-				] 
-					},
 				{
                "direction": "EVEN",
                "airways": [
                   "Z710",
                   "Y216",
-				  "M321",
-				  "V166"
-				]  
-					}
-				],
-		"MUNTO": [
-			{
-				"direction": "EVEN",
-				"destinations": [		
-					"OESH",
-					"OEWD",
-					"OENG",
-					"OYAA"
-					],
-				"airways": [
-					"G667",
-				  	"Y517"
-					]  
-						},
-			{
-				"direction": "EVEN",
-				"airways": [
-					"G667",
-				  	"Y517"
-					]  
-					}
-				],
-		"RESAL": [
-				{
-               "direction": "ODD",
-               "destinations": [		
-				  "OOSA",
-                  "OOMS",
-                  "OAKB",
-                  "VRMM",
-                  "VCBI",
-                  "VABB",
-                  "VOKN",
-                  "VOCL",
-                  "VOTV",
-                  "VOHS",
-                  "VGHS",
-                  "VTBS",
-                  "VVNB",
-                  "ZGGG",
-                  "VHHH",
-                  "RPLL",
-                  "ZSPD"
-				],
-				"airways": [
-                  "T533",
 				  "M321"
-				]  
-					},
-				{
-               "direction": "ODD",
-               "airways": [
-                  "T533",
-				  "M321"
-				]  
-					}
-				],
-		"TAKTI": [
-				{
-               "direction": "ODD",
-               "destinations": [		
-				  "VIDP"
-				],
-				"airways": [
-                  "N687"
-				]  
-					},
-				{
-               "direction": "ODD",
-               "airways": [
-                  "N687"
-				]  
-					}
-				],
-		"GOMBO": [
-				{
-               "direction": "EVEN",
-               "airways": [
-                  "V169"
 				]  
 					}
 				],
@@ -526,6 +343,46 @@
                "direction": "EVEN",
                "airways": [
                   "V62"
+				]  
+					}
+				],
+		"LONIB": [
+				{
+               "direction": "EVEN",
+               "airways": [
+                  "V169"
+				]  
+					}
+				],
+		"ORNIP": [
+				{
+               "direction": "ODD",
+               "airways": [
+				  "H976"
+				]  
+					}
+				],
+		"ORLOK": [
+				{
+               "direction": "ODD",
+               "airways": [
+				  "H976"
+				]  
+					}
+				],
+		"EGPIN": [
+				{
+               "direction": "ODD",
+               "airways": [
+				  "H744"
+				]  
+				}
+				],
+		"TOTEB": [
+				{
+               "direction": "EVEN",
+               "airways": [
+				  "G667"
 				]  
 					}
 				]

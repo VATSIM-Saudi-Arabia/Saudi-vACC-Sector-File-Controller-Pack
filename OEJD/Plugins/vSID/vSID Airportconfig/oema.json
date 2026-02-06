@@ -4,309 +4,314 @@
         "runways": "35,17,36,18",
         "transAlt": 13000,
         "maxInitialClimb": 8000,
-		"appSI": "MAA, MAL, JCW1, JCW, JC3, JC1",
-		"enableRVSids": false,
+        "appSI": "MAA,MAL,JCW1,JCW,JC3,JC1",
         "sids": {
+            "initial": 8000,
             "MIXUG": {
-                "1": {
-                    "designator": "K",
-                    "rwy": "35",
-                    "initial": 8000,
-                    "prio": 1
+                "K": {
+                    "1": {
+                        "rwy": "35",
+                        "prio": 1
+                    }
                 },
-                "2": {
-                    "designator": "P",
-                    "rwy": "35",
-                    "initial": 8000,
-                    "prio": 2
+                "P": {
+                    "2": {
+                        "rwy": "35",
+                        "prio": 2
+                    }
                 },
-                "3": {
-                    "designator": "J",
-                    "rwy": "17",
-                    "initial": 8000,
-                    "prio": 1
+                "J": {
+                    "3": {
+                        "rwy": "17",
+                        "prio": 1
+                    }
                 },
-                "4": {
-                    "designator": "N",
-                    "rwy": "17",
-                    "initial": 8000,
-                    "prio": 2
+                "N": {
+                    "4": {
+                        "rwy": "17",
+                        "prio": 2
+                    }
                 },
-                "5": {
-                    "designator": "L",
-                    "rwy": "36",
-                    "initial": 8000,
-                    "prio": 1
+                "L": {
+                    "5": {
+                        "rwy": "36",
+                        "prio": 1
+                    }
                 },
-                "6": {
-                    "designator": "D",
-                    "rwy": "36",
-                    "initial": 8000,
-                    "prio": 2
+                "D": {
+                    "6": {
+                        "rwy": "36",
+                        "prio": 2
+                    }
                 },
-                "7": {
-                    "designator": "C",
-                    "rwy": "18",
-                    "initial": 8000,
-                    "prio": 1
+                "C": {
+                    "7": {
+                        "rwy": "18",
+                        "prio": 1
+                    }
                 },
-                "8": {
-                    "designator": "M",
-                    "rwy": "18",
-                    "initial": 8000,
-                    "prio": 2
+                "M": {
+                    "8": {
+                        "rwy": "18",
+                        "prio": 2
+                    }
                 }
             },
+
             "MEDRO": {
-                "1": {
-                    "designator": "K",
-                    "rwy": "35",
-                    "initial": 8000,
-                    "prio": 1
+                "K": {
+                    "1": {
+                        "rwy": "35",
+                        "prio": 1
+                    }
                 },
-                "2": {
-                    "designator": "P",
-                    "rwy": "35",
-                    "initial": 8000,
-                    "prio": 2
+                "P": {
+                    "2": {
+                        "rwy": "35",
+                        "prio": 2
+                    }
                 },
-                "3": {
-                    "designator": "J",
-                    "rwy": "17",
-                    "initial": 8000,
-                    "prio": 1
+                "J": {
+                    "3": {
+                        "rwy": "17",
+                        "prio": 1
+                    }
                 },
-                "4": {
-                    "designator": "N",
-                    "rwy": "17",
-                    "initial": 8000,
-                    "prio": 2
+                "N": {
+                    "4": {
+                        "rwy": "17",
+                        "prio": 2
+                    }
                 },
-                "5": {
-                    "designator": "L",
-                    "rwy": "36",
-                    "initial": 8000,
-                    "prio": 1
+                "L": {
+                    "5": {
+                        "rwy": "36",
+                        "prio": 1
+                    }
                 },
-                "6": {
-                    "designator": "D",
-                    "rwy": "36",
-                    "initial": 8000,
-                    "prio": 2
+                "D": {
+                    "6": {
+                        "rwy": "36",
+                        "prio": 2
+                    }
                 },
-                "7": {
-                    "designator": "C",
-                    "rwy": "18",
-                    "initial": 8000,
-                    "prio": 1
+                "C": {
+                    "7": {
+                        "rwy": "18",
+                        "prio": 1
+                    }
                 },
-                "8": {
-                    "designator": "M",
-                    "rwy": "18",
-                    "initial": 8000,
-                    "prio": 2
+                "M": {
+                    "8": {
+                        "rwy": "18",
+                        "prio": 2
+                    }
                 }
             },
+
             "SISUD": {
-                "1": {
-                    "designator": "K",
-                    "rwy": "35",
-                    "initial": 8000,
-                    "prio": 1
+                "K": {
+                    "1": {
+                        "rwy": "35",
+                        "prio": 1
+                    }
                 },
-                "2": {
-                    "designator": "P",
-                    "rwy": "35",
-                    "initial": 8000,
-                    "prio": 2
+                "P": {
+                    "2": {
+                        "rwy": "35",
+                        "prio": 2
+                    }
                 },
-                "3": {
-                    "designator": "J",
-                    "rwy": "17",
-                    "initial": 8000,
-                    "prio": 1
+                "J": {
+                    "3": {
+                        "rwy": "17",
+                        "prio": 1
+                    }
                 },
-                "4": {
-                    "designator": "N",
-                    "rwy": "17",
-                    "initial": 8000,
-                    "prio": 2
+                "N": {
+                    "4": {
+                        "rwy": "17",
+                        "prio": 2
+                    }
                 },
-                "5": {
-                    "designator": "L",
-                    "rwy": "36",
-                    "initial": 8000,
-                    "prio": 1
+                "L": {
+                    "5": {
+                        "rwy": "36",
+                        "prio": 1
+                    }
                 },
-                "6": {
-                    "designator": "D",
-                    "rwy": "36",
-                    "initial": 8000,
-                    "prio": 2
+                "D": {
+                    "6": {
+                        "rwy": "36",
+                        "prio": 2
+                    }
                 },
-                "7": {
-                    "designator": "C",
-                    "rwy": "18",
-                    "initial": 8000,
-                    "prio": 1
+                "C": {
+                    "7": {
+                        "rwy": "18",
+                        "prio": 1
+                    }
                 },
-                "8": {
-                    "designator": "M",
-                    "rwy": "18",
-                    "initial": 8000,
-                    "prio": 2
+                "M": {
+                    "8": {
+                        "rwy": "18",
+                        "prio": 2
+                    }
                 }
             },
+
             "UKTOM": {
-                "1": {
-                    "designator": "K",
-                    "rwy": "35",
-                    "initial": 8000,
-                    "prio": 1
+                "K": {
+                    "1": {
+                        "rwy": "35",
+                        "prio": 1
+                    }
                 },
-                "2": {
-                    "designator": "P",
-                    "rwy": "35",
-                    "initial": 8000,
-                    "prio": 2
+                "P": {
+                    "2": {
+                        "rwy": "35",
+                        "prio": 2
+                    }
                 },
-                "3": {
-                    "designator": "J",
-                    "rwy": "17",
-                    "initial": 8000,
-                    "prio": 1
+                "J": {
+                    "3": {
+                        "rwy": "17",
+                        "prio": 1
+                    }
                 },
-                "4": {
-                    "designator": "N",
-                    "rwy": "17",
-                    "initial": 8000,
-                    "prio": 2
+                "N": {
+                    "4": {
+                        "rwy": "17",
+                        "prio": 2
+                    }
                 },
-                "5": {
-                    "designator": "L",
-                    "rwy": "36",
-                    "initial": 8000,
-                    "prio": 1
+                "L": {
+                    "5": {
+                        "rwy": "36",
+                        "prio": 1
+                    }
                 },
-                "6": {
-                    "designator": "D",
-                    "rwy": "36",
-                    "initial": 8000,
-                    "prio": 2
+                "D": {
+                    "6": {
+                        "rwy": "36",
+                        "prio": 2
+                    }
                 },
-                "7": {
-                    "designator": "C",
-                    "rwy": "18",
-                    "initial": 8000,
-                    "prio": 1
+                "C": {
+                    "7": {
+                        "rwy": "18",
+                        "prio": 1
+                    }
                 },
-                "8": {
-                    "designator": "M",
-                    "rwy": "18",
-                    "initial": 8000,
-                    "prio": 2
+                "M": {
+                    "8": {
+                        "rwy": "18",
+                        "prio": 2
+                    }
                 }
             },
+
             "PEGUR": {
-                "1": {
-                    "designator": "K",
-                    "rwy": "35",
-                    "initial": 8000,
-                    "prio": 1
+                "K": {
+                    "1": {
+                        "rwy": "35",
+                        "prio": 1
+                    }
                 },
-                "2": {
-                    "designator": "P",
-                    "rwy": "35",
-                    "initial": 8000,
-                    "prio": 2
+                "P": {
+                    "2": {
+                        "rwy": "35",
+                        "prio": 2
+                    }
                 },
-                "3": {
-                    "designator": "J",
-                    "rwy": "17",
-                    "initial": 8000,
-                    "prio": 1
+                "J": {
+                    "3": {
+                        "rwy": "17",
+                        "prio": 1
+                    }
                 },
-                "4": {
-                    "designator": "N",
-                    "rwy": "17",
-                    "initial": 8000,
-                    "prio": 2
+                "N": {
+                    "4": {
+                        "rwy": "17",
+                        "prio": 2
+                    }
                 },
-                "5": {
-                    "designator": "L",
-                    "rwy": "36",
-                    "initial": 8000,
-                    "prio": 1
+                "L": {
+                    "5": {
+                        "rwy": "36",
+                        "prio": 1
+                    }
                 },
-                "6": {
-                    "designator": "D",
-                    "rwy": "36",
-                    "initial": 8000,
-                    "prio": 2
+                "D": {
+                    "6": {
+                        "rwy": "36",
+                        "prio": 2
+                    }
                 },
-                "7": {
-                    "designator": "C",
-                    "rwy": "18",
-                    "initial": 8000,
-                    "prio": 1
+                "C": {
+                    "7": {
+                        "rwy": "18",
+                        "prio": 1
+                    }
                 },
-                "8": {
-                    "designator": "M",
-                    "rwy": "18",
-                    "initial": 8000,
-                    "prio": 2
+                "M": {
+                    "8": {
+                        "rwy": "18",
+                        "prio": 2
+                    }
                 }
             },
+
             "ALTEP": {
-                "1": {
-                    "designator": "K",
-                    "rwy": "35",
-                    "initial": 8000,
-                    "prio": 1
+                "K": {
+                    "1": {
+                        "rwy": "35",
+                        "prio": 1
+                    }
                 },
-                "2": {
-                    "designator": "P",
-                    "rwy": "35",
-                    "initial": 8000,
-                    "prio": 2
+                "P": {
+                    "2": {
+                        "rwy": "35",
+                        "prio": 2
+                    }
                 },
-                "3": {
-                    "designator": "J",
-                    "rwy": "17",
-                    "initial": 8000,
-                    "prio": 1
+                "J": {
+                    "3": {
+                        "rwy": "17",
+                        "prio": 1
+                    }
                 },
-                "4": {
-                    "designator": "N",
-                    "rwy": "17",
-                    "initial": 8000,
-                    "prio": 2
+                "N": {
+                    "4": {
+                        "rwy": "17",
+                        "prio": 2
+                    }
                 },
-                "5": {
-                    "designator": "L",
-                    "rwy": "36",
-                    "initial": 8000,
-                    "prio": 1
+                "L": {
+                    "5": {
+                        "rwy": "36",
+                        "prio": 1
+                    }
                 },
-                "6": {
-                    "designator": "D",
-                    "rwy": "36",
-                    "initial": 8000,
-                    "prio": 2
+                "D": {
+                    "6": {
+                        "rwy": "36",
+                        "prio": 2
+                    }
                 },
-                "7": {
-                    "designator": "C",
-                    "rwy": "18",
-                    "initial": 8000,
-                    "prio": 1
+                "C": {
+                    "7": {
+                        "rwy": "18",
+                        "prio": 1
+                    }
                 },
-                "8": {
-                    "designator": "M",
-                    "rwy": "18",
-                    "initial": 8000,
-                    "prio": 2
+                "M": {
+                    "8": {
+                        "rwy": "18",
+                        "prio": 2
+                    }
                 }
             }
-       }
+        }
     }
 }

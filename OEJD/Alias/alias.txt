@@ -12,7 +12,7 @@
 ;                                                                                                                         ;
 ;=========================================================================================================================;
 ;                                                                                                                         ;
-;  ALL RIGHTS RESERVED © AeroNav Association. NAV-DATA © NAVIGRAPH.                                                       ;
+;  ALL RIGHTS RESERVED ï¿½ AeroNav Association. NAV-DATA ï¿½ NAVIGRAPH.                                                       ;
 ;  FILES MUST NOT BE DISTRIBUTED OUTSIDE OF AERONAV SERVICES!                                                             ;
 ;                                                                                                                         ;
 ;=========================================================================================================================;
@@ -87,6 +87,7 @@
 .rho /Ready for handoffs.
 
 ;*** HANDOFF ***
+.ci .msg $aircraft No movement without permission, please! $radioname is providing top-down service for $dep. Hold position and contact me on $freq
 .good Good evening sir.
 .good2 Good evening sir, radar contact.
 .good3 Good evening sir, radar contact. Continue as filed.
@@ -112,12 +113,12 @@
 .sqi Set squawk mode ident.
 
 ;*** VFR ***
-.in Enter control zone via Route $1.
+.in Enter the control zone via Route $1.
 .lr Landing runway $arrrwy.
-.out Leave control zone via Route $1.
-.mlt Make left turns.
-.mrt Make right turns.
-.lta Right turn approved.
+.out Leave the control zone via Route $1.
+.mlt Make left hand turns.
+.mrt Make right hand turns.
+.lta Right hand turn approved.
 .jld Join left downind runway $arrrwy.
 .jrd Join RIGHT downwind runway $arrrwy.
 .jlb Join left base runway $arrrwy.
@@ -134,7 +135,7 @@
 
 
 ;*** Other ***
-.ci .msg $aircraft No movement without permission, please! $radioname is providing top-down service for $dep. Hold position and contact me on $freq
+
 .noatc You are leaving my airspace, no further ATC service available, monitor Advisory 122.8, Ma Salama!
 .noatcb $radioname is closing, no further ATC service available, radar service terminated. monitor Advisory 122.8, Ma Salama!
 .busy .msg $aircraft Hello. I am currently too busy to help you or to answer your question. Please refer to my.vatsim.net/learn or try to find another member of the network who can help you.
@@ -144,4 +145,4 @@
 .fpr .msg $aircraft Hello. Your filed route is subject to restrictions you do not comply with currently. Please refer to our route on simbrief.com (only validated routes indicated "Preferred Route - User Submitted Preferred Route." These are submitted by our Operations Team).
 .noob It seems you don't know how to correctly operate your aircraft. Please consider learning offline to become proficient before joining the VATSIM network, or flying an aircraft that you are familiar with
 .mic Stuck microphone, you are blocking the frequency. Please let go of the transmit button immediately.
-.why Are you getting rerouted? You will find that your route does not comply with the Air Traffic Flow Management (ATFM) restrictions in the Middle East. To know more, send an email to whyamigettingrerouted@vatsim.me
+.why Are you getting rerouted? You will find that your route does not comply with the Air Traffic Flow Management (ATFM) restrictions in the Middle East.

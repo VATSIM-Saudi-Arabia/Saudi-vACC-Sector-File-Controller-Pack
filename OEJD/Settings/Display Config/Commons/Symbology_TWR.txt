@@ -23,12 +23,12 @@ NDBs:frequency:9211020:3.5:0:0:0
 Runways:centerline:5263440:3.5:0:0:7
 Runways:extended centerline:11316313:3.5:0:0:7
 Runways:name:5263440:3.5:0:0:7
-Datablock:non concerned:35328:3.6:0:0:7
-Datablock:notified:5738830:3.6:0:0:7
-Datablock:assumed:43690:3.6:0:0:7
-Datablock:transfer to me initiated:16744703:3.2:0:0:7
+Datablock:non concerned:0:3.6:0:0:7
+Datablock:notified:13816530:3.6:0:0:7
+Datablock:assumed:13172680:3.6:0:0:7
+Datablock:transfer to me initiated:33023:3.2:0:0:7
 Datablock:redundant:2668584:3.6:0:0:7
-Datablock:information:5460991:3.6:0:0:7
+Datablock:information:65535:3.6:0:0:7
 Datablock:even flight level:40960:3.2:0:0:7
 Datablock:odd flight level:40960:3.2:0:0:7
 Datablock:arrivals:42495:3.2:0:0:7
@@ -62,15 +62,15 @@ Metar:normal:16777215:3.6:0:0:7
 Metar:modified:10066431:3.6:0:0:7
 Metar:timeout:8388863:3.6:0:0:7
 Other:wait:16777215:3.1:0:0:7
-Other:distance line:0:3.5:2:0:7
-Other:distance values:4802889:4.0:0:0:6
+Other:distance line:8454143:3.5:2:0:7
+Other:distance values:8454143:4.0:0:0:6
 Other:distance annotation:0:10.0:0:0:7
 Other:separation leader:10855845:3.5:0:0:7
 Other:separation leader2:16777215:3.5:0:1:7
-Other:find:10855845:3.5:2:0:7
+Other:find:16777215:3.5:2:0:7
 Other:valid airway:5308280:3.5:0:1:7
 Other:bad direction airway:128:3.5:0:2:7
-Other:unconnected airway:5308280:3.5:2:1:7
+Other:unconnected airway:5263696:3.5:2:1:7
 Other:direct no airway:5308280:3.5:0:1:7
 Other:free of conflict:65280:3.5:0:2:7
 Other:conflict warning:65535:3.5:0:2:7
@@ -89,7 +89,7 @@ Other:normal menu item:16777215:3.6:0:0:7
 Other:disabled menu item:12632256:3.6:0:0:7
 Transitions:transition grid:5263440:3.0:0:0:7
 Chat:text:16777215:3.8:0:0:7
-Chat:background:7895160:3.5:0:0:7
+Chat:background:6579300:3.5:0:0:7
 Chat:name normal:16777215:3.8:0:0:7
 Chat:name unread:13172680:3.8:0:0:7
 Ground Network:exit:16711680:3.5:0:3:7

@@ -1,9 +1,9 @@
-Settings	SettingsfileSYMBOLOGY	\OEJD\Settings\Display Config\Commons\Symbology.txt
+Settings	SettingsfileSYMBOLOGY	\OEJD\Settings\Display Config\Commons\Symbology_TWR.txt
 Settings	SettingsfileVOICE	\OEJD\Settings\VoiceChannels.txt
 Settings	SettingsfilePROFILE	\OEJD\Settings\Login Profiles\OEYN\Profiles_OEYN_CTR.txt
 Settings	SettingsfileTAGS	\OEJD\Settings\Display Config\Commons\Tags.txt
-Settings	SettingsfileSIL	\OEJD\Settings\Display Config\CTR PRF\Sector_inbound_list.txt
-Settings	SettingsfileSEL	\OEJD\Settings\Sector_exit_list.txt
+Settings	SettingsfileSIL	\OEJD\Settings\Display Config\Commons\Symbology_TWR.txt
+Settings	SettingsfileSEL	\OEJD\Settings\Display Config\CTR PRF\Sector_exit_list.txt
 Settings	SettingsfileDEP	\OEJD\Settings\Display Config\CTR PRF\Departure_list.txt
 Settings	SettingsfileARR	\OEJD\Settings\Display Config\Commons\Arrival_list.txt
 Settings	SettingsfileFP	\OEJD\Settings\Display Config\Commons\Flightplan_list.txt
@@ -22,8 +22,8 @@ Settings	airways	\OEJD\NavData\airway.txt
 Settings	airportcoords	\OEJD\NavData\icao.txt
 ASRFastKeys	1	OEJD\ASR\Yanbu GMC.asr
 ASRFastKeys	2	OEJD\ASR\Yanbu - Dynamic.asr
-RecentFiles	Recent1	OEJD\ASR\Yanbu GMC.asr
-RecentFiles	Recent2	\OEJD\ASR\Yanbu - Dynamic.asr
+RecentFiles	Recent2	OEJD\ASR\Yanbu GMC.asr
+RecentFiles	Recent1	\OEJD\ASR\Yanbu - Dynamic.asr
 Plugins	Plugin0	\OEJD\Plugins\DiscordEuroscope\DiscordEuroscope.dll
 Plugins	Plugin1	\OEJD\Plugins\Topsky\TopSky.dll
 Plugins	Plugin1Display0	Standard ES radar screen
@@ -64,10 +64,7 @@ Settings	SettingsfileTAXIOUT	\OEJD\Settings\General.txt
 Settings	SettingsfileTAKEOFF	\OEJD\Settings\General.txt
 Settings	SettingsfileADCS	\OEJD\Settings\General.txt
 Settings	SettingsfileTAXIIN	\OEJD\Settings\General.txt
-RecentFiles	Recent3	OEJD\ASR\Yanbu - Dynamic.asr
 LastSession	atis_freq4	118000
-RecentFiles	Recent4	OEJD\ASR\Yanbu GMC.asr
-RecentFiles	Recent5	OEJD\ASR\Yanbu GMC.asr
 Plugins	Plugin3Display2	Ground Radar display
 Plugins	Plugin4Display1	Standard ES radar screen
 Plugins	Plugin6	\OEJD\Plugins\RDF Plugin\RDFPlugin.dll

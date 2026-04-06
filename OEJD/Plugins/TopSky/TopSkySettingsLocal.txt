@@ -8,17 +8,17 @@ Track_HistoryDots=3
 Track_PredictionLine=0
 
 [_DEL]
-Color_Concerned=230,230,230
-Color_Unconcerned=230,230,230
+Color_Concerned=210,210,210
+Color_Unconcerned=100,100,100
 
 [_GND]
-Color_Concerned=180,230,180
-Color_Unconcerned=230,230,230
+Color_Concerned=210,210,210
+Color_Unconcerned=100,100,100
 
 [_TWR]
 Color_Assumed=200,240,200
 Color_Concerned=210,210,210
-Color_Unconcerned=0,0,0
+Color_Unconcerned=100,100,100
 Color_Coordination=240,240,240
 RwyAppLines_Auto=1
 RwyAppLines_Markers=10
@@ -29,7 +29,7 @@ Color_Rwy_App_Line_Inuse=10,10,10
 [OEJN_E_TWR]
 Color_Assumed=200,240,200
 Color_Concerned=210,210,210
-Color_Unconcerned=0,0,0
+Color_Unconcerned=100,100,100
 Color_Coordination=240,240,240
 RwyAppLines_Auto=1
 RwyAppLines_Markers=15
@@ -40,7 +40,7 @@ Color_Rwy_App_Line_Inuse=10,10,10
 [OEJN_W_TWR]
 Color_Assumed=200,240,200
 Color_Concerned=210,210,210
-Color_Unconcerned=0,0,0
+Color_Unconcerned=100,100,100
 Color_Coordination=240,240,240
 RwyAppLines_Auto=1
 RwyAppLines_Markers=15
@@ -51,7 +51,7 @@ Color_Rwy_App_Line_Inuse=10,10,10
 [OERK_E_TWR]
 Color_Assumed=200,240,200
 Color_Concerned=210,210,210
-Color_Unconcerned=0,0,0
+Color_Unconcerned=100,100,100
 Color_Coordination=240,240,240
 RwyAppLines_Auto=1
 RwyAppLines_Markers=12
@@ -62,7 +62,7 @@ Color_Rwy_App_Line_Inuse=10,10,10
 [OERK_W_TWR]
 Color_Assumed=200,240,200
 Color_Concerned=210,210,210
-Color_Unconcerned=0,0,0
+Color_Unconcerned=100,100,100
 Color_Coordination=240,240,240
 RwyAppLines_Auto=1
 RwyAppLines_Markers=12
@@ -73,7 +73,7 @@ Color_Rwy_App_Line_Inuse=10,10,10
 [OEDF_1_TWR]
 Color_Assumed=200,240,200
 Color_Concerned=210,210,210
-Color_Unconcerned=0,0,0
+Color_Unconcerned=100,100,100
 Color_Coordination=240,240,240
 RwyAppLines_Auto=1
 RwyAppLines_Markers=10
@@ -84,7 +84,7 @@ Color_Rwy_App_Line_Inuse=10,10,10
 [OEDF_2_TWR]
 Color_Assumed=200,240,200
 Color_Concerned=210,210,210
-Color_Unconcerned=0,0,0
+Color_Unconcerned=100,100,100
 Color_Coordination=240,240,240
 RwyAppLines_Auto=1
 RwyAppLines_Markers=10
@@ -95,7 +95,7 @@ Color_Rwy_App_Line_Inuse=10,10,10
 [OEMA_TWR]
 Color_Assumed=200,240,200
 Color_Concerned=210,210,210
-Color_Unconcerned=0,0,0
+Color_Unconcerned=100,100,100
 Color_Coordination=240,240,240
 RwyAppLines_Auto=1
 RwyAppLines_Markers=10

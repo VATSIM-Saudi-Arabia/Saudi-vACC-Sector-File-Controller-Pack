@@ -1,9 +1,9 @@
-Settings	SettingsfileSYMBOLOGY	\OEJD\Settings\Display Config\Commons\Symbology.txt
+Settings	SettingsfileSYMBOLOGY	\OEJD\Settings\Display Config\Commons\Symbology_TWR.txt
 Settings	SettingsfileVOICE	\OEJD\Settings\VoiceChannels.txt
 Settings	SettingsfilePROFILE	\OEJD\Settings\Login Profiles\OEGN\Profiles_OEGN_CTR.txt
 Settings	SettingsfileTAGS	\OEJD\Settings\Display Config\Commons\Tags.txt
-Settings	SettingsfileSIL	\OEJD\Settings\Display Config\CTR PRF\Sector_inbound_list.txt
-Settings	SettingsfileSEL	\OEJD\Settings\Sector_exit_list.txt
+Settings	SettingsfileSIL	\OEJD\Settings\Display Config\Commons\Symbology_TWR.txt
+Settings	SettingsfileSEL	\OEJD\Settings\Display Config\CTR PRF\Sector_exit_list.txt
 Settings	SettingsfileDEP	\OEJD\Settings\Display Config\CTR PRF\Departure_list.txt
 Settings	SettingsfileARR	\OEJD\Settings\Display Config\Commons\Arrival_list.txt
 Settings	SettingsfileFP	\OEJD\Settings\Display Config\Commons\Flightplan_list.txt
@@ -22,8 +22,8 @@ Settings	airways	\OEJD\NavData\airway.txt
 Settings	airportcoords	\OEJD\NavData\icao.txt
 ASRFastKeys	1	OEJD\ASR\Jazan GMC.asr
 ASRFastKeys	2	OEJD\ASR\Jazan - Dynamic.asr
-RecentFiles	Recent1	OEJD\ASR\Jazan GMC.asr
-RecentFiles	Recent2	\OEJD\ASR\Jazan - Dynamic.asr
+RecentFiles	Recent2	OEJD\ASR\Jazan GMC.asr
+RecentFiles	Recent1	\OEJD\ASR\Jazan - Dynamic.asr
 Plugins	Plugin0	\OEJD\Plugins\DiscordEuroscope\DiscordEuroscope.dll
 Plugins	Plugin1	\OEJD\Plugins\Topsky\TopSky.dll
 Plugins	Plugin1Display0	Standard ES radar screen
@@ -63,10 +63,7 @@ Settings	SettingsfileTAXIOUT	\OEJD\Settings\General.txt
 Settings	SettingsfileTAKEOFF	\OEJD\Settings\General.txt
 Settings	SettingsfileADCS	\OEJD\Settings\General.txt
 Settings	SettingsfileTAXIIN	\OEJD\Settings\General.txt
-RecentFiles	Recent3	OEJD\ASR\Jazan - Dynamic.asr
 LastSession	atis_freq4	118000
-RecentFiles	Recent4	OEJD\ASR\Jazan GMC.asr
-RecentFiles	Recent5	OEJD\ASR\Jazan GMC.asr
 Plugins	Plugin6	\OEJD\Plugins\RDF Plugin\RDFPlugin.dll
 Plugins	Plugin6Display0	Standard ES radar screen
 Plugins	Plugin6Display1	Ground Radar display

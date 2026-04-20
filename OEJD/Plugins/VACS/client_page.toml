@@ -1,0 +1,94 @@
+# =========================
+# DEFAULT (FULL SAUDI FIR)
+# =========================
+[client_page.configs.OEJD]
+include = [
+    "OE*",
+    "OBBI*"
+]
+exclude = []
+priority = [
+    "*_FMP",
+    "*_CTR",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_DEL"
+]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+
+# =========================
+# RIYADH (OERK)
+# =========================
+[client_page.configs.OERK]
+include = [
+    "OERK*",
+    "OEJD_*",
+    "*_FMP"
+]
+exclude = []
+priority = [
+    "*_FMP",
+    "OERK*_APP",
+    "OERK*_TWR",
+    "OERK*_GND",
+    "OERK*_DEL",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_CTR"
+]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+
+# =========================
+# JEDDAH (OEJN)
+# =========================
+[client_page.configs.OEJN]
+include = [
+    "OEJN*",
+    "OEJD_*",
+    "*_FMP"
+]
+exclude = []
+priority = [
+    "*_FMP",
+    "OEJN*_APP",
+    "OEJN*_TWR",
+    "OEJN*_GND",
+    "OEJN*_DEL",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_CTR"
+]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+
+# =========================
+# DAMMAM (OEDF)
+# =========================
+[client_page.configs.OEDF]
+include = [
+    "OEDF*",
+    "OEJD_*",
+    "*_FMP"
+]
+exclude = []
+priority = [
+    "*_FMP",
+    "OEDF*_APP",
+    "OEDF*_TWR",
+    "OEDF*_GND",
+    "OEDF*_DEL",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_CTR"
+]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"

@@ -1,0 +1,99 @@
+[stations]
+selected_profile = "OEJD"
+
+# =========================
+# FIR PROFILE (SAUDI)
+# =========================
+[stations.profiles.OEJD]
+include = [
+    "OE*",
+    "OBBI*",
+    "OEMA*",
+    "OEDF*",
+    "*_FMP",
+]
+exclude = []
+priority = [
+    "*_FMP",
+    "*_CTR",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_DEL",
+]
+frequencies = "HideAliased"
+grouping = "None"
+
+[stations.profiles.OEJD.aliases]
+
+
+# =========================
+# RIYADH (OERK)
+# =========================
+[stations.profiles.OERK]
+include = [
+    "OERK*",
+    "OEJD_*",
+    "*_FMP",
+]
+exclude = []
+priority = [
+    "*_FMP",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_DEL",
+    "*_CTR",
+]
+frequencies = "HideAliased"
+grouping = "None"
+
+[stations.profiles.OERK.aliases]
+
+
+# =========================
+# JEDDAH (OEJN)
+# =========================
+[stations.profiles.OEJN]
+include = [
+    "OEJN*",
+    "OEJD_*",
+    "*_FMP",
+]
+exclude = []
+priority = [
+    "*_FMP",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_DEL",
+    "*_CTR",
+]
+frequencies = "HideAliased"
+grouping = "None"
+
+[stations.profiles.OEJN.aliases]
+
+
+# =========================
+# DAMMAM (OEDF)
+# =========================
+[stations.profiles.OEDF]
+include = [
+    "OEDF*",
+    "OEJD_*",
+    "*_FMP",
+]
+exclude = []
+priority = [
+    "*_FMP",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_DEL",
+    "*_CTR",
+]
+frequencies = "HideAliased"
+grouping = "None"
+
+[stations.profiles.OEDF.aliases]

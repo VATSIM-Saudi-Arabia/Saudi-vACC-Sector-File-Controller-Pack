@@ -1,0 +1,516 @@
+[client_page.configs.OEJD]
+include = [
+    "OE*",
+    "OBBI*"
+]
+exclude = ["*_OBS"]
+priority = [
+    "*_FMP",
+    "*_CTR",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_DEL"
+]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OERY_ENROUTE]
+include = [
+    "OE*",
+    "OBBI*"
+]
+exclude = ["*_OBS"]
+priority = [
+    "OERY_U_CTR",
+    "OERK_U_CTR",
+    "OERY_N_CTR",
+    "OERY_S_CTR",
+    "OERY_E_CTR",
+    "OERY_W_CTR",
+    "OERK_N_CTR",
+    "OERK_S_CTR",
+    "OERK_E_CTR",
+    "OERK_W_CTR",
+    "OERY_CTR",
+    "OERK_CTR",
+    "*_FMP",
+    "*_APP",
+    "*_TWR"
+]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEJD_ENROUTE]
+include = [
+    "OE*",
+    "OBBI*"
+]
+exclude = ["*_OBS"]
+priority = [
+    "OEJD_U_CTR",
+    "OEJD_N_CTR",
+    "OEJD_S_CTR",
+    "OEJD_E_CTR",
+    "OEJD_W_CTR",
+    "OEJD_NE_CTR",
+    "OEJD_NW_CTR",
+    "OEJD_SE_CTR",
+    "OEJD_SW_CTR",
+    "OEJD_CTR",
+    "*_FMP",
+    "*_APP",
+    "*_TWR"
+]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OERK]
+include = ["OERK*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = [
+    "*_FMP",
+    "OERK*_APP",
+    "OERK*_TWR",
+    "OERK*_GND",
+    "OERK*_DEL",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_CTR"
+]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEJN]
+include = ["OEJN*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = [
+    "*_FMP",
+    "OEJN*_APP",
+    "OEJN*_TWR",
+    "OEJN*_GND",
+    "OEJN*_DEL",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_CTR"
+]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEDF]
+include = ["OEDF*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = [
+    "*_FMP",
+    "OEDF*_APP",
+    "OEDF*_TWR",
+    "OEDF*_GND",
+    "OEDF*_DEL",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_CTR"
+]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEAB]
+include = ["OEAB*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEAB*_APP", "OEAB*_TWR", "OEAB*_GND", "OEAB*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEAD]
+include = ["OEAD*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEAD*_APP", "OEAD*_TWR", "OEAD*_GND", "OEAD*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEAH]
+include = ["OEAH*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEAH*_APP", "OEAH*_TWR", "OEAH*_GND", "OEAH*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEAO]
+include = ["OEAO*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEAO*_APP", "OEAO*_TWR", "OEAO*_GND", "OEAO*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEBA]
+include = ["OEBA*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEBA*_APP", "OEBA*_TWR", "OEBA*_GND", "OEBA*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEBH]
+include = ["OEBH*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEBH*_APP", "OEBH*_TWR", "OEBH*_GND", "OEBH*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEBN]
+include = ["OEBN*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEBN*_APP", "OEBN*_TWR", "OEBN*_GND", "OEBN*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEBQ]
+include = ["OEBQ*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEBQ*_APP", "OEBQ*_TWR", "OEBQ*_GND", "OEBQ*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEBT]
+include = ["OEBT*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEBT*_APP", "OEBT*_TWR", "OEBT*_GND", "OEBT*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEDM]
+include = ["OEDM*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEDM*_APP", "OEDM*_TWR", "OEDM*_GND", "OEDM*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEDR]
+include = ["OEDR*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEDR*_APP", "OEDR*_TWR", "OEDR*_GND", "OEDR*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEGN]
+include = ["OEGN*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEGN*_APP", "OEGN*_TWR", "OEGN*_GND", "OEGN*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEGS]
+include = ["OEGS*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEGS*_APP", "OEGS*_TWR", "OEGS*_GND", "OEGS*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEGT]
+include = ["OEGT*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEGT*_APP", "OEGT*_TWR", "OEGT*_GND", "OEGT*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEHL]
+include = ["OEHL*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEHL*_APP", "OEHL*_TWR", "OEHL*_GND", "OEHL*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEHR]
+include = ["OEHR*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEHR*_APP", "OEHR*_TWR", "OEHR*_GND", "OEHR*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEHW]
+include = ["OEHW*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEHW*_APP", "OEHW*_TWR", "OEHW*_GND", "OEHW*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEJB]
+include = ["OEJB*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEJB*_APP", "OEJB*_TWR", "OEJB*_GND", "OEJB*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEJF]
+include = ["OEJF*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEJF*_APP", "OEJF*_TWR", "OEJF*_GND", "OEJF*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEJL]
+include = ["OEJL*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEJL*_APP", "OEJL*_TWR", "OEJL*_GND", "OEJL*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEKA]
+include = ["OEKA*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEKA*_APP", "OEKA*_TWR", "OEKA*_GND", "OEKA*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEKF]
+include = ["OEKF*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEKF*_APP", "OEKF*_TWR", "OEKF*_GND", "OEKF*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEKM]
+include = ["OEKM*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEKM*_APP", "OEKM*_TWR", "OEKM*_GND", "OEKM*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEKN]
+include = ["OEKN*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEKN*_APP", "OEKN*_TWR", "OEKN*_GND", "OEKN*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEMA]
+include = ["OEMA*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEMA*_APP", "OEMA*_TWR", "OEMA*_GND", "OEMA*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEMD]
+include = ["OEMD*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEMD*_APP", "OEMD*_TWR", "OEMD*_GND", "OEMD*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OENG]
+include = ["OENG*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OENG*_APP", "OENG*_TWR", "OENG*_GND", "OENG*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OENN]
+include = ["OENN*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OENN*_APP", "OENN*_TWR", "OENN*_GND", "OENN*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEOM]
+include = ["OEOM*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEOM*_APP", "OEOM*_TWR", "OEOM*_GND", "OEOM*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEPA]
+include = ["OEPA*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEPA*_APP", "OEPA*_TWR", "OEPA*_GND", "OEPA*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEPC]
+include = ["OEPC*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEPC*_APP", "OEPC*_TWR", "OEPC*_GND", "OEPC*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEPF]
+include = ["OEPF*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEPF*_APP", "OEPF*_TWR", "OEPF*_GND", "OEPF*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEPI]
+include = ["OEPI*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEPI*_APP", "OEPI*_TWR", "OEPI*_GND", "OEPI*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEPJ]
+include = ["OEPJ*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEPJ*_APP", "OEPJ*_TWR", "OEPJ*_GND", "OEPJ*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEPS]
+include = ["OEPS*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEPS*_APP", "OEPS*_TWR", "OEPS*_GND", "OEPS*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OERB]
+include = ["OERB*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OERB*_APP", "OERB*_TWR", "OERB*_GND", "OERB*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OERF]
+include = ["OERF*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OERF*_APP", "OERF*_TWR", "OERF*_GND", "OERF*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OERG]
+include = ["OERG*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OERG*_APP", "OERG*_TWR", "OERG*_GND", "OERG*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OERM]
+include = ["OERM*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OERM*_APP", "OERM*_TWR", "OERM*_GND", "OERM*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OERR]
+include = ["OERR*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OERR*_APP", "OERR*_TWR", "OERR*_GND", "OERR*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OERS]
+include = ["OERS*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OERS*_APP", "OERS*_TWR", "OERS*_GND", "OERS*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OERT]
+include = ["OERT*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OERT*_APP", "OERT*_TWR", "OERT*_GND", "OERT*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OESB]
+include = ["OESB*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OESB*_APP", "OESB*_TWR", "OESB*_GND", "OESB*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OESD]
+include = ["OESD*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OESD*_APP", "OESD*_TWR", "OESD*_GND", "OESD*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OESH]
+include = ["OESH*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OESH*_APP", "OESH*_TWR", "OESH*_GND", "OESH*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OESK]
+include = ["OESK*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OESK*_APP", "OESK*_TWR", "OESK*_GND", "OESK*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OESN]
+include = ["OESN*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OESN*_APP", "OESN*_TWR", "OESN*_GND", "OESN*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEST]
+include = ["OEST*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEST*_APP", "OEST*_TWR", "OEST*_GND", "OEST*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OETB]
+include = ["OETB*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OETB*_APP", "OETB*_TWR", "OETB*_GND", "OETB*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OETF]
+include = ["OETF*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OETF*_APP", "OETF*_TWR", "OETF*_GND", "OETF*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OETH]
+include = ["OETH*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OETH*_APP", "OETH*_TWR", "OETH*_GND", "OETH*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OETN]
+include = ["OETN*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OETN*_APP", "OETN*_TWR", "OETN*_GND", "OETN*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OETR]
+include = ["OETR*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OETR*_APP", "OETR*_TWR", "OETR*_GND", "OETR*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEUD]
+include = ["OEUD*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEUD*_APP", "OEUD*_TWR", "OEUD*_GND", "OEUD*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEUM]
+include = ["OEUM*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEUM*_APP", "OEUM*_TWR", "OEUM*_GND", "OEUM*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEWD]
+include = ["OEWD*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEWD*_APP", "OEWD*_TWR", "OEWD*_GND", "OEWD*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"
+
+[client_page.configs.OEWJ]
+include = ["OEWJ*", "OEJD_*", "*_FMP"]
+exclude = []
+priority = ["*_FMP", "OEWJ*_APP", "OEWJ*_TWR", "OEWJ*_GND", "OEWJ*_DEL", "*_APP", "*_TWR", "*_GND", "*_CTR"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"

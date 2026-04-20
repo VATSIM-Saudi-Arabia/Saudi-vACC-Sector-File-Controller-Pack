@@ -1,0 +1,82 @@
+{
+  "id": "OEJD",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "Enroute & Center",
+      "page": {
+        "rows": 4,
+        "keys": [
+          { "label": ["JEDDAH CTR", "(MAIN)"], "station_id": "OEJD_CTR" },
+          { "label": ["JEDDAH UPPER", "(FL245+)"], "station_id": "OEJD_U_CTR" },
+          { "label": ["JEDDAH NORTH", "(SECTOR N)"], "station_id": "OEJD_N_CTR" },
+          { "label": ["JEDDAH SOUTH", "(SECTOR S)"], "station_id": "OEJD_S_CTR" },
+          { "label": ["JEDDAH EAST", "(SECTOR E)"], "station_id": "OEJD_E_CTR" },
+          { "label": ["JEDDAH WEST", "(SECTOR W)"], "station_id": "OEJD_W_CTR" },
+          { "label": ["JEDDAH NW", "(SECTOR NW)"], "station_id": "OEJD_NW_CTR" },
+          { "label": ["JEDDAH NE", "(SECTOR NE)"], "station_id": "OEJD_NE_CTR" },
+          { "label": ["JEDDAH SW", "(SECTOR SW)"], "station_id": "OEJD_SW_CTR" },
+          { "label": ["JEDDAH SE", "(SECTOR SE)"], "station_id": "OEJD_SE_CTR" }
+        ]
+      }
+    },
+    {
+      "label": "Major Hubs",
+      "page": {
+        "rows": 4,
+        "keys": [
+          { "label": ["RIYADH", "APPROACH", "(OERK)"], "station_id": "OERK_APP" },
+          { "label": ["RIYADH", "TOWER"], "station_id": "OERK_TWR" },
+          { "label": ["RIYADH", "GROUND"], "station_id": "OERK_GND" },
+          { "label": ["RIYADH", "DELIVERY"], "station_id": "OERK_DEL" },
+          
+          { "label": ["JEDDAH", "APPROACH", "(OEJN)"], "station_id": "OEJN_APP" },
+          { "label": ["JEDDAH", "TOWER"], "station_id": "OEJN_TWR" },
+          { "label": ["JEDDAH", "GROUND"], "station_id": "OEJN_GND" },
+          { "label": ["JEDDAH", "DELIVERY"], "station_id": "OEJN_DEL" },
+          
+          { "label": ["DAMMAM", "APPROACH", "(OEDF)"], "station_id": "OEDF_APP" },
+          { "label": ["DAMMAM", "TOWER"], "station_id": "OEDF_TWR" },
+          { "label": ["DAMMAM", "GROUND"], "station_id": "OEDF_GND" },
+          { "label": ["DAMMAM", "DELIVERY"], "station_id": "OEDF_DEL" }
+        ]
+      }
+    },
+    {
+      "label": "Regional APP",
+      "page": {
+        "rows": 4,
+        "keys": [
+          { "label": ["ABHA", "APPROACH", "(OEAB)"], "station_id": "OEAB_APP" },
+          { "label": ["DAWADMI", "APPROACH", "(OEAD)"], "station_id": "OEAD_APP" },
+          { "label": ["AL AHSA", "APPROACH", "(OEAH)"], "station_id": "OEAH_APP" },
+          { "label": ["AL ULA", "APPROACH", "(OEAO)"], "station_id": "OEAO_APP" },
+          { "label": ["AL BAHA", "APPROACH", "(OEBA)"], "station_id": "OEBA_APP" },
+          { "label": ["BISHA", "APPROACH", "(OEBH)"], "station_id": "OEBH_APP" },
+          { "label": ["NEOM", "APPROACH", "(OENN)"], "station_id": "OENN_APP" },
+          { "label": ["TABUK", "APPROACH", "(OETB)"], "station_id": "OETB_APP" },
+          { "label": ["TAIF", "APPROACH", "(OETF)"], "station_id": "OETF_APP" },
+          { "label": ["QASSIM", "APPROACH", "(OEQA)"], "station_id": "OEQA_APP" },
+          { "label": ["MEDINA", "APPROACH", "(OEMA)"], "station_id": "OEMA_APP" },
+          { "label": ["HAIL", "APPROACH", "(OEHL)"], "station_id": "OEHL_APP" }
+        ]
+      }
+    },
+    {
+      "label": "Regional TWR",
+      "page": {
+        "rows": 4,
+        "keys": [
+          { "label": ["NEJRAN", "TOWER"], "station_id": "OENG_TWR" },
+          { "label": ["JIZAN", "TOWER"], "station_id": "OEGN_TWR" },
+          { "label": ["ARAR", "TOWER"], "station_id": "OERR_TWR" },
+          { "label": ["TURAIF", "TOWER"], "station_id": "OETR_TWR" },
+          { "label": ["AL JOUF", "TOWER"], "station_id": "OESK_TWR" },
+          { "label": ["RAFHA", "TOWER"], "station_id": "OERF_TWR" },
+          { "label": ["QURAYYAT", "TOWER"], "station_id": "OEGT_TWR" },
+          { "label": ["YANBU", "TOWER"], "station_id": "OEYN_TWR" }
+        ]
+      }
+    }
+  ]
+}

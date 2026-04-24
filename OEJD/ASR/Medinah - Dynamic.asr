@@ -1,10 +1,12 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
 SHOWC:1
 SHOWSB:0
 BELOW:0
-ABOVE:0
+ABOVE:7000
 LEADER:-1
 SHOWLEADER:1
 TURNLEADER:0

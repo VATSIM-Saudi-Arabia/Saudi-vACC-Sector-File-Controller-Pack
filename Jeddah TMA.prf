@@ -89,6 +89,3 @@ Plugins	Plugin11Display1	Standard ES radar screen
 Plugins	Plugin9Display1	Standard ES radar screen
 Plugins	Plugin10Display0	Standard ES radar screen
 Plugins	Plugin10Display1	Ground Radar display
-Plugins	Plugin12	\OEJD\Plugins\MAESTRO\MAESTRO.dll
-Plugins	Plugin12Display0	Ground Radar display
-Plugins	Plugin12Display1	Standard ES radar screen

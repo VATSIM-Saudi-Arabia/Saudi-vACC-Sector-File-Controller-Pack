@@ -92,6 +92,9 @@ Plugins	Plugin11Display1	Ground Radar display
 Plugins	Plugin12	\OEJD\Plugins\vSID\vSID Plugin\vSID.dll
 Plugins	Plugin12Display0	Ground Radar display
 Plugins	Plugin12Display1	Standard ES radar screen
+Plugins	Plugin13	\OEJD\Plugins\MAESTRO\MAESTRO.dll
+Plugins	Plugin13Display0	Ground Radar display
+Plugins	Plugin13Display1	Standard ES radar screen
 ASRFastKeys	2	OEJD\ASR\Jeddah GMC.asr
 RecentFiles	Recent2	OEJD\ASR\Dammam GMC.asr
 RecentFiles	Recent3	OEJD\ASR\Riyadh GMC.asr

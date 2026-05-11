@@ -171,6 +171,10 @@ List_Outbound=16R,2,20,750
 Window_WindRose=34C,2,1510,45
 Window_WindRose=16C,2,1510,45
 
+Shortcut_Map_Xfr_Combo=1,0x12
+Shortcut_Map_Xfr_Key=1,0x52
+Shortcut_Map_Target=1,Jeddah SMGCS - Taxi Routes
+
 [OERK]
 
 List_Alerts=1,100,100

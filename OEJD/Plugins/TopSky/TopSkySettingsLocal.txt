@@ -7,6 +7,10 @@ Menu_MaxListItems=10
 Track_HistoryDots=3
 Track_PredictionLine=0
 
+[_OBS]
+Color_Concerned=210,210,210
+Color_Unconcerned=100,100,100
+
 [_DEL]
 Color_Concerned=210,210,210
 Color_Unconcerned=100,100,100

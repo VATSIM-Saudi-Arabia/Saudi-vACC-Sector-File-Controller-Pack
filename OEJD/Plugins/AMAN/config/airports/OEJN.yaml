@@ -7,7 +7,7 @@ location:
 sequencingHorizon: PT60M
 lockedHorizon: PT10M
 
-feederFixes: [ "TOTNU", "GINKU", "IMDAP" ]
+feederFixes: [ "TOTNU", "GINKU", "IMDAP", "ASVAK", "PUSPO", "ITOMA", "VEDIR", "BOSUT", "EGMEG", "MISAM", "MUVOL", "NOMDA", "VEMEM" ]
 feederFixTimelineArrivalLabelLayoutId: "JNArr"
 
 runwayThresholds:

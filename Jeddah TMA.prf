@@ -92,3 +92,6 @@ Plugins	Plugin10Display1	Ground Radar display
 Plugins	Plugin12	\OEJD\Plugins\vACDM\vACDM.dll
 Plugins	Plugin12Display0	Ground Radar display
 Plugins	Plugin12Display1	Standard ES radar screen
+Plugins	Plugin13	\OEJD\Plugins\AMAN\Aman.dll
+Plugins	Plugin13Display0	Standard ES radar screen
+Plugins	Plugin13Display1	Ground Radar display

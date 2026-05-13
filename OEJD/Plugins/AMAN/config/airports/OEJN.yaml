@@ -257,6 +257,21 @@ arrivalProfiles:
         - { fix: SOLOG, altitude: 3000 }
         - { fix: PAXOS, altitude: 2100 }
         - { fix: NALPI, altitude: 2000 }
+        
+    - arrivalName: "IMLER1N"
+      fixes:
+        - { fix: IMLER, speed: 210, altitude: 10000 }
+        - { fix: ULULU, altitude: 10000 }
+        - { fix: JN917, speed: 210, altitude: 10000 }
+        - { fix: JN920, altitude: 8000 }
+        - { fix: ASVAK, altitude: 6000 }
+        - { fix: ITOMA, altitude: 3000 }
+        - { fix: JN798, altitude: 3000 }
+        - { fix: JN796, altitude: 3000 }
+        - { fix: OTAPA, altitude: 3000 }
+        - { fix: SOLOG, altitude: 3000 }
+        - { fix: PAXOS, altitude: 2100 }
+        - { fix: NALPI, altitude: 2000 }
 
     - arrivalName: "MISAM2N"
       fixes:

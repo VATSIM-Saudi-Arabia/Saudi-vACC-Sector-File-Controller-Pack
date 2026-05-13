@@ -1,0 +1,398 @@
+# yaml-language-server: $schema=./airport.schema.yaml
+
+location:
+  latitude: 21.681111111111
+  longitude: 39.156138888889
+
+sequencingHorizon: PT60M
+lockedHorizon: PT10M
+
+feederFixes: [ "TOTNU", "GINKU", "IMDAP" ]
+feederFixTimelineArrivalLabelLayoutId: "JNArr"
+
+runwayThresholds:
+  34L:
+    location:
+      latitude: 21.670566111111
+      longitude: 39.139592777778
+    elevation: 16
+    trueHeading: 336
+
+  34R:
+    location:
+      latitude: 21.666554166667
+      longitude: 39.180487222222
+    elevation: 50
+    trueHeading: 336
+
+# Speed and altitude values should be based on typical observed values
+arrivalProfiles:
+  34L:
+    - arrivalName: "*" # Applies to all arrival routes for 34L
+      frozenSequenceArea: commonFrozenArea
+      sequencingArea: commonSequencingArea
+      fixes:
+        # Standard approaches
+        - { fix: VEDIR, altitude: 3100, role: IF }
+
+    - arrivalName: "MUVOL2L"
+      fixes:
+        - { fix: MUVOL, altitude: 20000 }
+        - { fix: ALKEV, altitude: 19000 }
+        - { fix: KAVOD, speed: 250, altitude: 17000 }
+        - { fix: JN792, altitude: 17000 }
+        - { fix: JN788, altitude: 17000 }
+        - { fix: JN786, speed: 250, altitude: 17000 }
+        - { fix: GINKU, speed: 210, altitude: 13000 }
+        - { fix: TOTNU, altitude: 12000 }
+        - { fix: JN818, altitude: 11000 }
+        - { fix: GEVUS, altitude: 10000 }
+        - { fix: JN908, altitude: 8000 }
+        - { fix: JN906, altitude: 7000 }
+        - { fix: ITUXI, altitude: 5000 }
+        - { fix: JN812, altitude: 4000 }
+        - { fix: VEDIR, altitude: 3100 }
+
+    - arrivalName: "MUVOL1A"
+      fixes:
+        - { fix: MUVOL, altitude: 20000 }
+        - { fix: ALKEV, altitude: 19000 }
+        - { fix: KAVOD, speed: 250, altitude: 17000 }
+        - { fix: GINKU, speed: 210, altitude: 13000 }
+        - { fix: TOTNU, altitude: 12000 }
+        - { fix: JN818, altitude: 11000 }
+        - { fix: GEVUS, altitude: 10000 }
+        - { fix: JN908, altitude: 8000 }
+        - { fix: JN906, altitude: 7000 }
+        - { fix: ITUXI, altitude: 5000 }
+        - { fix: JN812, altitude: 4000 }
+        - { fix: VEDIR, altitude: 3100 }
+
+    - arrivalName: "KAVOD1L"
+      fixes:
+        - { fix: KAVOD, speed: 250, altitude: 17000 }
+        - { fix: ULULU, altitude: 14000 }
+        - { fix: GEVUS, speed: 210, altitude: 10000 }
+        - { fix: JN908, altitude: 8000 }
+        - { fix: JN906, altitude: 7000 }
+        - { fix: ITUXI, altitude: 5000 }
+        - { fix: JN812, altitude: 4000 }
+        - { fix: VEDIR, altitude: 3100 }
+
+    - arrivalName: "NOMDA2L"
+      fixes:
+        - { fix: NOMDA, altitude: 20000 }
+        - { fix: LOPAV, speed: 250, altitude: 17000 }
+        - { fix: JN793, altitude: 17000 }
+        - { fix: JN791, altitude: 17000 }
+        - { fix: JN789, speed: 250, altitude: 17000 }
+        - { fix: NIVGO, altitude: 15000 }
+        - { fix: GINKU, speed: 210, altitude: 13000 }
+        - { fix: TOTNU, altitude: 12000 }
+        - { fix: JN818, altitude: 11000 }
+        - { fix: GEVUS, altitude: 10000 }
+        - { fix: JN908, altitude: 8000 }
+        - { fix: JN906, altitude: 7000 }
+        - { fix: ITUXI, altitude: 5000 }
+        - { fix: JN812, altitude: 4000 }
+        - { fix: VEDIR, altitude: 3100 }
+
+    - arrivalName: "NOMDA1A"
+      fixes:
+        - { fix: NOMDA, altitude: 20000 }
+        - { fix: LOPAV, speed: 250, altitude: 17000 }
+        - { fix: NIVGO, altitude: 15000 }
+        - { fix: GINKU, speed: 210, altitude: 13000 }
+        - { fix: TOTNU, altitude: 12000 }
+        - { fix: JN818, altitude: 11000 }
+        - { fix: GEVUS, altitude: 10000 }
+        - { fix: JN908, altitude: 8000 }
+        - { fix: JN906, altitude: 7000 }
+        - { fix: ITUXI, altitude: 5000 }
+        - { fix: JN812, altitude: 4000 }
+        - { fix: VEDIR, altitude: 3100 }
+
+    - arrivalName: "LOPAV1L"
+      fixes:
+        - { fix: LOPAV, speed: 250, altitude: 17000 }
+        - { fix: IMDAP, altitude: 15000 }
+        - { fix: OBTUG, speed: 210, altitude: 13000 }
+        - { fix: TOTNU, altitude: 12000 }
+        - { fix: JN818, altitude: 11000 }
+        - { fix: GEVUS, altitude: 10000 }
+        - { fix: JN908, altitude: 8000 }
+        - { fix: JN906, altitude: 7000 }
+        - { fix: ITUXI, altitude: 5000 }
+        - { fix: JN812, altitude: 4000 }
+        - { fix: VEDIR, altitude: 3100 }
+
+    - arrivalName: "VEMEM2L"
+      fixes:
+        - { fix: VEMEM, altitude: 20000 }
+        - { fix: RABTU, speed: 250, altitude: 17000 }
+        - { fix: JN799, altitude: 17000 }
+        - { fix: JN797, altitude: 17000 }
+        - { fix: RABEP, speed: 250, altitude: 17000 }
+        - { fix: IMDAP, altitude: 15000 }
+        - { fix: OBTUG, speed: 210, altitude: 13000 }
+        - { fix: TOTNU, altitude: 12000 }
+        - { fix: JN818, altitude: 11000 }
+        - { fix: GEVUS, altitude: 10000 }
+        - { fix: JN908, altitude: 8000 }
+        - { fix: JN906, altitude: 7000 }
+        - { fix: ITUXI, altitude: 5000 }
+        - { fix: JN812, altitude: 4000 }
+        - { fix: VEDIR, altitude: 3100 }
+
+    - arrivalName: "VEMEM1A"
+      fixes:
+        - { fix: VEMEM, altitude: 20000 }
+        - { fix: RABTU, speed: 250, altitude: 17000 }
+        - { fix: IMDAP, altitude: 15000 }
+        - { fix: OBTUG, speed: 210, altitude: 13000 }
+        - { fix: TOTNU, altitude: 12000 }
+        - { fix: JN818, altitude: 11000 }
+        - { fix: GEVUS, altitude: 10000 }
+        - { fix: JN908, altitude: 8000 }
+        - { fix: JN906, altitude: 7000 }
+        - { fix: ITUXI, altitude: 5000 }
+        - { fix: JN812, altitude: 4000 }
+        - { fix: VEDIR, altitude: 3100 }
+
+    - arrivalName: "MISAM2L"
+      fixes:
+        - { fix: MISAM, altitude: 17000 }
+        - { fix: RABEP, speed: 230, altitude: 15000 }
+        - { fix: JN797, altitude: 15000 }
+        - { fix: JN799, altitude: 15000 }
+        - { fix: RABTU, speed: 230, altitude: 15000 }
+        - { fix: IMDAP, altitude: 15000 }
+        - { fix: OBTUG, speed: 210, altitude: 13000 }
+        - { fix: TOTNU, altitude: 12000 }
+        - { fix: JN818, altitude: 11000 }
+        - { fix: GEVUS, altitude: 10000 }
+        - { fix: JN908, altitude: 8000 }
+        - { fix: JN906, altitude: 7000 }
+        - { fix: ITUXI, altitude: 5000 }
+        - { fix: JN812, altitude: 4000 }
+        - { fix: VEDIR, altitude: 3100 }
+
+    - arrivalName: "MISAM1A"
+      fixes:
+        - { fix: MISAM, altitude: 17000 }
+        - { fix: RABEP, speed: 230, altitude: 15000 }
+        - { fix: IMDAP, altitude: 15000 }
+        - { fix: OBTUG, speed: 210, altitude: 13000 }
+        - { fix: TOTNU, altitude: 12000 }
+        - { fix: JN818, altitude: 11000 }
+        - { fix: GEVUS, altitude: 10000 }
+        - { fix: JN908, altitude: 8000 }
+        - { fix: JN906, altitude: 7000 }
+        - { fix: ITUXI, altitude: 5000 }
+        - { fix: JN812, altitude: 4000 }
+        - { fix: VEDIR, altitude: 3100 }
+
+    - arrivalName: "EGMEG2L"
+      fixes:
+        - { fix: EGMEG, altitude: 13000 }
+        - { fix: TADMA, altitude: 12000 }
+        - { fix: JN830, altitude: 11000 }
+        - { fix: REXED, speed: 210, altitude: 8500 }
+        - { fix: ITUXI, altitude: 5000 }
+        - { fix: JN812, altitude: 4000 }
+        - { fix: VEDIR, altitude: 3100 }
+
+    - arrivalName: "TAPSU1L"
+      fixes:
+        - { fix: TAPSU, altitude: 17000 }
+        - { fix: ULULU, altitude: 14000 }
+        - { fix: GEVUS, speed: 210, altitude: 10000 }
+        - { fix: JN908, altitude: 8000 }
+        - { fix: JN906, altitude: 7000 }
+        - { fix: ITUXI, altitude: 5000 }
+        - { fix: JN812, altitude: 4000 }
+        - { fix: VEDIR, altitude: 3100 }
+        
+  34R:
+    - arrivalName: "VEMEM2N"
+      fixes:
+        - { fix: VEMEM, altitude: 20000 }
+        - { fix: RABTU, speed: 250, altitude: 17000 }
+        - { fix: JN799, altitude: 17000 }
+        - { fix: JN797, altitude: 17000 }
+        - { fix: RABEP, speed: 230, altitude: 15000 }
+        - { fix: IMDAP, altitude: 15000 }
+        - { fix: OBTUG, speed: 210, altitude: 9000 }
+        - { fix: PUSPO, altitude: 7000 }
+        - { fix: ASVAK, altitude: 5000 }
+        - { fix: ITOMA, altitude: 3000 }
+        - { fix: JN798, altitude: 3000 }
+        - { fix: JN796, altitude: 3000 }
+        - { fix: OTAPA, altitude: 3000 }
+        - { fix: SOLOG, altitude: 3000 }
+        - { fix: PAXOS, altitude: 2100 }
+
+    - arrivalName: "VEMEM1C"
+      fixes:
+        - { fix: VEMEM, altitude: 20000 }
+        - { fix: RABTU, speed: 250, altitude: 17000 }
+        - { fix: IMDAP, altitude: 15000 }
+        - { fix: OBTUG, speed: 210, altitude: 9000 }
+        - { fix: PUSPO, altitude: 7000 }
+        - { fix: ASVAK, altitude: 5000 }
+        - { fix: ITOMA, altitude: 3000 }
+        - { fix: JN798, altitude: 3000 }
+        - { fix: JN796, altitude: 3000 }
+        - { fix: OTAPA, altitude: 3000 }
+        - { fix: SOLOG, altitude: 3000 }
+        - { fix: PAXOS, altitude: 2100 }
+        - { fix: NALPI, altitude: 2000 }
+
+    - arrivalName: "BOSUT2N"
+      fixes:
+        - { fix: BOSUT, altitude: 13000 }
+        - { fix: IMLER, speed: 210, altitude: 10000 }
+        - { fix: JN732, altitude: 5500 }
+        - { fix: OTAPA, altitude: 3000 }
+        - { fix: SOLOG, altitude: 3000 }
+        - { fix: PAXOS, altitude: 2100 }
+        - { fix: NALPI, altitude: 2000 }
+
+    - arrivalName: "MISAM2N"
+      fixes:
+        - { fix: MISAM, altitude: 17000 }
+        - { fix: RABEP, speed: 230, altitude: 15000 }
+        - { fix: JN797, altitude: 15000 }
+        - { fix: JN799, altitude: 15000 }
+        - { fix: RABTU, speed: 250, altitude: 17000 }
+        - { fix: IMDAP, altitude: 15000 }
+        - { fix: OBTUG, speed: 210, altitude: 9000 }
+        - { fix: PUSPO, altitude: 7000 }
+        - { fix: ASVAK, altitude: 5000 }
+        - { fix: ITOMA, altitude: 3000 }
+        - { fix: JN798, altitude: 3000 }
+        - { fix: JN796, altitude: 3000 }
+        - { fix: OTAPA, altitude: 3000 }
+        - { fix: SOLOG, altitude: 3000 }
+        - { fix: PAXOS, altitude: 2100 }
+        - { fix: NALPI, altitude: 2000 }
+
+    - arrivalName: "MISAM1C"
+      fixes:
+        - { fix: MISAM, altitude: 17000 }
+        - { fix: RABEP, speed: 230, altitude: 15000 }
+        - { fix: IMDAP, altitude: 15000 }
+        - { fix: OBTUG, speed: 210, altitude: 9000 }
+        - { fix: PUSPO, altitude: 7000 }
+        - { fix: ASVAK, altitude: 5000 }
+        - { fix: ITOMA, altitude: 3000 }
+        - { fix: JN798, altitude: 3000 }
+        - { fix: JN796, altitude: 3000 }
+        - { fix: OTAPA, altitude: 3000 }
+        - { fix: SOLOG, altitude: 3000 }
+        - { fix: PAXOS, altitude: 2100 }
+        - { fix: NALPI, altitude: 2000 }
+
+    - arrivalName: "EGMEG2N"
+      fixes:
+        - { fix: EGMEG, altitude: 13000 }
+        - { fix: JN910, altitude: 12000 }
+        - { fix: ULULU, altitude: 11000 }
+        - { fix: JN917, altitude: 10000 }
+        - { fix: JN920, altitude: 9000 }
+        - { fix: ASVAK, altitude: 5000 }
+        - { fix: ITOMA, altitude: 3000 }
+        - { fix: JN798, altitude: 3000 }
+        - { fix: JN796, altitude: 3000 }
+        - { fix: OTAPA, altitude: 3000 }
+        - { fix: SOLOG, altitude: 3000 }
+        - { fix: PAXOS, altitude: 2100 }
+
+    - arrivalName: "MUVOL2N"
+      fixes:
+        - { fix: MUVOL, altitude: 20000 }
+        - { fix: ALKEV, altitude: 19000 }
+        - { fix: KAVOD, speed: 250, altitude: 17000 }
+        - { fix: JN792, altitude: 17000 }
+        - { fix: JN788, altitude: 17000 }
+        - { fix: JN786, speed: 250, altitude: 17000 }
+        - { fix: GINKU, speed: 210, altitude: 13000 }
+        - { fix: PUSPO, altitude: 7000 }
+        - { fix: ASVAK, altitude: 5000 }
+        - { fix: ITOMA, altitude: 3000 }
+        - { fix: JN798, altitude: 3000 }
+        - { fix: JN796, altitude: 3000 }
+        - { fix: OTAPA, altitude: 3000 }
+        - { fix: SOLOG, altitude: 3000 }
+        - { fix: PAXOS, altitude: 2100 }
+        - { fix: NALPI, altitude: 2000 }
+
+    - arrivalName: "MUVOL1C"
+      fixes:
+        - { fix: MUVOL, altitude: 20000 }
+        - { fix: ALKEV, altitude: 19000 }
+        - { fix: KAVOD, speed: 250, altitude: 17000 }
+        - { fix: GINKU, speed: 210, altitude: 13000 }
+        - { fix: PUSPO, altitude: 7000 }
+        - { fix: ASVAK, altitude: 5000 }
+        - { fix: ITOMA, altitude: 3000 }
+        - { fix: JN798, altitude: 3000 }
+        - { fix: JN796, altitude: 3000 }
+        - { fix: OTAPA, altitude: 3000 }
+        - { fix: SOLOG, altitude: 3000 }
+        - { fix: PAXOS, altitude: 2100 }
+        - { fix: NALPI, altitude: 2000 }
+
+    - arrivalName: "NOMDA2N"
+      fixes:
+        - { fix: NOMDA, altitude: 20000 }
+        - { fix: LOPAV, speed: 250, altitude: 17000 }
+        - { fix: JN793, altitude: 17000 }
+        - { fix: JN791, altitude: 17000 }
+        - { fix: JN789, altitude: 16000 }
+        - { fix: NIVGO, altitude: 15000 }
+        - { fix: OBTUG, speed: 210, altitude: 9000 }
+        - { fix: PUSPO, altitude: 7000 }
+        - { fix: ASVAK, altitude: 5000 }
+        - { fix: ITOMA, altitude: 3000 }
+        - { fix: JN798, altitude: 3000 }
+        - { fix: JN796, altitude: 3000 }
+        - { fix: OTAPA, altitude: 3000 }
+        - { fix: SOLOG, altitude: 3000 }
+        - { fix: PAXOS, altitude: 2100 }
+        - { fix: NALPI, altitude: 2000 }
+
+    - arrivalName: "NOMDA1C"
+      fixes:
+        - { fix: NOMDA, altitude: 20000 }
+        - { fix: LOPAV, speed: 250, altitude: 17000 }
+        - { fix: NIVGO, altitude: 15000 }
+        - { fix: OBTUG, speed: 210, altitude: 9000 }
+        - { fix: PUSPO, altitude: 7000 }
+        - { fix: ASVAK, altitude: 5000 }
+        - { fix: ITOMA, altitude: 3000 }
+        - { fix: JN798, altitude: 3000 }
+        - { fix: JN796, altitude: 3000 }
+        - { fix: OTAPA, altitude: 3000 }
+        - { fix: SOLOG, altitude: 3000 }
+        - { fix: PAXOS, altitude: 2100 }
+        - { fix: NALPI, altitude: 2000 }
+        
+areas:
+  commonFrozenArea:
+    ceilingFt: 20000
+    boundary:
+      - N022.09.25.357 E037.56.46.477 N022.44.32.836 E038.28.14.912
+      - N022.44.32.836 E038.28.14.912 N022.46.09.732 E039.44.56.311
+      - N022.46.09.732 E039.44.56.311 N022.12.14.924 E040.11.58.770
+      - N022.12.14.924 E040.11.58.770 N020.51.54.368 E040.00.27.230
+      - N020.51.54.368 E040.00.27.230 N020.32.31.620 E039.00.09.945
+      - N020.32.31.620 E039.00.09.945 N020.53.07.039 E038.12.43.994
+      - N020.53.07.039 E038.12.43.994 N022.09.25.357 E037.56.46.477
+
+  commonSequencingArea:
+    boundary:
+      - N025.48.24.678 E033.21.46.054 N025.48.24.678 E045.20.11.508
+      - N025.48.24.678 E045.20.11.508 N016.46.26.222 E045.40.32.193
+      - N016.46.26.222 E045.40.32.193 N016.45.16.738 E033.45.55.618
+      - N016.45.16.738 E033.45.55.618 N025.48.24.678 E033.21.46.054

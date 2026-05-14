@@ -212,7 +212,7 @@ Color_Warning_FL=240,225,41
 Color_WM_Active_Fg=250,250,250
 Color_WM_Bg=40,40,40
 Color_WM_Border=20,20,20
-Color_WM_Fg=230,230,230
+Color_WM_Fg=150,150,150
 Color_WM_Frame=183,173,172
 
 // Labels

@@ -4,3 +4,4 @@
 [![vacdm-version](https://img.shields.io/badge/vACDM-1.3.2-blue.svg)](https://github.com/vACDM)
 [![delhel-version](https://img.shields.io/badge/DelHel-0.2.0-blue.svg)](https://github.com/MorpheusXAUT/DelHel)
 [![vch-version](https://img.shields.io/badge/Virtual%20Controller%20Helper-0.8.4-blue.svg)](https://github.com/DrFreas/VCH)
+[![slots-plugin-version](https://img.shields.io/badge/VATCAN-1.1.11-blue.svg)](https://github.com/VATSIMCanada/Slots-Plugin)

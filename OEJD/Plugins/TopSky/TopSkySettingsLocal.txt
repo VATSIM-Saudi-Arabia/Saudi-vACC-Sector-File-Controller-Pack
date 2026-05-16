@@ -10,14 +10,17 @@ Track_PredictionLine=0
 [_OBS]
 Color_Concerned=210,210,210
 Color_Unconcerned=100,100,100
+Color_Coordination=240,240,240
 
 [_DEL]
 Color_Concerned=210,210,210
 Color_Unconcerned=100,100,100
+Color_Coordination=240,240,240
 
 [_GND]
 Color_Concerned=210,210,210
 Color_Unconcerned=100,100,100
+Color_Coordination=240,240,240
 
 [_TWR]
 Color_Assumed=200,240,200

@@ -1,0 +1,10 @@
+{
+    "OEHL": {
+        "elevation": 3305,
+        "runways": "18,36",
+        "transAlt": 13000,
+        "maxInitialClimb": 6500,
+        "appSI": "RKA,RTC,JC1,JC3",
+        "sids": {}
+    }
+}

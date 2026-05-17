@@ -1,0 +1,9 @@
+{
+    "OETB": {
+        "elevation": 2551,
+        "runways": "06,24,13,31",
+        "transAlt": 13000,
+        "appSI": "JNA,JTC1,JTC2,JC1,JC2,JCC",
+        "sids": {}
+    }
+}

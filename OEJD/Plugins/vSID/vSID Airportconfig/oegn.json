@@ -1,0 +1,12 @@
+{
+    "OEGN": {
+        "elevation": 20,
+        "runways": "15,33",
+        "transAlt": 13000,
+        "maxInitialClimb": 3000,
+        "appSI":"JNA,JTC1,JTC2,JC1,JC2,JCC",
+        "sids": {
+            
+        }
+    }
+}

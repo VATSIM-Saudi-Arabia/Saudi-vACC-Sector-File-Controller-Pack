@@ -5,6 +5,19 @@
         "transAlt": 13000,
         "maxInitialClimb": 6500,
         "appSI": "RKA,RTC,JC1,JC3",
-        "sids": {}
+        "sids": {
+            "HIL174":{
+                "1": {
+                    "rwy": "13",
+                    "prio": 1
+                }
+            },
+            "HIL003": {
+                "1": {
+                    "rwy": "36",
+                    "prio": 1
+                }
+            }
+        }
     }
 }

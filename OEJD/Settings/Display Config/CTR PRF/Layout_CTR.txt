@@ -30,7 +30,7 @@ m_ShowTitleMetar:1
 m_ConnectSELtoSIL:0
 m_ConnectDEPtoSEL:0
 m_ConnectSILtoTOP:0
-m_ScreenNumber:1
+m_ScreenNumber:0
 m_ScreenPosition:0
 m_ScreenMaximized:0
 m_ShowTitleSelectedAc:1
@@ -52,7 +52,7 @@ m_ShowTooltips:1
 m_OnTheGroundAltitude:5000
 m_OnTheGroundSpeed:50
 m_ShowCdtOnCflCheck:0
-m_ShowTsVccsMiniControl:1
+m_ShowTsVccsMiniControl:0
 ScenarioEditorX:0
 ScenarioEditorY:0
 m_ShowSTARControllers:1

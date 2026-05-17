@@ -6,6 +6,7 @@
         "maxInitialClimb": 6500,
         "appSI": "RKA,RTC,JC1,JC3",
         "sids": {
+            "initial": 6500,
             "HIL174":{
                 "1": {
                     "rwy": "13",

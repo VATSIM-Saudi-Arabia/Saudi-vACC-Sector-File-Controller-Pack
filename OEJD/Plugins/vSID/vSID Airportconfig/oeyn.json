@@ -1,0 +1,12 @@
+{
+    "OEYN": {
+        "elevation": 44,
+        "runways": "10,28",
+        "transAlt": 13000,
+        "maxInitialClimb":7000,
+        "appSI": "JNA,JTC1,JTC2,JC1,JC2,JCC",
+        "sids": {
+            "initial": 7000
+        }
+    }
+}

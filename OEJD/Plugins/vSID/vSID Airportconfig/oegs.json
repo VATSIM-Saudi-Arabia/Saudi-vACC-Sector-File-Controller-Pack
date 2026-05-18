@@ -1,0 +1,12 @@
+{
+    "OEGS": {
+        "elevation": 2126,
+        "runways": "15,33",
+        "transAlt": 13000,
+        "maxInitialClimb": 5000,
+        "appSI": "RKA,RTC,JC1,JC3",
+        "sids": {
+            "initial": 5000
+        }
+    }
+}

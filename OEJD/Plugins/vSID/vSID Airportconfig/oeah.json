@@ -1,0 +1,12 @@
+{
+    "OEAH": {
+        "elevation": 558,
+        "runways": "16,34",
+        "transAlt": 13000,
+        "maxInitialClimb": 3500,
+        "appSI": "RKA,RTC,JC1,JC3",
+        "sids": {
+            "initial": 3500
+        }
+    }
+}

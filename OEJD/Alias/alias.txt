@@ -12,7 +12,8 @@
 ;                                                                                                                         ;
 ;=========================================================================================================================;
 ;                                                                                                                         ;
-;  ALL RIGHTS RESERVED � AeroNav Association. NAV-DATA � AEROSOFT. FILES MUST NOT BE DISTRIBUTED TO NON-VATSIM MEMBERS!   ;
+;  ALL RIGHTS RESERVED � AeroNav Association. NAV-DATA � NAVIGRAPH.                                                       ;
+;  FILES MUST NOT BE DISTRIBUTED OUTSIDE OF AERONAV SERVICES!                                                             ;
 ;                                                                                                                         ;
 ;=========================================================================================================================;
 ;  The Global Nav Generator (GNG) and all it sub-modules where created by the AeroNav Association.                        ;
@@ -23,7 +24,7 @@
 ;  only. The data must not be copied, photocopied, translated, reverse engineered, decompiled or reduced to any           ;
 ;  electronic medium or machine legible form, neither completely nor in part.                                             ;
 ;=========================================================================================================================;
-;  AIRAC 2410/1  ++  Valid period: 03/OCT/2024 - 30/OCT/2024  ++  File-Publisher: Saudi Arabian vACC - OEJD               ;
+;  AIRAC 2605/1  ++  File-Publisher: Saudi Arabian vACC - OEJD                                                            ;
 ;=========================================================================================================================;
 ;*** Approach ***
 .RPS report present speed
@@ -78,9 +79,14 @@
 .routefull  Hello, it looks like you have an invalid route, expect a full reroute as follows: // $1  // Please re-file your flight plan and amend the route accordingly in your FMC. When ready, request clearance as normal.
 .invalfl Hello, it looks like you have an invalid flight level, your new cruise level is $1.
 
+;*** GENERAL ***
+.on /Halla! &radioname is online. 
+.off /&radioname is now closing. Have a good day all!
+.off5 /&radioname is closing in 5 minutes. No further handoffs.
+.onsh /Halla! &radioname is online. Standby for handoffs
+.rho /Ready for handoffs.
+
 ;*** HANDOFF ***
-.on Salam, $radioname is online
-.off $radioname is closing. Ma Salam.
 .good Good evening sir.
 .good2 Good evening sir, radar contact.
 .good3 Good evening sir, radar contact. Continue as filed.
@@ -88,6 +94,13 @@
 .filed Continue as filed.
 .unicom You are leaving my airspace, no further ATC service available, radar service terminated. Frequency change is approved, enjoy your flight, good bye.
 .cont Contact $radioname($1) $freq($1), good bye.
+
+;*** Other ***
+.noatc You are leaving my airspace, no further ATC service is available. Monitor Advisory 122.8. Ma Salama!
+.noatcb $radioname is closing, no further ATC service available, radar service terminated. Monitor Advisory 122.8. Ma Salama!
+.busy .msg $aircraft Hello. I am currently too busy to help you or to answer your question. Please refer to my.vatsim.net/learn or try to find another member of the network who can help you.
+.cr .msg $aircraft Please make a correct readback so that I see that you've understood my instructions correctly. A readback is made by repeating the instructions of the controller. 
+.po .msg $aircraft Hello, the position you are standing in is already occupied by another aircraft. Please choose another one. Thank you.
 
 ;*** Takeoff and Land ***
 .to Wind $winds, runway $deprwy, cleared for take-off.
@@ -126,33 +139,28 @@
 .ra Routing approved.
 .hov Hold over $1.
 
-;*** Initial Contact ***
-.h $radioname, hello. 
-.gd $radioname, good day. 
-.gm $radioname, good morning.
-.gaf  $radioname, good afternoon.
-.gn  $radioname, good night.
-.id Identified. 
-.ids Standby for identification.
-.v? Are you able to receive voice?
-.pym Pass your message.
 
-;*** Line Up and Departure ***
-.lu Line up and wait runway $deprwy.
-.lubl Behind landing $1, line up and wait runway $deprwy behind.
-.lubd Behind departing $1, line up and wait runway $deprwy behind.
-.bt Line up and backtrack runway $deprwy.
-.rrd Report ready for departure.
-.rfd Are you ready for departure?
-.rfid Are you ready for immediate departure?
-.afid Are you able for departure from intersection $1?
-.ctr $1 Traffic departing ahead to the $2, wind $winds($dep), runway $deprwy, cleared for take-off.
-.toc Hold position, CANCEL take-off, I say again, CANCEL take-off.
-.stop STOP immediately, $aircraft, STOP immediately.
+;*** Approach ***
+;*** OEJN ***
+.vem34 .msg $aircraft Salam! You will enter my airspace shortly. Please reach VEMEM at FL190. Thanks!
+.vem16 .msg $aircraft Salam! You will enter my airspace shortly. Please reach VEMEM at FL150. Thanks!
+.muv34 .msg $aircraft Salam! You will enter my airspace shortly. Please reach MUVOL at FL190. Thanks!
+.muv16 .msg $aircraft Salam! You will enter my airspace shortly. Please reach MUVOL at FL150. Thanks!
+.mis34 .msg $aircraft Salam! You will enter my airspace shortly. Please reach MISAM at FL170. Thanks!
+.mis16 .msg $aircraft Salam! You will enter my airspace shortly. Please reach MISAM at 13000. Thanks!
+.nom34 .msg $aircraft Salam! You will enter my airspace shortly. Please reach NOMDA at FL190. Thanks!
+.nom16 .msg $aircraft Salam! You will enter my airspace shortly. Please reach NOMDA at FL150. Thanks!
+.egm34 .msg $aircraft Salam! You will enter my airspace shortly. Please reach EGMEG at FL190. Thanks!
+.egm16 .msg $aircraft Salam! You will enter my airspace shortly. Please reach EGMEG at FL150. Thanks!
+.bos16 .msg $aircraft Salam! You will enter my airspace shortly. Please reach BOSUT at FL160. Thanks!
 
-
-;*** miscellaneous ***
-.noob It seems you don't know how to correctly operate your aircraft. Please consider learning offline to become proficient before joining the VATSIM network, or flying an aircraft that you are familiar with
-.charts It seems you are not familiar with the aerodrome, please ensure that you are using the latest charts that are available here https://chartfox.org/
-.mic Stuck microphone, you are blocking the frequency. Please let go of the transmit button immediately.
-.why Are you getting rerouted? You will find that your route does not comply with the Air Traffic Flow Management (ATFM) restrictions in the Middle East.
+;*** OERK ***
+.siv .msg $aircraft Salam! You will enter my airspace shortly. Please reach KUNEK at FL150. Thanks!
+.ord .msg $aircraft Salam! You will enter my airspace shortly. Please reach KAVUR at FL150. Thanks!
+.mob .msg $aircraft Salam! You will enter my airspace shortly. Please reach SIVON at FL160. Thanks!
+.kob .msg $aircraft Salam! You will enter my airspace shortly. Please reach KOBOX at FL160. Thanks!
+.rex .msg $aircraft Salam! You will enter my airspace shortly. Please reach REXOV at FL160. Thanks!
+.esr .msg $aircraft Salam! You will enter my airspace shortly. Please reach ESRAT at FL160. Thanks!
+.mem .msg $aircraft Salam! You will enter my airspace shortly. Please reach MEMGO at FL160. Thanks!
+.itu .msg $aircraft Salam! You will enter my airspace shortly. Please reach ITUNI below FL240. Thanks!
+.rar .msg $aircraft Salam! You will enter my airspace shortly. Please reach RARSU below FL240. Thanks!

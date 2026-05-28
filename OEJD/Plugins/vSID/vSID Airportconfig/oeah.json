@@ -4,9 +4,25 @@
         "runways": "16,34",
         "transAlt": 13000,
         "maxInitialClimb": 3500,
-        "appSI": "RKA,RTC,JC1,JC3",
+        "appSI": "DFA,JCNE,JC1,JC3",
         "sids": {
-            "initial": 3500
+            "initial": 3500,
+            "RWYHDG34": {
+				"1": {
+					"1": {
+						"rwy": "34",
+						"prio": 1
+					}
+				}
+            },
+            "RWYHDG16": {
+				"1": {
+					"1": {
+						"rwy": "16",
+						"prio": 1
+					}
+				}
+            }
         }
     }
 }

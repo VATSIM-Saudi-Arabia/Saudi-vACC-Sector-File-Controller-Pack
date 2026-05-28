@@ -4,7 +4,7 @@
         "runways": "06,24",
         "transAlt": 13000,
         "maxInitialClimb": 6000,
-        "appSI": "JNA,JTC1,JTC2,JC1,JC2,JCC",
+        "appSI": "ABA,JCS,JC2,JC1",
         "sids": {
             "initial": 6000,
             "TASMU" : {
@@ -22,7 +22,6 @@
                 }
             
             },
-            
             "KUMTI": {
                 "A" : {
                     "1" : {

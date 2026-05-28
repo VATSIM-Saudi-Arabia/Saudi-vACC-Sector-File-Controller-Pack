@@ -4,19 +4,23 @@
         "runways": "18,36",
         "transAlt": 13000,
         "maxInitialClimb": 6500,
-        "appSI": "RKA,RTC,JC1,JC3",
+        "appSI": "HLA,JCN,JC3,JC1",
         "sids": {
             "initial": 6500,
             "HIL174":{
                 "1": {
-                    "rwy": "13",
-                    "prio": 1
+					"1": {
+						"rwy": "18",
+						"prio": 1
+					}
                 }
             },
             "HIL003": {
                 "1": {
-                    "rwy": "36",
-                    "prio": 1
+					"1": {
+						"rwy": "36",
+						"prio": 1
+					}
                 }
             }
         }

@@ -4,7 +4,26 @@
         "runways": "31,13",
         "transAlt": 13000,
         "maxInitialClimb": 10500,
-        "appSI": "JNA,JTC1,JTC2,JC1,JC2,JCC",
-        "sids": {}
+        "appSI": "ABA,JCS,JC1,JC2",
+        "sids": {
+            "RWYHDG31": {
+				"1": {
+					"1": {
+						"rwy": "31",
+						"initial": 10500,
+						"prio": 1
+					}
+				}
+            },
+            "RWYHDG13": {
+				"1": {
+					"1": {
+						"rwy": "13",
+						"initial": 9000,
+						"prio": 1
+					}
+				}
+            }
+        }
     }
 }

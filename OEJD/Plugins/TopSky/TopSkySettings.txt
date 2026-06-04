@@ -98,10 +98,13 @@ System_FPASD=1
 System_QNHTL_ForceMetarSourceVATSIM=1
 Maps_NOTAM_Activation=1
 
-Track_HistoryDots=5
-Track_PredictionLine=1
+Track_HistoryDots=3
+Track_PredictionLine=0
 
-RwyAppLines_Auto=0
+RwyAppLines_Auto=1
+RwyAppLines_Markers=15
+RwyAppLines_MarkerSpacing=1
+RwyAppLines_Length=15
 
 // Colors
 Color_Active_Map=198,174,58

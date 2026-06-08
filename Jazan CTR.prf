@@ -65,8 +65,6 @@ Settings	SettingsfileADCS	\OEJD\Settings\General.txt
 Settings	SettingsfileTAXIIN	\OEJD\Settings\General.txt
 LastSession	atis_freq4	118000
 Plugins	Plugin6	\OEJD\Plugins\RDF Plugin\RDFPlugin.dll
-Plugins	Plugin6Display0	Standard ES radar screen
-Plugins	Plugin6Display1	Ground Radar display
 Plugins	Plugin7	\OEJD\Plugins\Virtual Controller Helper\VCH.dll
 Plugins	Plugin7Display0	Ground Radar display
 Plugins	Plugin7Display1	Standard ES radar screen

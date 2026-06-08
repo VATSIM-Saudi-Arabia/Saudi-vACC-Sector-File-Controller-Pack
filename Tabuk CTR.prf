@@ -35,8 +35,6 @@ Plugins	Plugin3Display1	Standard ES radar screen
 Plugins	Plugin4	\OEJD\Plugins\PushbackFlorian_v1.1.1\PushbackFlorian.dll
 Plugins	Plugin4Display0	Ground Radar display
 Plugins	Plugin5	\OEJD\Plugins\RDF Plugin\RDFPlugin.dll
-Plugins	Plugin5Display0	Ground Radar display
-Plugins	Plugin5Display1	Standard ES radar screen
 Sounds	Sound0	\OEJD\Sounds\handoff_request.wav
 Sounds	Sound1	\OEJD\Sounds\handoff_accept.wav
 Sounds	Sound2	\OEJD\Sounds\conflict_alert.wav

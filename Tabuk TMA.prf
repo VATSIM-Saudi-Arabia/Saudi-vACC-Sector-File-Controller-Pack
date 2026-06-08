@@ -77,7 +77,6 @@ Plugins	Plugin2Display2	Ground Radar display
 Plugins	Plugin3Display1	Standard ES radar screen
 Plugins	Plugin6	\OEJD\Plugins\RDF Plugin\RDFPlugin.dll
 Plugins	Plugin6Display0	Standard ES radar screen
-Plugins	Plugin6Display1	Ground Radar display
 Plugins	Plugin7	\OEJD\Plugins\CCAMS\CCAMS.dll
 Plugins	Plugin7Display0	Ground Radar display
 Plugins	Plugin8Display0	Ground Radar display

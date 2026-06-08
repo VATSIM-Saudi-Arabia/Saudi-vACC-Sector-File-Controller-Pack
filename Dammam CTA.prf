@@ -66,6 +66,7 @@ TeamSpeakVccs	TsVccsMiniControlX	1660
 TeamSpeakVccs	TsVccsMiniControlY	748
 Plugins	Plugin3Display1	Standard ES radar screen
 Plugins	Plugin6	\OEJD\Plugins\RDF Plugin\RDFPlugin.dll
+Plugins	Plugin6Display0	Standard ES radar screen
 Plugins	Plugin7	\OEJD\Plugins\PushbackFlorian_v1.1.1\PushbackFlorian.dll
 Plugins	Plugin7Display0	Ground Radar display
 Plugins	Plugin7Display1	Standard ES radar screen
@@ -81,7 +82,6 @@ Plugins	Plugin10Display1	Standard ES radar screen
 Plugins	Plugin3Display2	Ground Radar display
 Plugins	Plugin5Display0	Ground Radar display
 Plugins	Plugin5Display1	Standard ES radar screen
-Plugins	Plugin6Display0	Ground Radar display
 Plugins	Plugin6Display1	Standard ES radar screen
 Plugins	Plugin11	\OEJD\Plugins\vSID\vSID Plugin\vSID.dll
 Plugins	Plugin11Display0	Ground Radar display

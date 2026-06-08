@@ -77,8 +77,7 @@ TeamSpeakVccs	TsVccsMiniControlY	780
 Plugins	Plugin2Display2	Ground Radar display
 Plugins	Plugin3Display1	Standard ES radar screen
 Plugins	Plugin6	\OEJD\Plugins\RDF Plugin\RDFPlugin.dll
-Plugins	Plugin6Display0	Ground Radar display
-Plugins	Plugin6Display1	Standard ES radar screen
+Plugins	Plugin6Display0	Standard ES radar screen
 Plugins	Plugin7	\OEJD\Plugins\VFPC\VFPC.dll
 Plugins	Plugin8	\OEJD\Plugins\VATCAN Plugin\VATCANBookings.dll
 Plugins	Plugin3Display2	Ground Radar display

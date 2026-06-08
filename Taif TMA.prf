@@ -76,7 +76,7 @@ Plugins	Plugin2Display2	Ground Radar display
 Plugins	Plugin3Display1	Standard ES radar screen
 Plugins	Plugin6	\OEJD\Plugins\Virtual Controller Helper\VCH.dll
 Plugins	Plugin7	\OEJD\Plugins\RDF Plugin\RDFPlugin.dll
-Plugins	Plugin7Display1	Standard ES radar screen
+Plugins	Plugin7Display0	Standard ES radar screen
 Plugins	Plugin8	\OEJD\Plugins\vSID\vSID Plugin\vSID.dll
 Plugins	Plugin9	\OEJD\Plugins\VFPC\VFPC.dll
 Plugins	Plugin3Display2	Ground Radar display

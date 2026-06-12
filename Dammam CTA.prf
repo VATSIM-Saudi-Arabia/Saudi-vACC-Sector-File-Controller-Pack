@@ -20,10 +20,10 @@ Settings	airports	\OEJD\ICAO\ICAO_Airports.txt
 Settings	aircraft	\OEJD\ICAO\ICAO_Aircraft.txt
 Settings	airways	\OEJD\NavData\airway.txt
 Settings	airportcoords	\OEJD\NavData\icao.txt
-ASRFastKeys	1	OEJD\ASR\Dammam GMC.asr
-ASRFastKeys	2	OEJD\ASR\Dammam CTA.asr
-RecentFiles	Recent1	OEJD\ASR\Dammam CTA.asr
-RecentFiles	Recent2	OEJD\ASR\Dammam GMC.asr
+ASRFastKeys	1	\OEJD\ASR\Dammam GMC.asr
+ASRFastKeys	2	\OEJD\ASR\Dammam CTA.asr
+RecentFiles	Recent1	\OEJD\ASR\Dammam CTA.asr
+RecentFiles	Recent2	\OEJD\ASR\Dammam GMC.asr
 Plugins	Plugin0	\OEJD\Plugins\DiscordEuroscope\DiscordEuroscope.dll
 Plugins	Plugin1	\OEJD\Plugins\AFV\AfvEuroScopeBridge.dll
 Plugins	Plugin2	\OEJD\Plugins\ESTimers\ESTimers.dll
@@ -50,7 +50,6 @@ Sounds	Sound15	\OEJD\Sounds\new_atis.wav
 Sounds	Sound16	\OEJD\Sounds\handoff_refused.wav
 Sounds	Sound17	\OEJD\Sounds\pointout.wav
 Sounds	Sound18	\OEJD\Sounds\startup.wav
-RecentFiles	Recent3	\OEJD\ASR\Dammam CTA.asr
 Settings	AselKey	5111808
 Settings	FreqKey	3604480
 Settings	SettingsfileORIGPLANE	\OEJD\Settings\General.txt

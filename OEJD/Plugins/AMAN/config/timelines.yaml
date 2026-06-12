@@ -1,0 +1,30 @@
+---
+timelines:
+  OEJN:
+    defaults:
+      defaultArrivalLabelLayoutId: "JNArr"
+      defaultDepartureLabelLayoutId: "JNDep"
+    runwayBased:
+    - timelineTitle: "34_DUAL"
+      timelineId: "7e95ef21-a29d-4ecf-ada4-bdc8f1f483a6"
+      left:
+      - "34L"
+      right:
+      - "34R"
+      arrivalLabelLayoutId: "JNArr"
+      departureLabelLayoutId: "JNDep"
+    - timelineTitle: "34L_ARR"
+      timelineId: "7e95ef21-a29d-4ecf-ada4-bdc8f1f483a6"
+      left:
+      - "34L"
+      right: []
+      arrivalLabelLayoutId: "JNArr"
+      departureLabelLayoutId: "JNDep"
+    - timelineTitle: "34R_ARR"
+      timelineId: "7e95ef21-a29d-4ecf-ada4-bdc8f1f483a6"
+      left: []
+      right:
+      - "34R"
+      arrivalLabelLayoutId: "JNArr"
+      departureLabelLayoutId: "JNDep"
+    feederFixBased: []

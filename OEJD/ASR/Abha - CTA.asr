@@ -1,6 +1,9 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
+ARTCC high boundary:OEJD Jeddah South:
 SHOWC:1
 SHOWSB:0
 BELOW:7300

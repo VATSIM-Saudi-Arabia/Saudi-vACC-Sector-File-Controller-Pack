@@ -31,7 +31,7 @@ Settings	SettingsfileTAXIIN	\OEJD\Settings\General_AD.txt
 Plugins	Plugin0	\OEJD\Plugins\DiscordEuroscope\DiscordEuroscope.dll
 Plugins	Plugin1	\OEJD\Plugins\AfvEuroScopeBridge.dll
 Plugins	Plugin2	\OEJD\Plugins\ESTimers\ESTimers.dll
-Plugins	Plugin3	\OEJD\Plugins\TopSky - Aerodrome\TopSky.dll
+Plugins	Plugin3	\OEJD\Plugins\TopSky\TopSky.dll
 Plugins	Plugin3Display0	Ground Radar display
 Plugins	Plugin3Display1	Standard ES radar screen
 Plugins	Plugin4	\OEJD\Plugins\VCH.dll

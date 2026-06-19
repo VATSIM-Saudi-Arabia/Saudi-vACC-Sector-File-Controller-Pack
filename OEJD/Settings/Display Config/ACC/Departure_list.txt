@@ -1,7 +1,7 @@
 DEP
 m_Visible:1
 m_X:0
-m_Y:185
+m_Y:165
 m_LineNumber:0
 m_Resizable:1
 m_OrderingColumn:12
@@ -24,7 +24,7 @@ m_Column:RFL:4:1:10006:0:0:1:TopSky plugin:::1:0.0
 m_Column:SID:9:1:641:741:742:1:vSID:vSID:vSID:1:0.0
 m_Column:RWY:3:1:642:743:17:1:vSID:vSID::1:0.0
 m_Column:CFL:4:1:640:740:12:1:vSID:vSID:TopSky plugin:1:0.0
-m_Column:ASSR:5:1:643:871:869:1:vSID:CCAMS:CCAMS:1:0.0
+m_Column:ASSR:5:1:643:940:62:1:vSID:vSID:TopSky plugin:1:0.0
 m_Column::1:1:0:0:0:1::::0:0.0
 m_Column:FPC:3:1:1:100:0:1:VFPC:VFPC::0:0.0
 m_Column:E:2:1:10046:27:78:1:TopSky plugin::TopSky plugin:1:0.0

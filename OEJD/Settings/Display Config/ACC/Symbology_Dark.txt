@@ -76,7 +76,7 @@ Other:free of conflict:65280:3.5:0:2:7
 Other:conflict warning:65535:3.5:0:2:7
 Other:conflict detected:255:3.5:0:2:7
 Other:route annotation:10855845:3.0:0:1:8
-Other:freetext:14079704:3.4:0:0:7
+Other:freetext:14079704:3.1:0:0:7
 Other:range rings:8568320:5.0:0:0:2
 Other:off antenna range rings:255:5.0:0:0:2
 Other:plane range rings:2631720:5.0:0:0:2
@@ -84,7 +84,7 @@ Other:manual taxi line:16777215:5.0:0:3:2
 Other:manual taxi line ends at predefined point:65535:5.0:0:3:2
 Other:predefined taxi line:65280:5.0:0:3:2
 Other:terminal taxi line:255:5.0:0:3:2
-Other:list header:16777215:3.6:0:0:7
+Other:list header:16777215:3.1:0:0:7
 Other:normal menu item:16777215:3.6:0:0:7
 Other:disabled menu item:12632256:3.6:0:0:7
 Transitions:transition grid:5263440:3.0:0:0:7

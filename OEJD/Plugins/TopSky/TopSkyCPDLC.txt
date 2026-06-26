@@ -1,20 +1,32 @@
+// File created for the Saudi Arabian vACC - (OEJD & OERD)
+// Developed and maintained by the Saudi vACC Operations Department
+//
+// To be used on the VATSIM Network only
+
 [DCL]
-DCL:OEJN:SID:<hour><min> <year2><month2><day> <adep2> PDC <number>. <callsign> CLRD TO <ades> OFF <drwy> VIA <sid> SQUAWK <assr> ADT <aobt> ATIS <rmk> NO CTOT. SID ALTITUDE IS <cfl>. REPORT READY FOR PUSH <freq>
-DCL:OERK:SID:<hour><min> <year2><month2><day> <adep2> PDC <number>. <callsign> CLRD TO <ades> OFF <drwy> VIA <sid> SQUAWK <assr> ADT <aobt> ATIS <rmk> NO CTOT. SID ALTITUDE IS <cfl>. REPORT READY FOR PUSH <freq>
-DCL:OEMA:SID:<hour><min> <year2><month2><day> <adep2> PDC <number>. <callsign> CLRD TO <ades> OFF <drwy> VIA <sid> SQUAWK <assr> ADT <aobt> ATIS <rmk> NO CTOT. SID ALTITUDE IS <cfl>. REPORT READY FOR PUSH <freq>
-DCL:OEDF:SID:<hour><min> <year2><month2><day> <adep2> PDC <number>. <callsign> CLRD TO <ades> OFF <drwy> VIA <sid> SQUAWK <assr> ADT <aobt> ATIS <rmk> NO CTOT. SID ALTITUDE IS <cfl>. REPORT READY FOR PUSH <freq>
+DCL:OERK:SID:<adep> PDC <number> . . . . . CLD <hour><min> <day><month3><year2> <adep> <callsign> CLRD TO <ades> OFF <drwy> VIA <sid> SQUAWK <assr> ADT <eobt> <atis> NO CTOT. SID ALTITUDE IS <cfl>. REPORT READY FOR PUSH <freq_own>
+DCL:OEJN:SID:<adep> PDC <number> . . . . . CLD <hour><min> <day><month3><year2> <adep> <callsign> CLRD TO <ades> OFF <drwy> VIA <sid> SQUAWK <assr> ADT <eobt> <atis> NO CTOT. SID ALTITUDE IS <cfl>. REPORT READY FOR PUSH <freq_own>
+DCL:OEDF:SID:<adep> PDC <number> . . . . . CLD <hour><min> <day><month3><year2> <adep> <callsign> CLRD TO <ades> OFF <drwy> VIA <sid> SQUAWK <assr> ADT <eobt> <atis> NO CTOT. SID ALTITUDE IS <cfl>. REPORT READY FOR PUSH <freq_own>
 
 [FREETEXT]
-FREETEXT:NE:PDC NOT AVAILABLE, USE VOICE
-FREETEXT:R:RADAR SERVICE TERMINATED. MONITOR UNICOM 122.800
-FREETEXT:R:CERTAIN INSTRUCTIONS UNAVAILABLE VIA DATALINK. PLEASE MONITOR VOICE AT ALL TIMES
-FREETEXT:R:CPDLC SERVICE TERMINATED. REVERT TO VOICE
-FREETEXT:R:ALL ATS TERMINATED
+FREETEXT:UNICOM:ALL ATS TERMINATED. FREQUENCY CHANGE APPROVED.
 FREETEXT:R:RADAR CONTACT LOST
 FREETEXT:R:NO DELAY EXPECTED
-FREETEXT:R:APPROVED REPORT BACK
-FREETEXT:WU:REPORT APPROACHING TOP OF DESCENT ON VOICE
+FREETEXT:R:DELAY NOT DETERMINED
+FREETEXT:NE:CONTACT @JD1 CONTROL @ON @VOICE CHANNEL
 
 [STATIONS]
-LOGIN:OEJD:JEDDAH:JC1
-LOGIN:OERD:RIYADH:RC1
+LOGIN:OERK:RIYADH:RKTW
+LOGIN:OERK:RIYADH:RKTE
+LOGIN:OERK:RIYADH:RGN
+LOGIN:OERK:RIYADH:RGS
+LOGIN:OERK:RIYADH:RKD
+LOGIN:OEJN:JEDDAH:JNGW
+LOGIN:OEJN:JEDDAH:JNGE
+LOGIN:OEJN:JEDDAH:JNTW
+LOGIN:OEJN:JEDDAH:JNTE
+LOGIN:OEJN:JEDDAH:JND
+LOGIN:OEDF:DAMMAM:DFTW
+LOGIN:OEDF:DAMMAM:DFTE
+LOGIN:OEDF:DAMMAM:DFGW
+LOGIN:OEDF:DAMMAM:DFGE

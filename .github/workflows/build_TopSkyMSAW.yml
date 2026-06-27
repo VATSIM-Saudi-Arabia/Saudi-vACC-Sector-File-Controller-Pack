@@ -1,0 +1,61 @@
+name: Build TopSkyMSAW
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".data/TopSkyMSAW/**"
+      - ".github/scripts/TopSkyMSAW/concatenate_TopSkyMSAW.py"
+      - ".github/workflows/Build-TopSkyMSAW.yml"
+
+  pull_request:
+    paths:
+      - ".data/TopSkyMSAW/**"
+      - ".github/scripts/TopSkyMSAW/concatenate_TopSkyMSAW.py"
+      - ".github/workflows/Build-TopSkyMSAW.yml"
+
+concurrency:
+  group: TopSkyMSAW-Compile
+  cancel-in-progress: true
+
+jobs:
+  compile:
+    name: Compile TopSkyMSAW Data Files
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Run compiler
+        run: python .github/scripts/TopSkyMSAW/concatenate_TopSkyMSAW.py
+
+      - name: Commit compiled files
+        run: |
+          git config user.name  'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+
+          git add \
+            OEJD/Plugins/TopSky/TopSkyMSAW.txt \
+            OEJD/Plugins/TopSky - ACC/TopSkyMSAW.txt
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Compile TopSkyMSAW data files | ${{ github.event.pull_request.title || github.event.head_commit.message }}"
+          
+            git fetch origin ${{ github.head_ref || github.ref_name }}
+            git rebase origin/${{ github.head_ref || github.ref_name }}
+            git push origin HEAD:${{ github.head_ref || github.ref_name }}
+          fi

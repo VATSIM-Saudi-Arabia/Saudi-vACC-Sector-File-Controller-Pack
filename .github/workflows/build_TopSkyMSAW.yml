@@ -6,13 +6,13 @@ on:
       - main
     paths:
       - ".data/TopSkyMSAW/**"
-      - ".github/scripts/TopSkyMSAW/concatenate_TopSkyMSAW.py"
+      - ".github/workflows/concatenate_TopSkyMSAW.py"
       - ".github/workflows/Build-TopSkyMSAW.yml"
 
   pull_request:
     paths:
       - ".data/TopSkyMSAW/**"
-      - ".github/scripts/TopSkyMSAW/concatenate_TopSkyMSAW.py"
+      - ".github/workflows/concatenate_TopSkyMSAW.py"
       - ".github/workflows/Build-TopSkyMSAW.yml"
 
 concurrency:

@@ -57,5 +57,5 @@ jobs:
           
             git fetch origin ${{ github.head_ref || github.ref_name }}
             git rebase origin/${{ github.head_ref || github.ref_name }}
-            git push origin HEAD:${{ github.head_ref || github.ref_name }}
+            git push
           fi

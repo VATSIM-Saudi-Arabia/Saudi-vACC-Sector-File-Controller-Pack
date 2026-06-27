@@ -1,0 +1,28 @@
+{
+    "OEGN": {
+        "elevation": 20,
+        "runways": "15,33",
+        "transAlt": 13000,
+        "maxInitialClimb": 3000,
+        "appSI":"GNA,ABA,JC1,JC2,JCS",
+        "sids": {
+            "initial": 3000,
+            "RWYHDG33": {
+				"1": {
+					"1": {
+						"rwy": "33",
+						"prio": 1
+					}
+				}
+            },
+            "RWYHDG15": {
+				"1": {
+					"1": {
+						"rwy": "15",
+						"prio": 1
+					}
+				}
+            }
+        }
+    }
+}

@@ -24,7 +24,7 @@
 ;  only. The data must not be copied, photocopied, translated, reverse engineered, decompiled or reduced to any           ;
 ;  electronic medium or machine legible form, neither completely nor in part.                                             ;
 ;=========================================================================================================================;
-;  AIRAC 2512/1  ++  File-Publisher: Saudi Arabian vACC - OEJD                                                            ;
+;  AIRAC 2604/1  ++  File-Publisher: Saudi Arabian vACC - OEJD                                                            ;
 ;=========================================================================================================================;
 VOICE
 AG:OEAB_APP Abha Approach:124.500:novoice:OEAB_APP
@@ -56,6 +56,7 @@ AG:OEDR_1_TWR Dhahran Tower:118.400:novoice:OEDR_1_TWR
 AG:OEDR_2_TWR Dhahran Tower:118.700:novoice:OEDR_2_TWR
 AG:OEDR_APP Dhahran Approach:124.650:novoice:OEDR_APP
 AG:OEDR_GND Dhahran Ground:121.700:novoice:OEDR_GND
+AG:OEGN_APP Jazan Approach:124.900:novoice:OEGN_APP
 AG:OEGN_ATIS:127.850:novoice:OEGN_ATIS
 AG:OEGN_GND Jazan Ground Control:121.900:novoice:OEGN_GND
 AG:OEGN_TWR Jazan Tower:118.000:novoice:OEGN_TWR
@@ -83,14 +84,14 @@ AG:OEJD_U_CTR Jeddah Upper:127.750:novoice:OEJD_U_CTR
 AG:OEJD_W1_CTR Jeddah Control:132.300:novoice:OEJD_W1_CTR
 AG:OEJD_W2_CTR Jeddah Control:132.600:novoice:OEJD_W2_CTR
 AG:OEJD_W_CTR Jeddah Control:133.700:novoice:OEJD_W_CTR
-AG:OEJN_1_CTR Jeddah Terminal Control:125.450:novoice:OEJN_1_CTR
-AG:OEJN_2_CTR Jeddah Terminal Control:119.100:novoice:OEJN_2_CTR
 AG:OEJN_APP Jeddah Approach:124.000:novoice:OEJN_APP
 AG:OEJN_ATIS:126.200:novoice:OEJN_ATIS
 AG:OEJN_A_ATIS:126.200:novoice:OEJN_A_ATIS
 AG:OEJN_C_GND Jeddah Ground Control:121.900:novoice:OEJN_C_GND
+AG:OEJN_C_TWR Jeddah Tower:118.300:novoice:OEJN_C_TWR
 AG:OEJN_DEL Jeddah Delivery:121.800:novoice:OEJN_DEL
 AG:OEJN_D_ATIS:128.700:novoice:OEJN_D_ATIS
+AG:OEJN_E_CTR Jeddah Terminal Control:119.100:novoice:OEJN_E_CTR
 AG:OEJN_E_GND Jeddah Ground Control:121.700:novoice:OEJN_E_GND
 AG:OEJN_E_RMP Jeddah Apron:121.750:novoice:OEJN_E_RMP
 AG:OEJN_E_TWR Jeddah Tower:118.500:novoice:OEJN_E_TWR
@@ -99,6 +100,8 @@ AG:OEJN_FMC_APP Jeddah Final Monitor Control:125.850:novoice:OEJN_FMC_APP
 AG:OEJN_FW_APP Jeddah Final West:124.675:novoice:OEJN_FW_APP
 AG:OEJN_N_RMP Jeddah Apron:121.975:novoice:OEJN_N_RMP
 AG:OEJN_P_DEL Jeddah Planner:118.350:novoice:OEJN_P_DEL
+AG:OEJN_WU_CTR Jeddah Terminal Control:124.825:novoice:OEJN_WU_CTR
+AG:OEJN_W_CTR Jeddah Terminal Control:125.450:novoice:OEJN_W_CTR
 AG:OEJN_W_GND Jeddah Ground Control:121.600:novoice:OEJN_W_GND
 AG:OEJN_W_TWR Jeddah Tower:118.200:novoice:OEJN_W_TWR
 AG:OEKA_GND Khashm Alan Ground Control:123.175:novoice:OEKA_GND
@@ -124,11 +127,10 @@ AG:OEOM_TWR Um Almelh Tower:127.500:novoice:OEOM_TWR
 AG:OEPS_APP Sultan Approach:123.425:novoice:OEPS_APP
 AG:OEPS_GND Sultan Ground Control:121.900:novoice:OEPS_GND
 AG:OEPS_TWR Sultan Tower:126.800:novoice:OEPS_TWR
-AG:OERD_1_CTR Riyadh Control:126.000:novoice:OERD_1_CTR
+AG:OERD_1_CTR Riyadh Control:128.500:novoice:OERD_1_CTR
 AG:OERD_E_CTR Riyadh Control:132.950:novoice:OERD_E_CTR
 AG:OERD_NE_CTR Riyadh Control:132.250:novoice:OERD_NE_CTR
 AG:OERD_N_CTR Riyadh Control:134.800:novoice:OERD_N_CTR
-AG:OERK_1_CTR Riyadh Terminal Control:121.550:novoice:OERK_1_CTR
 AG:OERK_APP Riyadh Approach:120.000:novoice:OERK_APP
 AG:OERK_ATIS:127.150:novoice:OERK_ATIS
 AG:OERK_DEL King Khaled Delivery:121.700:novoice:OERK_DEL
@@ -137,7 +139,9 @@ AG:OERK_FE_APP Riyadh Final East:119.750:novoice:OERK_FE_APP
 AG:OERK_FMC_APP Riyadh Final Monitor Control:125.600:novoice:OERK_FMC_APP
 AG:OERK_FW_APP Riyadh Final West:120.450:novoice:OERK_FW_APP
 AG:OERK_F_APP Riyadh Final:120.600:novoice:OERK_F_APP
+AG:OERK_N_CTR Riyadh Terminal Control:126.000:novoice:OERK_N_CTR
 AG:OERK_N_GND King Khaled Ground Control:121.600:novoice:OERK_N_GND
+AG:OERK_S_CTR Riyadh Terminal Control:124.100:novoice:OERK_S_CTR
 AG:OERK_S_GND King Khaled Ground Control:121.800:novoice:OERK_S_GND
 AG:OERK_W_TWR King Khaled Tower:118.800:novoice:OERK_W_TWR
 AG:OERY_ATIS:126.400:novoice:OERY_ATIS

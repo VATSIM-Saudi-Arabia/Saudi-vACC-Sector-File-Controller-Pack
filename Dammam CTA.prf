@@ -20,10 +20,10 @@ Settings	airports	\OEJD\ICAO\ICAO_Airports.txt
 Settings	aircraft	\OEJD\ICAO\ICAO_Aircraft.txt
 Settings	airways	\OEJD\NavData\airway.txt
 Settings	airportcoords	\OEJD\NavData\icao.txt
-ASRFastKeys	1	OEJD\ASR\Dammam GMC.asr
-ASRFastKeys	2	OEJD\ASR\Dammam CTA.asr
-RecentFiles	Recent1	OEJD\ASR\Dammam CTA.asr
-RecentFiles	Recent2	OEJD\ASR\Dammam GMC.asr
+ASRFastKeys	1	\OEJD\ASR\Dammam GMC.asr
+ASRFastKeys	2	\OEJD\ASR\Dammam CTA.asr
+RecentFiles	Recent1	\OEJD\ASR\Dammam CTA.asr
+RecentFiles	Recent2	\OEJD\ASR\Dammam GMC.asr
 Plugins	Plugin0	\OEJD\Plugins\DiscordEuroscope\DiscordEuroscope.dll
 Plugins	Plugin1	\OEJD\Plugins\AFV\AfvEuroScopeBridge.dll
 Plugins	Plugin2	\OEJD\Plugins\ESTimers\ESTimers.dll
@@ -50,7 +50,6 @@ Sounds	Sound15	\OEJD\Sounds\new_atis.wav
 Sounds	Sound16	\OEJD\Sounds\handoff_refused.wav
 Sounds	Sound17	\OEJD\Sounds\pointout.wav
 Sounds	Sound18	\OEJD\Sounds\startup.wav
-RecentFiles	Recent3	\OEJD\ASR\Dammam CTA.asr
 Settings	AselKey	5111808
 Settings	FreqKey	3604480
 Settings	SettingsfileORIGPLANE	\OEJD\Settings\General.txt
@@ -66,6 +65,7 @@ TeamSpeakVccs	TsVccsMiniControlX	1660
 TeamSpeakVccs	TsVccsMiniControlY	748
 Plugins	Plugin3Display1	Standard ES radar screen
 Plugins	Plugin6	\OEJD\Plugins\RDF Plugin\RDFPlugin.dll
+Plugins	Plugin6Display0	Standard ES radar screen
 Plugins	Plugin7	\OEJD\Plugins\PushbackFlorian_v1.1.1\PushbackFlorian.dll
 Plugins	Plugin7Display0	Ground Radar display
 Plugins	Plugin7Display1	Standard ES radar screen
@@ -81,7 +81,6 @@ Plugins	Plugin10Display1	Standard ES radar screen
 Plugins	Plugin3Display2	Ground Radar display
 Plugins	Plugin5Display0	Ground Radar display
 Plugins	Plugin5Display1	Standard ES radar screen
-Plugins	Plugin6Display0	Ground Radar display
 Plugins	Plugin6Display1	Standard ES radar screen
 Plugins	Plugin11	\OEJD\Plugins\vSID\vSID Plugin\vSID.dll
 Plugins	Plugin11Display0	Ground Radar display

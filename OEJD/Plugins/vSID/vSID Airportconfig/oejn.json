@@ -4,338 +4,349 @@
         "runways": "34L,34C,34R,16L,16C,16R",
         "transAlt": 13000,
         "maxInitialClimb": 6000,
-		"appSI": "JNA, JTC1, JTC2, JC1, JC2, JCC",
-		"enableRVSids": false,
+        "appSI": "JNA,JTC1,JTC2,JC1,JC2,JCC",
         "sids": {
+            "initial": 6000,
             "EGREP": {
-                "1": {
-                    "designator": "X",
-                    "rwy": "34L",
-                    "initial": 6000,
-                    "prio": 1
+                "X": {
+                    "1": {
+                        "rwy": "34L",
+                        "prio": 1
+                    }
                 },
-                "2": {
-                    "designator": "W",
-                    "rwy": "34C",
-                    "initial": 6000,
-                    "prio": 1
+                "W": {
+                    "2": {
+                        "rwy": "34C",
+                        "prio": 1
+                    }
                 },
-                "3": {
-                    "designator": "V",
-                    "rwy": "34R",
-                    "initial": 6000,
-                    "prio": 1,
-					"area": "aprona"
+                "V": {
+                    "3": {
+                        "rwy": "34R",
+                        "prio": 1,
+                        "area": "aprona"
+                    }
                 },
-                "4": {
-                    "designator": "D",
-                    "rwy": "16L",
-                    "initial": 6000,
-                    "prio": 1,
-					"area": "aprona"
+                "D": {
+                    "4": {
+                        "rwy": "16L",
+                        "prio": 1,
+                        "area": "aprona"
+                    }
                 },
-                "5": {
-                    "designator": "E",
-                    "rwy": "16C",
-                    "initial": 6000,
-                    "prio": 1
+                "E": {
+                    "5": {
+                        "rwy": "16C",
+                        "prio": 1
+                    }
                 },
-                "6": {
-                    "designator": "F",
-                    "rwy": "16R",
-                    "initial": 6000,
-                    "prio": 1
+                "F": {
+                    "6": {
+                        "rwy": "16R",
+                        "prio": 1
+                    }
                 }
             },
+
             "MIGDA": {
-                "1": {
-                    "designator": "X",
-                    "rwy": "34L",
-                    "initial": 6000,
-                    "prio": 2
+                "X": {
+                    "1": {
+                        "rwy": "34L",
+                        "prio": 2
+                    }
                 },
-                "2": {
-                    "designator": "W",
-                    "rwy": "34C",
-                    "initial": 6000,
-                    "prio": 2
+                "W": {
+                    "2": {
+                        "rwy": "34C",
+                        "prio": 2
+                    }
                 },
-                "3": {
-                    "designator": "V",
-                    "rwy": "34R",
-                    "initial": 6000,
-                    "prio": 1,
-					"area": "aprona"
+                "V": {
+                    "3": {
+                        "rwy": "34R",
+                        "prio": 1,
+                        "area": "aprona"
+                    }
                 },
-                "4": {
-                    "designator": "D",
-                    "rwy": "16L",
-                    "initial": 6000,
-                    "prio": 1,
-					"area": "aprona"
+                "D": {
+                    "4": {
+                        "rwy": "16L",
+                        "prio": 1,
+                        "area": "aprona"
+                    }
                 },
-                "5": {
-                    "designator": "E",
-                    "rwy": "16C",
-                    "initial": 6000,
-                    "prio": 2
+                "E": {
+                    "5": {
+                        "rwy": "16C",
+                        "prio": 2
+                    }
                 },
-                "6": {
-                    "designator": "F",
-                    "rwy": "16R",
-                    "initial": 6000,
-                    "prio": 2
+                "F": {
+                    "6": {
+                        "rwy": "16R",
+                        "prio": 2
+                    }
                 }
             },
+
             "DATAP": {
-                "1": {
-                    "designator": "X",
-                    "rwy": "34L",
-                    "initial": 6000,
-                    "prio": 1
+                "X": {
+                    "1": {
+                        "rwy": "34L",
+                        "prio": 1
+                    }
                 },
-                "2": {
-                    "designator": "W",
-                    "rwy": "34C",
-                    "initial": 6000,
-                    "prio": 1
+                "W": {
+                    "2": {
+                        "rwy": "34C",
+                        "prio": 1
+                    }
                 },
-                "3": {
-                    "designator": "V",
-                    "rwy": "34R",
-                    "initial": 6000,
-                    "prio": 1,
-					"area": "aprona"
+                "V": {
+                    "3": {
+                        "rwy": "34R",
+                        "prio": 1,
+                        "area": "aprona"
+                    }
                 },
-                "4": {
-                    "designator": "D",
-                    "rwy": "16L",
-                    "initial": 6000,
-                    "prio": 1,
-					"area": "aprona"
+                "D": {
+                    "4": {
+                        "rwy": "16L",
+                        "prio": 1,
+                        "area": "aprona"
+                    }
                 },
-                "5": {
-                    "designator": "E",
-                    "rwy": "16C",
-                    "initial": 6000,
-                    "prio": 1
+                "E": {
+                    "5": {
+                        "rwy": "16C",
+                        "prio": 1
+                    }
                 },
-                "6": {
-                    "designator": "F",
-                    "rwy": "16R",
-                    "initial": 6000,
-                    "prio": 1
+                "F": {
+                    "6": {
+                        "rwy": "16R",
+                        "prio": 1
+                    }
                 }
             },
+
             "BOMOX": {
-                "1": {
-                    "designator": "X",
-                    "rwy": "34L",
-                    "initial": 6000,
-                    "prio": 1
+                "X": {
+                    "1": {
+                        "rwy": "34L",
+                        "prio": 1
+                    }
                 },
-                "2": {
-                    "designator": "W",
-                    "rwy": "34C",
-                    "initial": 6000,
-                    "prio": 1
+                "W": {
+                    "2": {
+                        "rwy": "34C",
+                        "prio": 1
+                    }
                 },
-                "3": {
-                    "designator": "V",
-                    "rwy": "34R",
-                    "initial": 6000,
-                    "prio": 1,
-					"area": "aprona"
+                "V": {
+                    "3": {
+                        "rwy": "34R",
+                        "prio": 1,
+                        "area": "aprona"
+                    }
                 },
-                "4": {
-                    "designator": "D",
-                    "rwy": "16L",
-                    "initial": 6000,
-                    "prio": 1,
-					"area": "aprona"
+                "D": {
+                    "4": {
+                        "rwy": "16L",
+                        "prio": 1,
+                        "area": "aprona"
+                    }
                 },
-                "5": {
-                    "designator": "E",
-                    "rwy": "16C",
-                    "initial": 6000,
-                    "prio": 1
+                "E": {
+                    "5": {
+                        "rwy": "16C",
+                        "prio": 1
+                    }
                 },
-                "6": {
-                    "designator": "F",
-                    "rwy": "16R",
-                    "initial": 6000,
-                    "prio": 1
+                "F": {
+                    "6": {
+                        "rwy": "16R",
+                        "prio": 1
+                    }
                 }
             },
+
             "ISLAM": {
-                "1": {
-                    "designator": "X",
-                    "rwy": "34L",
-                    "initial": 6000,
-                    "prio": 1
+                "X": {
+                    "1": {
+                        "rwy": "34L",
+                        "prio": 1
+                    }
                 },
-                "2": {
-                    "designator": "W",
-                    "rwy": "34C",
-                    "initial": 6000,
-                    "prio": 1
+                "W": {
+                    "2": {
+                        "rwy": "34C",
+                        "prio": 1
+                    }
                 },
-                "3": {
-                    "designator": "V",
-                    "rwy": "34R",
-                    "initial": 6000,
-                    "prio": 1,
-					"area": "aprona"
+                "V": {
+                    "3": {
+                        "rwy": "34R",
+                        "prio": 1,
+                        "area": "aprona"
+                    }
                 },
-                "4": {
-                    "designator": "D",
-                    "rwy": "16L",
-                    "initial": 6000,
-                    "prio": 1,
-					"area": "aprona"
+                "D": {
+                    "4": {
+                        "rwy": "16L",
+                        "prio": 1,
+                        "area": "aprona"
+                    }
                 },
-                "5": {
-                    "designator": "E",
-                    "rwy": "16C",
-                    "initial": 6000,
-                    "prio": 1
+                "E": {
+                    "5": {
+                        "rwy": "16C",
+                        "prio": 1
+                    }
                 },
-                "6": {
-                    "designator": "F",
-                    "rwy": "16R",
-                    "initial": 6000,
-                    "prio": 1
+                "F": {
+                    "6": {
+                        "rwy": "16R",
+                        "prio": 1
+                    }
                 }
             },
+
             "RIBAM": {
-                "1": {
-                    "designator": "X",
-                    "rwy": "34L",
-                    "initial": 6000,
-                    "prio": 1
+                "X": {
+                    "1": {
+                        "rwy": "34L",
+                        "prio": 1
+                    }
                 },
-                "2": {
-                    "designator": "W",
-                    "rwy": "34C",
-                    "initial": 6000,
-                    "prio": 1
+                "W": {
+                    "2": {
+                        "rwy": "34C",
+                        "prio": 1
+                    }
                 },
-                "3": {
-                    "designator": "V",
-                    "rwy": "34R",
-                    "initial": 6000,
-                    "prio": 1,
-					"area": "aprona"
+                "V": {
+                    "3": {
+                        "rwy": "34R",
+                        "prio": 1,
+                        "area": "aprona"
+                    }
                 },
-                "4": {
-                    "designator": "D",
-                    "rwy": "16L",
-                    "initial": 6000,
-                    "prio": 1,
-					"area": "aprona"
+                "D": {
+                    "4": {
+                        "rwy": "16L",
+                        "prio": 1,
+                        "area": "aprona"
+                    }
                 },
-                "5": {
-                    "designator": "E",
-                    "rwy": "16C",
-                    "initial": 6000,
-                    "prio": 1
+                "E": {
+                    "5": {
+                        "rwy": "16C",
+                        "prio": 1
+                    }
                 },
-                "6": {
-                    "designator": "F",
-                    "rwy": "16R",
-                    "initial": 6000,
-                    "prio": 1
+                "F": {
+                    "6": {
+                        "rwy": "16R",
+                        "prio": 1
+                    }
                 }
             },
+
             "EGPOB": {
-                "1": {
-                    "designator": "X",
-                    "rwy": "34L",
-                    "initial": 6000,
-                    "prio": 1
+                "X": {
+                    "1": {
+                        "rwy": "34L",
+                        "prio": 1
+                    }
                 },
-                "2": {
-                    "designator": "W",
-                    "rwy": "34C",
-                    "initial": 6000,
-                    "prio": 1
+                "W": {
+                    "2": {
+                        "rwy": "34C",
+                        "prio": 1
+                    }
                 },
-                "3": {
-                    "designator": "V",
-                    "rwy": "34R",
-                    "initial": 6000,
-                    "prio": 1,
-					"area": "aprona"
+                "V": {
+                    "3": {
+                        "rwy": "34R",
+                        "prio": 1,
+                        "area": "aprona"
+                    }
                 },
-                "4": {
-                    "designator": "D",
-                    "rwy": "16L",
-                    "initial": 6000,
-                    "prio": 1,
-					"area": "aprona"
+                "D": {
+                    "4": {
+                        "rwy": "16L",
+                        "prio": 1,
+                        "area": "aprona"
+                    }
                 },
-                "5": {
-                    "designator": "E",
-                    "rwy": "16C",
-                    "initial": 6000,
-                    "prio": 1
+                "E": {
+                    "5": {
+                        "rwy": "16C",
+                        "prio": 1
+                    }
                 },
-                "6": {
-                    "designator": "F",
-                    "rwy": "16R",
-                    "initial": 6000,
-                    "prio": 1
+                "F": {
+                    "6": {
+                        "rwy": "16R",
+                        "prio": 1
+                    }
                 }
             },
+
             "KAROX": {
-                "1": {
-                    "designator": "X",
-                    "rwy": "34L",
-                    "initial": 6000,
-                    "prio": 1
+                "X": {
+                    "1": {
+                        "rwy": "34L",
+                        "prio": 1
+                    }
                 },
-                "2": {
-                    "designator": "W",
-                    "rwy": "34C",
-                    "initial": 6000,
-                    "prio": 1
+                "W": {
+                    "2": {
+                        "rwy": "34C",
+                        "prio": 1
+                    }
                 },
-                "3": {
-                    "designator": "V",
-                    "rwy": "34R",
-                    "initial": 6000,
-                    "prio": 1,
-					"area": "aprona"
+                "V": {
+                    "3": {
+                        "rwy": "34R",
+                        "prio": 1,
+                        "area": "aprona"
+                    }
                 },
-                "4": {
-                    "designator": "D",
-                    "rwy": "16L",
-                    "initial": 6000,
-                    "prio": 1,
-					"area": "aprona"
+                "D": {
+                    "4": {
+                        "rwy": "16L",
+                        "prio": 1,
+                        "area": "aprona"
+                    }
                 },
-                "5": {
-                    "designator": "E",
-                    "rwy": "16C",
-                    "initial": 6000,
-                    "prio": 1
+                "E": {
+                    "5": {
+                        "rwy": "16C",
+                        "prio": 1
+                    }
                 },
-                "6": {
-                    "designator": "F",
-                    "rwy": "16R",
-                    "initial": 6000,
-                    "prio": 1
+                "F": {
+                    "6": {
+                        "rwy": "16R",
+                        "prio": 1
+                    }
                 }
             }
         },
+
         "areas": {
-			"aprona": {
+            "aprona": {
                 "active": true,
-                "p1": {"lat": "N021.40.32.515", "lon": "E039.10.31.576"},
-                "p2": {"lat": "N021.40.12.715", "lon": "E039.10.12.524"},
-                "p3": {"lat": "N021.39.41.769", "lon": "E039.10.25.860"},
-                "p4": {"lat": "N021.39.46.765", "lon": "E039.10.55.758"}
+                "p1": { "lat": "N021.40.32.515", "lon": "E039.10.31.576" },
+                "p2": { "lat": "N021.40.12.715", "lon": "E039.10.12.524" },
+                "p3": { "lat": "N021.39.41.769", "lon": "E039.10.25.860" },
+                "p4": { "lat": "N021.39.46.765", "lon": "E039.10.55.758" }
             }
         }
     }
 }
+
+
+                    

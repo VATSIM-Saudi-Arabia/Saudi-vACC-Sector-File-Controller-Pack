@@ -7,13 +7,13 @@ on:
     paths:
       - ".data/TopSkyMSAW/**"
       - ".github/workflows/concatenate_TopSkyMSAW.py"
-      - ".github/workflows/Build-TopSkyMSAW.yml"
+      - ".github/workflows/build_TopSkyMSAW.yml"
 
   pull_request:
     paths:
       - ".data/TopSkyMSAW/**"
       - ".github/workflows/concatenate_TopSkyMSAW.py"
-      - ".github/workflows/Build-TopSkyMSAW.yml"
+      - ".github/workflows/build_TopSkyMSAW.yml"
 
 concurrency:
   group: TopSkyMSAW-Compile

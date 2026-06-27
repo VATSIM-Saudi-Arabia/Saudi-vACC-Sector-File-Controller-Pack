@@ -39,7 +39,7 @@ jobs:
           python-version: "3.x"
 
       - name: Run compiler
-        run: python .github/scripts/TopSkyMSAW/concatenate_TopSkyMSAW.py
+        run: python .github/workflows/concatenate_TopSkyMSAW.py
 
       - name: Commit compiled files
         run: |

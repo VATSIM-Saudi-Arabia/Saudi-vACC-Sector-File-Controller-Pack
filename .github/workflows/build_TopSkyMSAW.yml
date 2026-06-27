@@ -31,31 +31,23 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.x"
+          fetch-depth: 0
 
       - name: Run compiler
-        run: python .github/workflows/concatenate_TopSkyMSAW.py
+        run: python .github/scripts/TopSkyMSAW/concatenate_TopSkyMSAW.py
 
       - name: Commit compiled files
         run: |
           git config user.name  'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
 
-          git add \
-            "OEJD/Plugins/TopSky/TopSkyMSAW.txt" \
-            "OEJD/Plugins/TopSky - ACC/TopSkyMSAW.txt"
+          git add "OEJD/Plugins/TopSky/TopSkyMSAW.txt" "OEJD/Plugins/TopSky - ACC/TopSkyMSAW.txt"
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
-          else
-            git commit -m "Compile TopSkyMSAW data files | ${{ github.event.pull_request.title || github.event.head_commit.message }}"
-          
-            git fetch origin ${{ github.head_ref || github.ref_name }}
-            git rebase origin/${{ github.head_ref || github.ref_name }}
-            git push
+            exit 0
           fi
+
+          git commit -m "Compile TopSkyMSAW data files"
+
+          git push

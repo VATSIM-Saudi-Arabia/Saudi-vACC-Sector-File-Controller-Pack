@@ -6,14 +6,14 @@ on:
       - main
     paths:
       - ".data/TopSkyMSAW/**"
-      - ".github/workflows/concatenate_TopSkyMSAW.py"
-      - ".github/workflows/build_TopSkyMSAW.yml"
+      - ".github/scripts/TopSkyMSAW/concatenate_TopSkyMSAW.py"
+      - ".github/workflows/Build-TopSkyMSAW.yml"
 
   pull_request:
     paths:
       - ".data/TopSkyMSAW/**"
-      - ".github/workflows/concatenate_TopSkyMSAW.py"
-      - ".github/workflows/build_TopSkyMSAW.yml"
+      - ".github/scripts/TopSkyMSAW/concatenate_TopSkyMSAW.py"
+      - ".github/workflows/Build-TopSkyMSAW.yml"
 
 concurrency:
   group: TopSkyMSAW-Compile
@@ -31,7 +31,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
 
       - name: Run compiler
         run: python .github/scripts/TopSkyMSAW/concatenate_TopSkyMSAW.py
@@ -41,13 +47,16 @@ jobs:
           git config user.name  'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
 
-          git add "OEJD/Plugins/TopSky/TopSkyMSAW.txt" "OEJD/Plugins/TopSky - ACC/TopSkyMSAW.txt"
+          git add \
+            "OEJD/Plugins/TopSky/TopSkyMSAW.txt" \
+            "OEJD/Plugins/TopSky - ACC/TopSkyMSAW.txt"
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
-            exit 0
+          else
+            git commit -m "Compile TopSkyMSAW data files | ${{ github.event.pull_request.title || github.event.head_commit.message }}"
+
+            git fetch origin ${{ github.head_ref || github.ref_name }}
+            git rebase origin/${{ github.head_ref || github.ref_name }}
+            git push origin HEAD:${{ github.head_ref || github.ref_name }}
           fi
-
-          git commit -m "Compile TopSkyMSAW data files"
-
-          git push

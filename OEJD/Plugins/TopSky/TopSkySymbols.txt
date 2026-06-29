@@ -1,5 +1,5 @@
-// File created for the Arabian vACC - U.A.E FIR (OMAE)
-// Developed and maintained by the Arabian vACC Operations Department
+// File created for the Saudi Arabian vACC
+// Developed and maintained by the Saudi Arabian vACC Operations Department
 //
 // To be used on the VATSIM Network only
 

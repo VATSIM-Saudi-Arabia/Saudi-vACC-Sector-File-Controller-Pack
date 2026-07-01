@@ -1,0 +1,22 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
+ARTCC high boundary:OEJN Jeddah Terminal East:
+ARTCC high boundary:OEJN Jeddah Terminal West:
+SHOWC:1
+SHOWSB:0
+BELOW:200
+ABOVE:0
+LEADER:-1
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:TopSky_Jeddah_APP
+WINDOWAREA:20.351639:36.625705:23.270393:41.380450
+PLUGIN:TopSky plugin:HideMapData:COASTFILL

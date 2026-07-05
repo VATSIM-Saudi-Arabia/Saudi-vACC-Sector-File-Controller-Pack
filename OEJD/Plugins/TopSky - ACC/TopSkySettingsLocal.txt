@@ -1,10 +1,10 @@
 Setup_AutoSignIn=1
 
-Window_CPDLC_Setting=1,1759,400
+Window_CPDLC_Current=1,1433,630
+Window_CPDLC_Setting=1,1759,344
 Window_MsgIn=0,860,50
 Window_MsgOut=0,860,100
 Window_NOTAM=0,1405,400
-Window_CPDLC_Current=1,1040,55
 
 [_DEL]
 Color_Concerned=230,230,230

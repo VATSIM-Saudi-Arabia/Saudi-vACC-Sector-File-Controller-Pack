@@ -1,0 +1,32 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
+ARTCC high boundary:OEJD Jeddah Central:
+ARTCC high boundary:OEJD Jeddah East:
+ARTCC high boundary:OEJD Jeddah North:
+ARTCC high boundary:OEJD Jeddah North East:
+ARTCC high boundary:OEJD Jeddah South:
+ARTCC high boundary:OEJD Jeddah South East:
+ARTCC high boundary:OEJD Jeddah West:
+ARTCC high boundary:OEJN Jeddah Terminal East:
+ARTCC high boundary:OEJN Jeddah Terminal West:
+ARTCC high boundary:OERK Riyadh Terminal North:
+ARTCC high boundary:OERK Riyadh Terminal South:
+SHOWC:1
+SHOWSB:1
+BELOW:200
+ABOVE:60000
+LEADER:-1
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:TopSky_Jeddah_APP
+PLUGIN:RDF Plugin for Euroscope:Radius:20
+WINDOWAREA:14.562644:25.957221:35.755153:61.382678
+PLUGIN:TopSky plugin:HideMapData:COASTFILL

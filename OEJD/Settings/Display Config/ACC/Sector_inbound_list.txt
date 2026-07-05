@@ -20,7 +20,7 @@ m_Column:COPX:6:0:10005:22:22:1:TopSky plugin:::1:0.0
 m_Column:ETX:6:1:10035:0:0:1:TopSky plugin:::1:0.0
 m_Column:XFL:4:1:10003:24:24:1:TopSky plugin:::1:0.0
 m_Column:RWY:4:1:10010:19:19:1:TopSky plugin:::1:0.0
-m_Column:STAR:7:0:10012:18:18:1:TopSky plugin:::1:0.0
+m_Column:STAR:11:0:10012:18:18:1:TopSky plugin:::1:0.0
 m_Column:SI:4:1:10014:20:0:1:TopSky plugin:::1:0.0
 m_Column:ASSR:5:1:10041:62:62:1:TopSky plugin:TopSky plugin:TopSky plugin:1:0.0
 END

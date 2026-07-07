@@ -23,11 +23,11 @@ NDBs:frequency:9211020:3.5:0:0:0
 Runways:centerline:5263440:3.5:0:0:7
 Runways:extended centerline:11316313:3.5:0:0:7
 Runways:name:5263440:3.5:0:0:7
-Datablock:non concerned:6579300:3.6:0:0:7
+Datablock:non concerned:657930:3.6:0:0:7
 Datablock:notified:13816530:3.6:0:0:7
 Datablock:assumed:13168840:3.6:0:0:7
 Datablock:transfer to me initiated:33023:3.2:0:0:7
-Datablock:redundant:57600:3.6:0:0:7
+Datablock:redundant:12320768:3.6:0:0:7
 Datablock:information:65535:3.6:0:0:7
 Datablock:even flight level:40960:3.2:0:0:7
 Datablock:odd flight level:40960:3.2:0:0:7
@@ -367,32 +367,4 @@ SYMBOLITEM:LINETO 2 -3
 SYMBOLITEM:LINETO 2 -11
 SYMBOLITEM:LINETO 0 -12
 m_ClipArea:0
-END
-SIL
-m_Visible:0
-m_X:0
-m_Y:100
-m_LineNumber:6
-m_Resizable:0
-m_OrderingColumn:7
-m_HeaderOnly:0
-m_Column:RUNW:4:1:47:19:19:1::::1:0.0
-m_Column:C/S:7:0:9:8:0:1::::0:0.0
-m_Column:PSSR:5:1:2:0:0:1::::1:0.0
-m_Column:ATYP:4:1:16:0:0:1::::1:0.0
-m_Column:WTC:3:1:10:0:0:1::::1:0.0
-m_Column:COPN:5:0:48:21:21:1::::1:0.0
-m_Column:ETN:5:1:50:0:0:1::::1:0.0
-m_Column:PEL:4:1:49:23:23:1::::1:0.0
-m_Column:ETA:5:1:54:0:0:1::::1:0.0
-m_Column:ADEP:4:1:61:0:0:1::::1:0.0
-m_Column:™:1:1:62:0:0:1::::1:0.0
-m_Column:FR:2:1:63:0:0:1::::1:0.0
-m_Column:ADES:4:1:17:7:0:1::::1:0.0
-m_Column:COPX:5:0:51:22:22:1::::1:0.0
-m_Column:ETX:5:1:53:0:0:1::::1:0.0
-m_Column:XFL:4:1:52:24:24:1::::1:0.0
-m_Column:STAR:7:0:55:18:18:1::::1:0.0
-m_Column:SI:3:1:64:20:0:1::::1:0.0
-m_Column:ASSR:5:1:60:31:31:1::::1:0.0
 END

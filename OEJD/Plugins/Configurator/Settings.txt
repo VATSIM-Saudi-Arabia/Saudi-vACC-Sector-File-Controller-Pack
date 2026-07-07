@@ -104,7 +104,7 @@ DEFAULT THEME BEGIN
     Color_Predisplay_Map=175,130,130
     Color_Proposition=255,130,180
     Color_QDM=155,235,255
-    Color_Redundant=0,225,0
+    Color_Redundant=0,0,188
     Color_Runway=116,200,71
     Color_Rwy_App_Line_Inuse=10,10,10
     Color_Rwy_App_Line_Not_Inuse=255,255,255
@@ -129,13 +129,13 @@ DEFAULT THEME BEGIN
     Color_Text_Notes=255,0,0
     Color_TopShadow=30,30,30
     Color_Track_Default=210,210,210
-    Color_Track_Highlight=0,165,219
+    Color_Track_Highlight=219,165,0
     Color_Trough=97,99,97
     Color_TSA_Active=93,138,195
     Color_TSA_Border_Highlight=0,0,0
     Color_TSA_Filter=0,0,255
     Color_TSA_Preactive=132,142,139
-    Color_Unconcerned=100,100,100
+    Color_Unconcerned=010,010,010
     Color_Unknown=239,224,42
     Color_Urgency=225,25,25
     Color_Urgency_FL=225,25,25

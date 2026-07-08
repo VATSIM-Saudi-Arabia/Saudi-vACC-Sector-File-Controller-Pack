@@ -4,23 +4,23 @@ ATIS2:"King Khalid Observer"
 ATIS3:
 ATIS4:
 PROFILE:OERK_DEL:20:2
-ATIS2:"King Khalid Delivery"
+ATIS2:"King Khalid Delivery" - DCL [OERK]
 ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
 ATIS4:We appreciate feedback! Visit vats.im/safeedback
 PROFILE:OERK_N_GND:20:3
-ATIS2:"King Khalid Ground (North)"
+ATIS2:"King Khalid Ground (North)" - DCL [OERK]
 ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
 ATIS4:We appreciate feedback! Visit vats.im/safeedback
 PROFILE:OERK_S_GND:20:3
-ATIS2:"King Khalid Ground (South)"
+ATIS2:"King Khalid Ground (South)" - DCL [OERK]
 ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
 ATIS4:We appreciate feedback! Visit vats.im/safeedback
 PROFILE:OERK_E_TWR:50:4
-ATIS2:"King Khalid Tower (East)"
+ATIS2:"King Khalid Tower (East)" - DCL [OERK]
 ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
 ATIS4:We appreciate feedback! Visit vats.im/safeedback
 PROFILE:OERK_W_TWR:50:4
-ATIS2:"King Khalid Tower (West)"
+ATIS2:"King Khalid Tower (West)" - DCL [OERK]
 ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
 ATIS4:We appreciate feedback! Visit vats.im/safeedback
 END

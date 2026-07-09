@@ -85,7 +85,7 @@ DEFAULT THEME BEGIN
     Color_FPLSEP_Tool_5=166,160,245
     Color_Freq_Indicator=237,237,237
     Color_Global_Menu_Highlight=165,165,0
-    Color_Heading_Vector=0,0,0
+    Color_Heading_Vector=255,255,255
     Color_Inactive_Sector=67,73,76
     Color_Info_Coord=1,255,255
     Color_Information=40,210,40

@@ -145,11 +145,10 @@ m_Column:C:2:0:105:0:0:1::::1:0.0
 m_Column:APT:5:0:106:0:0:1::::1:0.0
 m_Column:DATA:7:0:107:0:0:1::::1:0.0
 END
-STUP
 m_Visible:0
 m_X:80
 m_Y:100
-m_LineNumber:6
+m_LineNumber:6d
 m_Resizable:0
 m_OrderingColumn:1
 m_HeaderOnly:0

@@ -62,6 +62,8 @@ WXR_Longitude=-8.885199722
 HTTP_NAT_Tracks_URL=https://www.notams.faa.gov/common/nat.html
 
 Shortcut_RadarMenu_Combo=0x12
+Shortcut_Map_Xfr_Key=1,0x56 ; V
+Shortcut_Map_Target=1,VFR
 
 CPDLC_Default = 1
 CPDLC_MinLevel=285
@@ -85,7 +87,7 @@ Airspace_No_DUPE_Codes=7000,2000,2200,1200,2655,0401
 Airspace_SIGMET_Areas=OEJD
 Airspace_NOTAM_Add=OEJD, OERD
 Airspace_ASSR_Type=2
-Airspace_ASSR_AutoAssign_Type=0
+Airspace_ASSR_AutoAssign_Type=2
 Areas_Label_FontSize=6
 
 System_TransferConfirmation=0

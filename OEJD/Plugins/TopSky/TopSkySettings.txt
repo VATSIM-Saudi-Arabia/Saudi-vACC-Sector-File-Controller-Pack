@@ -87,7 +87,7 @@ Airspace_No_DUPE_Codes=7000,2000,2200,1200,2655,0401
 Airspace_SIGMET_Areas=OEJD
 Airspace_NOTAM_Add=OEJD, OERD
 Airspace_ASSR_Type=2
-Airspace_ASSR_AutoAssign_Type=0
+Airspace_ASSR_AutoAssign_Type=2
 Areas_Label_FontSize=6
 
 System_TransferConfirmation=0

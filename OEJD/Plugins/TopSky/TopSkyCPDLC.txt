@@ -4,16 +4,9 @@
 // To be used on the VATSIM Network only
 
 [DCL]
-DCL:OERK:SID:<adep> PDC <number> . . . . . CLD <hour><min> <day><month3><year2> <adep> <callsign> CLRD TO <ades> OFF <drwy> VIA <sid> SQUAWK <assr> ADT <eobt> <atis> NO CTOT. SID ALTITUDE IS <cfl>. REPORT READY FOR PUSH <freq_own>
-DCL:OEJN:SID:<adep> PDC <number> . . . . . CLD <hour><min> <day><month3><year2> <adep> <callsign> CLRD TO <ades> OFF <drwy> VIA <sid> SQUAWK <assr> ADT <eobt> <atis> NO CTOT. SID ALTITUDE IS <cfl>. REPORT READY FOR PUSH <freq_own>
-DCL:OEDF:SID:<adep> PDC <number> . . . . . CLD <hour><min> <day><month3><year2> <adep> <callsign> CLRD TO <ades> OFF <drwy> VIA <sid> SQUAWK <assr> ADT <eobt> <atis> NO CTOT. SID ALTITUDE IS <cfl>. REPORT READY FOR PUSH <freq_own>
+DCL:OERK,OEJN,OEDF:SID:<adep> PDC <number> . . . . . CLD <hour><min> <day><month3><year2> <adep> <callsign> CLRD TO <ades> OFF <drwy> VIA <sid> SQUAWK <assr> ADT <eobt> <atis> NO CTOT. SID ALTITUDE IS <cfl>. REPORT READY FOR PUSH <freq_own>
 
 [FREETEXT]
-FREETEXT:UNICOM:ALL ATS TERMINATED. FREQUENCY CHANGE APPROVED.
-FREETEXT:R:RADAR CONTACT LOST
-FREETEXT:R:NO DELAY EXPECTED
-FREETEXT:R:DELAY NOT DETERMINED
-FREETEXT:NE:CONTACT @JD1 CONTROL @ON @VOICE CHANNEL
 
 [STATIONS]
 LOGIN:OERK:RIYADH:RKTW

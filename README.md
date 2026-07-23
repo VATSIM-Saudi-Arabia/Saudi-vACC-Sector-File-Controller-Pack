@@ -1,5 +1,5 @@
 ![saudi_github](/.github/sectorfilegithub.png)
-[![topsky-version](https://img.shields.io/badge/TopSky-2.5.15b-blue.svg)](https://forum.vatsim-scandinavia.org/d/80-topsky-plugin-25-beta-15)
+[![topsky-version](https://img.shields.io/badge/TopSky-2.6.5b-blue.svg)](https://forum.vatsim-scandinavia.org/d/305-topsky-plugin-26-beta-5)
 [![gr-version](https://img.shields.io/badge/Ground%20Radar-1.5-blue.svg)](https://vats.im/GRplugin)
 [![vacdm-version](https://img.shields.io/badge/vACDM-1.3.2-blue.svg)](https://github.com/vACDM)
 [![delhel-version](https://img.shields.io/badge/DelHel-0.2.0-blue.svg)](https://github.com/MorpheusXAUT/DelHel)

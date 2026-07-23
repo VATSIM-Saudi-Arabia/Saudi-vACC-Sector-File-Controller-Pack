@@ -1,23 +1,26 @@
 <?xml version="1.0"?>
 <CDM>
-	<rate ops="40" />
-	<rateLvo ops="10" />
+	<rate ops="35" />
+	<rateLvo ops="25" />
 	<expiredCtot time="25" />
-	<realMode mode="true" />
+	<realMode mode="false" />
+	<bmi mode="false" />
 	<pilotTobt mode="true" />
-	<autoAtot mode="false" />
+	<autoAtot mode="true" />
 	<invalidateAtTsat mode="true" />
 	<invalidateAtTobt mode="true" />
-	<Rates url="" />
-	<Taxizones url="" />
-	<Ctot url="" />
-	<sidInterval url="" />
-	<DefaultTaxiTime minutes="15" />
+	<readySetTsac mode="true" />
+	<Rates url="https://raw.githubusercontent.com/VATSIM-Saudi-Arabia/CDM---Collaborative-Decision-Making/refs/heads/main/rate.txt" />
+	<Taxizones url="https://raw.githubusercontent.com/VATSIM-Saudi-Arabia/CDM---Collaborative-Decision-Making/refs/heads/main/taxizones.txt" />
+	<Slots url="https://raw.githubusercontent.com/VATSIM-Saudi-Arabia/CDM---Collaborative-Decision-Making/refs/heads/main/CTOT.txt" />
+	<sidInterval url="https://raw.githubusercontent.com/VATSIM-Saudi-Arabia/CDM---Collaborative-Decision-Making/refs/heads/main/sidInt.txt" />
+	<DefaultTaxiTime minutes="13" />
 	<DeIceTimes light="5" medium="9" heavy="12" super="15"/>
 	<DeIceRemTaxi rem1Name= "REM1" rem1="10" rem2Name= "REM2" rem2="10" rem3Name= "REM3" rem3="10" rem4Name= "REM4" rem4="10" rem5Name= "REM5" rem5="10"/>
+	<eventModeMin time="5" />
 	<RefreshTime seconds="10" />
 	<Debug mode="false" />
-	<FlowRestrictions url="" />
+	<FlowRestrictions url="https://ecfmp.vatsim.net/api/v1/plugin" />
 	<vdgsFileType type="3"/>
 	<ftpHost host="" />
 	<ftpUser user="" />
@@ -25,4 +28,11 @@
 	<sftpConnection mode="false" />
 	<Server mode="true" />
 	<Su_Wait mode="false" />
+	<flashingMode tobtLastMin= "false" tsatFirstMin="false" tsatLastMin= "false"/>
+	<reqTobtPriority mode="false" />
+	<eventPriority mode="false" />
+	<autoSetTobtFromEvSlot mode="false" />
+	<remarksOptionCtot mode="false" />
+	<PrivateMessage text="[CDM MSG] PLEASE, MONITOR https://vats.im/vdgs FOR CDM AND ATFCM UPDATES. [END OF CDM MSG]" />
+	<loading text="...." />
 </CDM>

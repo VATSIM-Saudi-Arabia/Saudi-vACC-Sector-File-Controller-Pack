@@ -1,5 +1,10 @@
+// File created for the Saudi Arabian vACC - (OEJD & OERD)
+// Developed and maintained by the Saudi Arabian vACC Operations Department
+//
+// To be used on the VATSIM Network only
+
 [DCL]
-DCL:OEJN,OERK,OEMA,OEDF:SID:<hour><min> <year2><month2><day> <adep2> PDC <number>. <callsign> CLRD TO <ades> OFF <drwy> VIA <sid> SQUAWK <assr> ADT <aobt> ATIS <rmk> NO CTOT. SID ALTITUDE IS <cfl>. REPORT READY FOR PUSH <freq>
+DCL:OEJN,OERK,OEMA,OEDF:SID:CLD <hour><min> <day><month3><year2><adep> PDC <number><cr/lf><callsign> CLRD TO <ades> OFF <drwy> VIA <sid><cr/lf> SQUAWK <assr><atis><cr/lf> EOBT <eobt><cr/lf><cfl> READY <freq_own>
 
 [FREETEXT]
 FREETEXT:NE:PDC NOT AVAILABLE, USE VOICE

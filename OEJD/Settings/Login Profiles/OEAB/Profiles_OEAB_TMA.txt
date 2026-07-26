@@ -8,7 +8,7 @@ ATIS2:"Abha Approach (Lower)"
 ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
 ATIS4:We appreciate feedback! Visit vats.im/safeedback
 PROFILE:OEAB_APP:150:5
-ATIS2:"Abha Approach (Upper)"
+ATIS2:"Abha Approach (Upper)" - DCL [OEAA]
 ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
 ATIS4:We appreciate feedback! Visit vats.im/safeedback
 END

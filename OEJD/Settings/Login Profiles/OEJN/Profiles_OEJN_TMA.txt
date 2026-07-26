@@ -4,7 +4,7 @@ ATIS2:"Jeddah Observer"
 ATIS3:
 ATIS4:
 PROFILE:OEJN_APP:150:5
-ATIS2:"Jeddah Approach"
+ATIS2:"Jeddah Approach" - DCL [OEJA]
 ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
 ATIS4:We appreciate feedback! Visit vats.im/safeedback
 PROFILE:OEJN_FE_APP:150:5

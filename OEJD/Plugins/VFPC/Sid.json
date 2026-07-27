@@ -393,7 +393,7 @@
 	"sids":{
 		"MIXUG": [
 				{
-               "direction": "EVEN",
+               "direction": "ODD",
                "destinations": [
 				  "OTHH",
 				  "OMDB",
@@ -413,7 +413,7 @@
 			],		
 		"MEDRO": [
 				{
-               "direction": "EVEN",
+               "direction": "ODD",
                "destinations": [		
 				  "OTHH",
 				  "OOMS",

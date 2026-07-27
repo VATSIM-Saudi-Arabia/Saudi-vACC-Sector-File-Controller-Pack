@@ -65,6 +65,8 @@ Shortcut_RadarMenu_Combo=0x12
 Shortcut_Map_Xfr_Key=1,0x56 ; V
 Shortcut_Map_Target=1,VFR
 
+CPDLC_CLD_Header=CLD <hour><min> <day><month3><year2><adep> PDC <number>
+
 CPDLC_Default = 1
 CPDLC_MinLevel=285
 CPDLC_Transfer=1

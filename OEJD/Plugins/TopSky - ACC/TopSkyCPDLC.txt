@@ -4,7 +4,7 @@
 // To be used on the VATSIM Network only
 
 [DCL]
-DCL:OEJN,OERK,OEMA,OEDF:SID:CLD <hour><min> <day><month3><year2><adep> PDC <number><cr/lf><callsign> CLRD TO <ades> OFF <drwy> VIA <sid><cr/lf> SQUAWK <assr><atis><cr/lf> EOBT <eobt><cr/lf><cfl> READY <freq_own>
+DCL:OEJN,OERK,OEMA,OEDF:SID:<callsign> CLRD TO <ades> OFF <drwy> VIA <sid><cr/lf> SQUAWK <assr><atis><cr/lf> EOBT <eobt><cr/lf><cfl> READY <freq_own>
 
 [FREETEXT]
 FREETEXT:NE:PDC NOT AVAILABLE, USE VOICE

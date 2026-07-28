@@ -5,42 +5,42 @@ ATIS3:
 ATIS4:
 PROFILE:OEJN_DEL:20:2
 ATIS2:"Jeddah Clearance" - DCL [OEJN]
-ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
+ATIS3:Submit TOBT at vats.im/vdgs | Visit vatsimsa.com
 ATIS4:We appreciate feedback! Visit vats.im/safeedback
 PROFILE:OEJN_P_DEL:20:2
 ATIS2:"Jeddah Planner" - DCL [OEJN]
-ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
+ATIS3:Submit TOBT at vats.im/vdgs | Visit vatsimsa.com
 ATIS4:We appreciate feedback! Visit vats.im/safeedback
 PROFILE:OEJN_W_GND:20:3
 ATIS2:"Jeddah Ground (West)" - DCL [OEJN]
-ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
+ATIS3:Submit TOBT at vats.im/vdgs | Visit vatsimsa.com
 ATIS4:We appreciate feedback! Visit vats.im/safeedback
 PROFILE:OEJN_E_GND:20:3
 ATIS2:"Jeddah Ground (East)" - DCL [OEJN]
-ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
+ATIS3:Submit TOBT at vats.im/vdgs | Visit vatsimsa.com
 ATIS4:We appreciate feedback! Visit vats.im/safeedback
 PROFILE:OEJN_C_GND:20:3
 ATIS2:"Jeddah Ground (Center)" - DCL [OEJN]
-ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
+ATIS3:Submit TOBT at vats.im/vdgs | Visit vatsimsa.com
 ATIS4:We appreciate feedback! Visit vats.im/safeedback
 PROFILE:OEJN_E_RMP:20:3
 ATIS2:"Jeddah Apron (East Apron)" - DCL [OEJN]
-ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
+ATIS3:Submit TOBT at vats.im/vdgs | Visit vatsimsa.com
 ATIS4:We appreciate feedback! Visit vats.im/safeedback
 PROFILE:OEJN_N_RMP:20:3
 ATIS2:"Jeddah Apron (North Apron)" - DCL [OEJN]
-ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
+ATIS3:Submit TOBT at vats.im/vdgs | Visit vatsimsa.com
 ATIS4:We appreciate feedback! Visit vats.im/safeedback
 PROFILE:OEJN_W_TWR:50:4
 ATIS2:"Jeddah Tower (West)" - DCL [OEJN]
-ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
+ATIS3:Submit TOBT at vats.im/vdgs | Visit vatsimsa.com
 ATIS4:We appreciate feedback! Visit vats.im/safeedback
 PROFILE:OEJN_E_TWR:50:4
 ATIS2:"Jeddah Tower (East)" - DCL [OEJN]
-ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
+ATIS3:Submit TOBT at vats.im/vdgs | Visit vatsimsa.com
 ATIS4:We appreciate feedback! Visit vats.im/safeedback
 PROFILE:OEJN_C_TWR:50:4
 ATIS2:"Jeddah Tower (Center)" - DCL [OEJN]
-ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
+ATIS3:Submit TOBT at vats.im/vdgs | Visit vatsimsa.com
 ATIS4:We appreciate feedback! Visit vats.im/safeedback
 END

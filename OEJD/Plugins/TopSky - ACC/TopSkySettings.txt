@@ -3,6 +3,7 @@ Setup_COOPANS=1
 Setup_AutoSignIn=1
 
 Areas_NOTAM_Activation=1
+HTTP_NOTAM_Server=https://www.notams.faa.gov/
 
 AIW=1
 AIW_Type=1
@@ -84,10 +85,10 @@ Malrt_Misap=MAPP
 Malrt_Inbound_EST=EST
 Malrt_Irregular=IRR
 
-Airspace_P_Flag=EIDW
+Airspace_P_Flag=OEJD
 Airspace_No_DUPE_Codes=7000,2000,2200,1200,2655,0401
 Airspace_SIGMET_Areas=OEJD
-Airspace_NOTAM_Add=OEJD, OERD
+Airspace_NOTAM_Add=OEJD,OERD
 Airspace_ASSR_Type=2
 Airspace_ASSR_AutoAssign_Type=2
 Areas_Label_FontSize=8

@@ -4,7 +4,7 @@ ATIS2:"Madinah Observer"
 ATIS3:
 ATIS4:
 PROFILE:OEMA_APP:150:5
-ATIS2:"Madinah Approach"
+ATIS2:"Madinah Approach" - DCL [OEMU]
 ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
 ATIS4:We appreciate feedback! Visit vats.im/safeedback
 END

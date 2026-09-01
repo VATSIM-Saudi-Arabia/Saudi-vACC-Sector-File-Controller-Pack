@@ -96,7 +96,10 @@
 				{
                "direction": "ODD",
                "destinations": [		
-				  "OEAB"
+				  "OEAB",
+				  "OYSN",
+				  "OYAA",
+				  "OYRN"
 				]
 					}
 				],

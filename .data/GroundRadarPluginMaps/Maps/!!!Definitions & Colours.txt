@@ -1,7 +1,7 @@
-//&preserve File created for the Saudi Arabian vACC 
-//&preserve Developed and maintained by the Saudi Arabian vACC Operations Department
-//&preserve
-//&preserve To be used on the VATSIM Network only
+// File created for the Saudi Arabian vACC 
+// Developed and maintained by the Saudi Arabian vACC ATC Operations Department
+//
+// To be used on the VATSIM Network only
 
 // SMGCS REGIONS + GEO COLOR DEFINITIONS
 COLORDEF:SMGCS_BG:25:25:25
@@ -26,6 +26,7 @@ COLORDEF:SMR_RUNWAY:120:120:120
 COLORDEF:SMR_INACTIVE:88:88:88
 COLORDEF:SMR_ACTIVE:42:254:183
 COLORDEF:SMR_ACTIVE2:251:254:42
+COLORDEF:AIR_CL:170:170:170
 
 // SMGCS STANDS
 COLORDEF:SMGCS_ASSIGNED:0:204:102

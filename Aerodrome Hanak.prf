@@ -10,7 +10,7 @@ Settings	SettingsfilePILOTING	\OEJD\Settings\Display Config\Pilot_list.txt
 Settings	SettingsfileTAGS	\OEJD\Settings\Display Config\Tags.txt
 Settings	SettingsfilePROFILE	\OEJD\Settings\Login Profiles\OERS\Profiles_OERS.txt
 Settings	SettingsfileVOICE	\OEJD\Settings\VoiceChannels.txt
-Settings	SettingsfilePLUGINS	\OEJD\Settings\Plugins.txt
+Settings	SettingsfilePLUGINS	\OEJD\Settings\Plugins_AD.txt
 Settings	Settingsfile	\OEJD\Settings\General.txt
 Settings	SettingsfileVCCS	\OEJD\Settings\VCCS.txt
 Settings	alias	\OEJD\Alias\alias.txt
@@ -38,8 +38,6 @@ Plugins	Plugin4	\OEJD\Plugins\VCH.dll
 Plugins	Plugin4Display0	Ground Radar display
 Plugins	Plugin4Display1	Standard ES radar screen
 Plugins	Plugin5	\OEJD\Plugins\RDFPlugin.dll
-Plugins	Plugin5Display0	Ground Radar display
-Plugins	Plugin5Display1	Standard ES radar screen
 Plugins	Plugin6	\OEJD\Plugins\PushbackFlorian.dll
 Plugins	Plugin6Display0	Ground Radar display
 Plugins	Plugin6Display1	Standard ES radar screen
@@ -47,16 +45,22 @@ Plugins	Plugin7	\OEJD\Plugins\GRPlugin\GRplugin.dll
 Plugins	Plugin7Display0	Ground Radar display
 Plugins	Plugin7Display1	Standard ES radar screen
 Plugins	Plugin8	\OEJD\Plugins\VFPC\VFPC.dll
-Plugins	Plugin9	\OEJD\Plugins\vSID\vSID Plugin\vSID.dll
+Plugins	Plugin9	\OEJD\Plugins\CDM\CDM.dll
 Plugins	Plugin9Display0	Ground Radar display
 Plugins	Plugin9Display1	Standard ES radar screen
-Plugins	Plugin10	\OEJD\Plugins\AMAN\Aman.dll
-Plugins	Plugin10Display0	Ground Radar display
-Plugins	Plugin10Display1	Standard ES radar screen
-Plugins	Plugin11	\OEJD\Plugins\P21Euroscope.dll
-Plugins	Plugin11Display0	Standard ES radar screen
-Plugins	Plugin12	\OEJD\Plugins\SModePlugin.dll
-Plugins	Plugin12Display0	Standard ES radar screen
+Plugins	Plugin10	\OEJD\Plugins\VATCANBookings.dll
+Plugins	Plugin10Display0	Standard ES radar screen
+Plugins	Plugin10Display1	Ground Radar display
+Plugins	Plugin11	\OEJD\Plugins\vSID\vSID Plugin\vSID.dll
+Plugins	Plugin11Display0	Ground Radar display
+Plugins	Plugin11Display1	Standard ES radar screen
+Plugins	Plugin12	\OEJD\Plugins\AMAN\Aman.dll
+Plugins	Plugin12Display0	Ground Radar display
+Plugins	Plugin12Display1	Standard ES radar screen
+Plugins	Plugin13	\OEJD\Plugins\P21Euroscope.dll
+Plugins	Plugin13Display0	Standard ES radar screen
+Plugins	Plugin14	\OEJD\Plugins\SModePlugin.dll
+Plugins	Plugin14Display0	Standard ES radar screen
 Sounds	Sound0	\OEJD\Sounds\handoff_request.wav
 Sounds	Sound1	\OEJD\Sounds\handoff_accept.wav
 Sounds	Sound2	\OEJD\Sounds\conflict_alert.wav

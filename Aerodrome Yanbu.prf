@@ -10,7 +10,7 @@ Settings	SettingsfilePILOTING	\OEJD\Settings\Display Config\Pilot_list.txt
 Settings	SettingsfileTAGS	\OEJD\Settings\Display Config\Tags.txt
 Settings	SettingsfilePROFILE	\OEJD\Settings\Login Profiles\OEYN\Profiles_OEYN_CTR.txt
 Settings	SettingsfileVOICE	\OEJD\Settings\VoiceChannels.txt
-Settings	SettingsfilePLUGINS	\OEJD\Settings\Plugins.txt
+Settings	SettingsfilePLUGINS	\OEJD\Settings\Plugins_AD.txt
 Settings	Settingsfile	\OEJD\Settings\General.txt
 Settings	SettingsfileVCCS	\OEJD\Settings\VCCS.txt
 Settings	alias	\OEJD\Alias\alias.txt

@@ -8,7 +8,7 @@ Settings	SettingsfileFP	\OEJD\Settings\Display Config\Flightplan_list.txt
 Settings	SettingsfileCONFLICT	\OEJD\Settings\Display Config\Conflict_list.txt
 Settings	SettingsfilePILOTING	\OEJD\Settings\Display Config\Pilot_list.txt
 Settings	SettingsfileTAGS	\OEJD\Settings\Display Config\Tags.txt
-Settings	SettingsfilePROFILE	\OEJD\Settings\Login Profiles\OEGS\Profiles_OEGS_CTR.txt
+Settings	SettingsfilePROFILE	\OEJD\Settings\Login Profiles\OERS\Profiles_OERS.txt
 Settings	SettingsfileVOICE	\OEJD\Settings\VoiceChannels.txt
 Settings	SettingsfilePLUGINS	\OEJD\Settings\Plugins_AD.txt
 Settings	Settingsfile	\OEJD\Settings\General.txt
@@ -22,12 +22,12 @@ Settings	airways	\OEJD\NavData\airway.txt
 Settings	airportcoords	\OEJD\NavData\icao.txt
 Settings	AselKey	5111808
 Settings	FreqKey	3604480
-Settings	SettingsfileORIGPLANE	\OEJD\Settings\General_AD.txt
-Settings	SettingsfileSTUP	\OEJD\Settings\General_AD.txt
-Settings	SettingsfileTAXIOUT	\OEJD\Settings\General_AD.txt
-Settings	SettingsfileTAKEOFF	\OEJD\Settings\General_AD.txt
-Settings	SettingsfileADCS	\OEJD\Settings\General_AD.txt
-Settings	SettingsfileTAXIIN	\OEJD\Settings\General_AD.txt
+Settings	SettingsfileORIGPLANE	\OEJD\Settings\General.txt
+Settings	SettingsfileSTUP	\OEJD\Settings\General.txt
+Settings	SettingsfileTAXIOUT	\OEJD\Settings\General.txt
+Settings	SettingsfileTAKEOFF	\OEJD\Settings\General.txt
+Settings	SettingsfileADCS	\OEJD\Settings\General.txt
+Settings	SettingsfileTAXIIN	\OEJD\Settings\General.txt
 Plugins	Plugin0	\OEJD\Plugins\DiscordEuroscope\DiscordEuroscope.dll
 Plugins	Plugin1	\OEJD\Plugins\AfvEuroScopeBridge.dll
 Plugins	Plugin2	\OEJD\Plugins\ESTimers\ESTimers.dll
@@ -80,9 +80,7 @@ Sounds	Sound15	\OEJD\Sounds\new_atis.wav
 Sounds	Sound16	\OEJD\Sounds\handoff_refused.wav
 Sounds	Sound17	\OEJD\Sounds\pointout.wav
 Sounds	Sound18	\OEJD\Sounds\startup.wav
-TeamSpeakVccs	TsVccsMiniControlX	12
-TeamSpeakVccs	TsVccsMiniControlY	773
-ASRFastKeys	1	\OEJD\ASR\Gassim - SMR.asr
-ASRFastKeys	2	\OEJD\ASR\Gassim - CTR.asr
-RecentFiles	Recent1	\OEJD\ASR\Gassim - CTR.asr
-RecentFiles	Recent2	\OEJD\ASR\Gassim - SMR.asr
+ASRFastKeys	1	\OEJD\ASR\Hanak - SMR.asr
+ASRFastKeys	2	\OEJD\ASR\Hanak - CTR.asr
+RecentFiles	Recent1	\OEJD\ASR\Hanak - CTR.asr
+RecentFiles	Recent2	\OEJD\ASR\Hanak - SMR.asr

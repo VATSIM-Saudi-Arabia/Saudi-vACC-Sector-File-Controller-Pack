@@ -1,7 +1,7 @@
-//&preserve File created for the Saudi Arabian vACC
-//&preserve Developed and maintained by the Saudi Arabian vACC - Operations Department
+//&preserve  File created for the Saudi Arabian vACC
+//&preserve  Developed and maintained by the Saudi Arabian vACC - ATC Operations Department
 //&preserve
-//&preserve To be used on the VATSIM Network only
+//&preserve  To be used on the VATSIM Network only
 
 // Color Definitions
 COLORDEF:ASP_FILL_ACTIVE:125:125:125
@@ -15,14 +15,14 @@ COLORDEF:COLOR_RUNWAYS:125:125:125
 COLORDEF:COLOR_ECL:255:255:255
 COLORDEF:COLOR_NTZ:255:0:0
 
-COLORDEF:NAV_STAR:160:160:160
-COLORDEF:NAV_APP:160:160:160
-COLORDEF:NAV_SID:140:140:140
+COLORDEF:NAV_STAR:100:100:100
+COLORDEF:NAV_APP:100:100:100
+COLORDEF:NAV_SID:110:110:110
 COLORDEF:NAV_AIRWAY:135:135:145
-COLORDEF:NAV_HOLD:200:200:200
+COLORDEF:NAV_HOLD:160:160:160
 COLORDEF:NAV_FIX:150:150:150
 
-COLORDEF:TEXT_MRVA:210:210:210
+COLORDEF:TEXT_MRVA:100:100:100
 COLORDEF:TEXT_STAR:190:190:190
 COLORDEF:TEXT_STAR_APP:190:190:190
 
@@ -61,3 +61,6 @@ ARC:0:0:2:0:360
 SYMBOLDEF:VRP
 MOVETO:0:2
 POLYGON:2:0:0:-2:-2:0:0:2
+
+SYMBOLDEF:ECL
+POLYGON:0:6:6:0:0:-6:-6:0

@@ -62,8 +62,8 @@ Metar:normal:16777215:3.6:0:0:7
 Metar:modified:7012222:3.6:0:0:7
 Metar:timeout:8388863:3.6:0:0:7
 Other:wait:16777215:3.1:0:0:7
-Other:distance line:16771995:3.5:0:0:7
-Other:distance values:16771995:4.0:0:0:6
+Other:distance line:4227327:3.5:0:0:7
+Other:distance values:4227327:4.0:0:0:6
 Other:distance annotation:0:10.0:0:0:7
 Other:separation leader:10855845:3.5:0:0:7
 Other:separation leader2:16777215:3.5:0:1:7

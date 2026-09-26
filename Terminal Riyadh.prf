@@ -22,12 +22,12 @@ Settings	airways	\OEJD\NavData\airway.txt
 Settings	airportcoords	\OEJD\NavData\icao.txt
 Settings	AselKey	5111808
 Settings	FreqKey	3604480
-Settings	SettingsfileORIGPLANE	\OEJD\Settings\General.txt
-Settings	SettingsfileSTUP	\OEJD\Settings\General.txt
-Settings	SettingsfileTAXIOUT	\OEJD\Settings\General.txt
-Settings	SettingsfileTAKEOFF	\OEJD\Settings\General.txt
-Settings	SettingsfileADCS	\OEJD\Settings\General.txt
-Settings	SettingsfileTAXIIN	\OEJD\Settings\General.txt
+Settings	SettingsfileORIGPLANE	\OEJD\Settings\Display Config\List.txt
+Settings	SettingsfileSTUP	\OEJD\Settings\Display Config\List.txt
+Settings	SettingsfileTAXIOUT	\OEJD\Settings\Display Config\List.txt
+Settings	SettingsfileTAKEOFF	\OEJD\Settings\Display Config\List.txt
+Settings	SettingsfileADCS	\OEJD\Settings\Display Config\List.txt
+Settings	SettingsfileTAXIIN	\OEJD\Settings\Display Config\List.txt
 Plugins	Plugin0	\OEJD\Plugins\DiscordEuroscope\DiscordEuroscope.dll
 Plugins	Plugin1	\OEJD\Plugins\AfvEuroScopeBridge.dll
 Plugins	Plugin2	\OEJD\Plugins\ESTimers\ESTimers.dll

@@ -73,7 +73,7 @@ LINETO:-4:-4
 ARC:0:0:8:0:0
 
 //Radar position symbol for SSR(A) tracks
-SYMBOL:NODAPS
+SYMBOL:DAPS
 MOVETO:0:6
 LINETO:6:0
 LINETO:0:-6
@@ -85,7 +85,7 @@ MOVETO:0:-6
 LINETO:0:6
 
 //Radar position symbol for diverging SSR(A) tracks
-SYMBOL:NODAPS_DIV
+SYMBOL:DAPS_DIV
 MOVETO:0:6
 LINETO:6:0
 LINETO:0:-6
@@ -98,7 +98,7 @@ LINETO:0:6
 ARC:0:0:8:0:0
 
 //Radar position symbol for SSR(A) tracks with DAPS
-SYMBOL:DAPS
+SYMBOL:NODAPS
 MOVETO:-6:0
 LINETO:-6:0
 LINETO:0:-6
@@ -107,7 +107,7 @@ LINETO:0:6
 LINETO:-6:0
 
 //Radar position symbol for SSR(A) tracks with DAPS
-SYMBOL:DAPS_DIV
+SYMBOL:NODAPS_DIV
 MOVETO:-6:0
 LINETO:-6:0
 LINETO:0:-6

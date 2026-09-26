@@ -1,0 +1,14 @@
+PROFILE
+PROFILE:<Initials>_OBS:275:0
+ATIS2:"Red Sea Observer"
+ATIS3:
+ATIS4:
+PROFILE:OERS_I_TWR:150:5
+ATIS2:"Red Sea Tower" - DCL [OERS]
+ATIS3:Call Red Sea Tower 15 min before ARR time | Visit vatsimsa.com
+ATIS4:We appreciate feedback! Visit vats.im/safeedback
+PROFILE:OERS_I_GND:150:5
+ATIS2:"Red Sea Ground" - DCL [OERS]
+ATIS3:Welcome to the Kingdom of Saudi Arabia | Visit vatsimsa.com
+ATIS4:We appreciate feedback! Visit vats.im/safeedback
+END

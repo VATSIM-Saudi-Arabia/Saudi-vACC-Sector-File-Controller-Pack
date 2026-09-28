@@ -195,7 +195,6 @@ Window_APP_AltFilter=8000
 Window_APP_Scale=27
 Window_APP_CenterPos=1,N024.57.27.093,E046.41.55.992
 
-
 Window_APW=15R,0/15R
 Window_APW=15L,0/15L
 Window_APW=33R,0/33R
@@ -286,7 +285,7 @@ Airport_Radius=2
 
 Window_APP=1,1,1720,45,650,150
 Window_APP_Rotation=301
-Window_APP_AltFilter=8000
+Window_APP_AltFilter=6000
 Window_APP_Scale=27
 Window_APP_Extensions=0
 Window_APP_CenterPos=1,N025.37.42.000,E037.05.20.000

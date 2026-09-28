@@ -1,0 +1,30 @@
+{
+    "OERS": {
+        "elevation": 164,
+        "runways": "15L,33R",
+        "transAlt": 13000,
+        "maxInitialClimb": 5800,
+        "appSI": "JCWL,JCW,JC2,JC1",
+        "sids": {
+            "initial": 5800,
+            "OMNI": {
+                "A": {
+                    "1": {
+                        "rwy": "15L",
+                        "route": {"allow": {"1": "RSI"}},
+                        "wpt": "XXX",
+                        "prio": 1
+                    }
+                },
+                "B": {
+                    "1": {
+                        "rwy": "33R",
+                        "route": {"allow": {"1": "RSI"}},
+                        "wpt": "XXX",
+                        "prio": 1
+                    }
+                }
+            }
+        }
+    }
+}

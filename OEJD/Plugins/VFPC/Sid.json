@@ -406,12 +406,6 @@
 				"airways": [
                   "Q46"
 				]
-				},
-				{
-               "direction": "EVEN",
-               "airways": [
-                  "Q46"
-				]  
 				}
 			],		
 		"MEDRO": [
@@ -714,5 +708,25 @@
 							 }
 				]
 	}
+},
+{
+    "icao": "OERS",
+    "sids": {
+        "RSI": [
+            {
+                "direction": "EVEN",
+                "airways": [
+                    "T466 TUGRU L677"
+                ]
+            },
+            {
+                "direction": "ODD",
+                "airways": [
+                    "Z755 VELEK T510",
+                    "Z755 VELEK Q13"
+                ]
+            }
+        ]
+    }
 }
 ]

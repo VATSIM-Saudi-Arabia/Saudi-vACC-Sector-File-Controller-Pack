@@ -10,8 +10,8 @@ Settings	SettingsfilePILOTING	\OEJD\Settings\Display Config\Pilot_list.txt
 Settings	SettingsfileTAGS	\OEJD\Settings\Display Config\Tags.txt
 Settings	SettingsfilePROFILE	\OEJD\Settings\Login Profiles\OERK\Profiles_OERK_CTR.txt
 Settings	SettingsfileVOICE	\OEJD\Settings\VoiceChannels.txt
-Settings	SettingsfilePLUGINS	\OEJD\Settings\Plugins.txt
-Settings	Settingsfile	\OEJD\Settings\General.txt
+Settings	SettingsfilePLUGINS	\OEJD\Settings\Plugins_AD.txt
+Settings	Settingsfile	\OEJD\Settings\General_AD.txt
 Settings	SettingsfileVCCS	\OEJD\Settings\VCCS.txt
 Settings	alias	\OEJD\Alias\alias.txt
 Settings	AtisFolder	\OEJD\ATIS\atisfiles.txt
@@ -22,12 +22,12 @@ Settings	airways	\OEJD\NavData\airway.txt
 Settings	airportcoords	\OEJD\NavData\icao.txt
 Settings	AselKey	5111808
 Settings	FreqKey	3604480
-Settings	SettingsfileORIGPLANE	\OEJD\Settings\General_AD.txt
-Settings	SettingsfileSTUP	\OEJD\Settings\General_AD.txt
-Settings	SettingsfileTAXIOUT	\OEJD\Settings\General_AD.txt
-Settings	SettingsfileTAKEOFF	\OEJD\Settings\General_AD.txt
-Settings	SettingsfileADCS	\OEJD\Settings\General_AD.txt
-Settings	SettingsfileTAXIIN	\OEJD\Settings\General_AD.txt
+Settings	SettingsfileORIGPLANE	\OEJD\Settings\Display Config\List.txt
+Settings	SettingsfileSTUP	\OEJD\Settings\Display Config\List.txt
+Settings	SettingsfileTAXIOUT	\OEJD\Settings\Display Config\List.txt
+Settings	SettingsfileTAKEOFF	\OEJD\Settings\Display Config\List.txt
+Settings	SettingsfileADCS	\OEJD\Settings\Display Config\List.txt
+Settings	SettingsfileTAXIIN	\OEJD\Settings\Display Config\List.txt
 Plugins	Plugin0	\OEJD\Plugins\DiscordEuroscope\DiscordEuroscope.dll
 Plugins	Plugin1	\OEJD\Plugins\AfvEuroScopeBridge.dll
 Plugins	Plugin2	\OEJD\Plugins\ESTimers\ESTimers.dll

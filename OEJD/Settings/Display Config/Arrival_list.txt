@@ -12,4 +12,5 @@ m_Column:RWY:4:0:10010:19:0:1:TopSky plugin:::0:0.0
 m_Column:ETA:5:0:10033:0:0:1:TopSky plugin:::0:0.0
 m_Column:CTL:3:1:646:745:0:1:vSID:vSID::0:0.0
 m_Column:STAND:7:1:2:1:0:1:Ground Radar plugin:Ground Radar plugin::1:0.0
+m_Column:ADEP:5:0:395:0:0:1:TopSky plugin:::0:0.0
 END

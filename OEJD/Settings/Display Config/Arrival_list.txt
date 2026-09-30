@@ -8,9 +8,9 @@ m_OrderingColumn:1
 m_HeaderOnly:0
 m_Column:C/S:9:0:10021:8:4:1:TopSky plugin::TopSky plugin:1:0.0
 m_Column:ATYP:5:0:10028:0:0:1:TopSky plugin:::1:0.0
-m_Column:RWY:5:0:10010:19:0:1:TopSky plugin:::0:0.0
+m_Column:RWY:5:1:10010:19:0:1:TopSky plugin:::0:0.0
 m_Column:ETA:5:0:10033:0:0:1:TopSky plugin:::0:0.0
-m_Column:COM:4:0:58:32:32:1:TopSky plugin:::0:0.0
+m_Column:COM:4:1:58:32:32:1:TopSky plugin:::0:0.0
 m_Column:CTL:7:1:646:745:0:1:vSID:vSID::0:0.0
 m_Column:STAND:7:1:2:1:0:1:Ground Radar plugin:Ground Radar plugin::1:0.0
 m_Column:ADEP:5:0:395:0:0:1:TopSky plugin:::0:0.0

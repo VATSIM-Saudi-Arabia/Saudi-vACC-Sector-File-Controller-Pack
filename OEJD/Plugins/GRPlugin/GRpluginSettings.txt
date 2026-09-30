@@ -33,6 +33,7 @@ GroundLabel_Font=EuroScope
 GroundLabel_FontSize=11
 GroundLabel_Transparency_Bd=165
 GroundLabel_Transparency_Bg=80
+GroundLabel_Filter_NoState=1
 GroundLabel_Filter_Parked=1
 TowerLabel_FontSize=11
 AppLabel_Font=EuroScope

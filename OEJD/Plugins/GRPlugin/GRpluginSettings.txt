@@ -21,6 +21,7 @@ Color_SelectedLabelFill_App=0,0,0
 Color_SelectedLabelFill_Gnd=0,0,0
 Color_APP_RunwayExtension=72,73,75
 Color_SelectedLabelBorder_Gnd=5,6,7
+Color_RawVideoHistory=0,255,255
 
 Window_APP_Scale=19
 Window_APP_AltFilter=6000
@@ -73,9 +74,11 @@ Label_STAND=0,1,0,0
 Label_GS=0,0,1,0
 Label_WTC=1,1,1,1
 
-RawVideo_Brightness=70
-RawVideo_Afterglow=70
-RawVideo_MaxHistory=0
+RawVideo=1
+RawVideo_Brightness=90
+RawVideo_Afterglow=45
+RawVideo_MaxHistory=2
+RawVideo_Gradient=0
 
 Equip_ModeS=WZLCISG
 

@@ -6,7 +6,6 @@ System_GUI_Version=1
 System_SchengenArea=OE
 System_SchengenArea_Exclude=OM
 Equip_ProMode=0
-RawVideo=1
 Track_PredictionLine_APP=0
 Track_Heading_Line=1
 Track_HistoryDots_GND=3

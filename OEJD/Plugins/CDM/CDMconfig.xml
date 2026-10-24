@@ -3,12 +3,12 @@
 	<rate ops="35" />
 	<rateLvo ops="25" />
 	<expiredCtot time="25" />
-	<realMode mode="false" />
+	<realMode mode="true" />
 	<bmi mode="false" />
 	<pilotTobt mode="true" />
 	<autoAtot mode="true" />
 	<invalidateAtTsat mode="true" />
-	<invalidateAtTobt mode="true" />
+	<invalidateAtTobt mode="false" />
 	<readySetTsac mode="true" />
 	<Rates url="https://raw.githubusercontent.com/VATSIM-Saudi-Arabia/CDM---Collaborative-Decision-Making/refs/heads/main/rate.txt" />
 	<Taxizones url="https://raw.githubusercontent.com/VATSIM-Saudi-Arabia/CDM---Collaborative-Decision-Making/refs/heads/main/taxizones.txt" />
@@ -30,8 +30,8 @@
 	<Su_Wait mode="false" />
 	<flashingMode tobtLastMin= "false" tsatFirstMin="false" tsatLastMin= "false"/>
 	<reqTobtPriority mode="false" />
-	<eventPriority mode="false" />
-	<autoSetTobtFromEvSlot mode="false" />
+	<eventPriority mode="true" />
+	<autoSetTobtFromEvSlot mode="true" />
 	<remarksOptionCtot mode="false" />
 	<PrivateMessage text="[CDM MSG] PLEASE, MONITOR https://vats.im/vdgs FOR CDM AND ATFCM UPDATES. [END OF CDM MSG]" />
 	<loading text="...." />

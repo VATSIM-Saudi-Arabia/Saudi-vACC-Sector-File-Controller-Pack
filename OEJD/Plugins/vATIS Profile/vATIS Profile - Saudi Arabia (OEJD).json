@@ -2344,9 +2344,15 @@
           "name": "RUNWAY 16R DEP 16L ARR",
           "airportConditions": "",
           "notams": "",
-          "template": "OEDF ATIS [ATIS_CODE] [TIME]Z. \r\nEXPECT ILS/DME RWY16. \r\nBREAKING CONDITIONS NOT REPORTED. \r\nTYPE OF DEPOSIT NOT REPORTED. \r\nRWY 16 RIGHT FOR DEPARTURE. RWY 16 LEFT FOR ARRIVAL. \r\nALL ARRIVAL AIRCRAFT ARE TO EXIT THE RWY VIA THE NEAREST RAPID EXIT POINT.\r\nTRL FL 150. \r\n[FULL_WX_STRING]. \r\nACKNOWLEDGE INFORMATION ATIS [ATIS_CODE].",
+          "template": "OEDF ATIS [ATIS_CODE] [TIME]. \r\nEXPECT ILS/DME RWY16 LEFT. \r\nBREAKING CONDITIONS NOT REPORTED. \r\nTYPE OF DEPOSIT NOT REPORTED. \r\nRWY 16 RIGHT FOR DEPARTURE. RWY 16 LEFT FOR ARRIVAL. \r\nALL ARRIVAL AIRCRAFT ARE TO EXIT THE RWY VIA THE NEAREST RAPID EXIT POINT.\r\nTRL FL 150. \r\n[FULL_WX_STRING]. \r\nACKNOWLEDGE INFORMATION ATIS [ATIS_CODE].",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -2354,9 +2360,15 @@
           "name": "RUNWAY 16L DEP 16R ARR",
           "airportConditions": "",
           "notams": "",
-          "template": "OEDF ATIS [ATIS_CODE] [TIME]Z. \r\nEXPECT ILS/DME RWY16. \r\nBREAKING CONDITIONS NOT REPORTED. \r\nTYPE OF DEPOSIT NOT REPORTED. \r\nRWY 16 LEFT FOR DEPARTURE. RWY 16 RIGHT FOR ARRIVAL. \r\nALL ARRIVAL AIRCRAFT ARE TO EXIT THE RWY VIA THE NEAREST RAPID EXIT POINT.\r\nTRL FL 150. \r\n[FULL_WX_STRING]. \r\nACKNOWLEDGE INFORMATION ATIS [ATIS_CODE].",
+          "template": "OEDF ATIS [ATIS_CODE] [TIME]. \r\nEXPECT ILS/DME RWY16 RIGHT. \r\nBREAKING CONDITIONS NOT REPORTED. \r\nTYPE OF DEPOSIT NOT REPORTED. \r\nRWY 16 LEFT FOR DEPARTURE. RWY 16 RIGHT FOR ARRIVAL. \r\nALL ARRIVAL AIRCRAFT ARE TO EXIT THE RWY VIA THE NEAREST RAPID EXIT POINT.\r\nTRL FL 150. \r\n[FULL_WX_STRING]. \r\nACKNOWLEDGE INFORMATION ATIS [ATIS_CODE].",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         }
       ],

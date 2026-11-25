@@ -66,7 +66,7 @@
 			],		
 		"RIBAM": [
 				{
-               "direction": "EVEN",
+               "direction": "ODD",
                "destinations": [		
 				  "HHAS",
 				  "HCMM",
